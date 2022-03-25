@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.24)  25 MAR 2022 23:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.24)  25 MAR 2022 22:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./LA_RNA_Summary.tex
-(LA_RNA_Summary.tex
+**./Setup.tex
+(Setup.tex
 LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-02-24> (0_Setup/Setup.tex
+L3 programming layer <2022-02-24>
 (C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/extsizes\extarticle.cls
 Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
 (C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
@@ -1068,221 +1068,18 @@ File: tikzlibrarycalc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 \c@brace=\count341
 )
-LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-3.
+! Emergency stop.
+<*> ./Setup.tex
+               
+*** (job aborted, no legal \end found)
 
-(C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmss.fd
-File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-
-LaTeX Warning: Unused global option(s):
-    [xcolor].
-
-(LA_RNA_Summary.aux)
-\openout1 = `LA_RNA_Summary.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-*geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: landscape 
-* h-part:(L,W,R)=(18.49411pt, 808.05862pt, 18.49411pt)
-* v-part:(T,H,B)=(19.91684pt, 551.98373pt, 25.6073pt)
-* \paperwidth=845.04684pt
-* \paperheight=597.50787pt
-* \textwidth=808.05862pt
-* \textheight=551.98373pt
-* \oddsidemargin=-53.77588pt
-* \evensidemargin=-53.77588pt
-* \topmargin=-89.35315pt
-* \headheight=12.0pt
-* \headsep=25.0pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=144.0pt
-* \marginparsep=10.0pt
-* \columnsep=8.53581pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-
-(C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
-ii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count342
-\scratchdimen=\dimen312
-\scratchbox=\box126
-\nofMPsegments=\count343
-\nofMParguments=\count344
-\everyMPshowfont=\toks45
-\MPscratchCnt=\count345
-\MPscratchDim=\dimen313
-\MPnumerator=\count346
-\makeMPintoPDFobject=\count347
-\everyMPtoPDFconversion=\toks46
-)
-(C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
-ase.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
-fg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-))
-Package hyperref Info: Link coloring OFF on input line 3.
-
-(C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
-Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
-
-(C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
-Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
-lestring.sty
-Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-)
-\c@section@level=\count348
-)
-LaTeX Info: Redefining \ref on input line 3.
-LaTeX Info: Redefining \pageref on input line 3.
-LaTeX Info: Redefining \nameref on input line 3.
- (LA_RNA_Summary.out) (LA_RNA_Summary.out)
-\@outlinefile=\write4
-\openout4 = `LA_RNA_Summary.out'.
-
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-9.
-
-(C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-9.
-
-(C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-19.
-
-(C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-19.
-
-(C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 19.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 19.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 19.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 19.
-
-
-(C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 19.
-
-
-(C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-<./img//ortho.png, id=6, 217.5628pt x 153.57375pt>
-File: ./img//ortho.png Graphic file (type png)
-<use ./img//ortho.png>
-Package pdftex.def Info: ./img//ortho.png  used on input line 50.
-(pdftex.def)             Requested size: 76.14812pt x 53.7516pt.
-
-
-Package wrapfig Warning: wrapfigure used inside a conflicting environment on in
-put line 51.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--53
-[]
- []
-
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 53
-.
-
-
-Package wrapfig Warning: Collision between wrapping environments on input line 
-54.
-
-
-Overfull \hbox (136.57321pt too wide) in paragraph at lines 63--63
-[][] 
- []
-
-[1
-
-{C:/Users/ibm4n/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./img//ortho
-.png>] [2] (LA_RNA_Summary.aux)
-Package rerunfilecheck Info: File `LA_RNA_Summary.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
- ) 
+ 
 Here is how much of TeX's memory you used:
- 26860 strings out of 478582
- 522634 string characters out of 2844344
- 894624 words of memory out of 3000000
- 44543 multiletter control sequences out of 15000+600000
- 504129 words of font info for 62 fonts, out of 8000000 for 9000
+ 25908 strings out of 478582
+ 504562 string characters out of 2844344
+ 848998 words of memory out of 3000000
+ 43683 multiletter control sequences out of 15000+600000
+ 469663 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,8n,83p,445b,575s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc} <
-C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha
-8.pk>{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit
-.enc} <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi72
-0\mathx10.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/matha
-bx/dpi600\matha12.pk><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/lm/lmmi12.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/lm/lmmi8.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/lm/lmr12.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/lm/lmr6.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/lm/lmr8.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/lm/lmss10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/lm/lmss12.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/lm/lmssbx10.pfb>
-Output written on LA_RNA_Summary.pdf (2 pages, 152844 bytes).
-PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
- 3 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 84i,0n,80p,410b,96s stack positions out of 10000i,1000n,20000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
