@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.24)  26 MAR 2022 14:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.24)  26 MAR 2022 14:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,8 +8,8 @@ LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24> (0_Setup/Setup.tex
 (C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/extsizes\extarticle.cls
 Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
-(C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
-File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+(C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 (C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/base\exscale.sty
 Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
@@ -1119,12 +1119,12 @@ LaTeX Font Info:    ... okay on input line 3.
 * \topmargin=-89.35315pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=12.0pt
+* \topskip=10.0pt
 * \footskip=30.0pt
 * \marginparwidth=144.0pt
-* \marginparsep=10.0pt
+* \marginparsep=11.0pt
 * \columnsep=8.53581pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1206,11 +1206,11 @@ LaTeX Font Info:    Trying to load font information for OMX+lmex on input line
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 19.
+(Font)              <10> on input line 19.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 19.
+(Font)              <7> on input line 19.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 19.
+(Font)              <5> on input line 19.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 19.
 
 
@@ -1224,61 +1224,68 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 19.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 48.
+(Font)              <9> on input line 48.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 48.
 <./img//ortho.png, id=6, 217.5628pt x 153.57375pt>
 File: ./img//ortho.png Graphic file (type png)
 <use ./img//ortho.png>
 Package pdftex.def Info: ./img//ortho.png  used on input line 50.
 (pdftex.def)             Requested size: 76.14812pt x 53.7516pt.
 
-Overfull \hbox (136.57321pt too wide) in paragraph at lines 64--64
+Overfull \hbox (136.57321pt too wide) in paragraph at lines 65--65
 [][] 
  []
 
 <./img//vekProd.png, id=8, 657.2053pt x 414.04688pt>
 File: ./img//vekProd.png Graphic file (type png)
 <use ./img//vekProd.png>
-Package pdftex.def Info: ./img//vekProd.png  used on input line 72.
+Package pdftex.def Info: ./img//vekProd.png  used on input line 76.
 (pdftex.def)             Requested size: 98.57654pt x 62.10434pt.
-
-Overfull \hbox (165.02596pt too wide) in paragraph at lines 82--82
-[][] 
- []
-
+<./img//vekProdParallelo.png, id=9, 330.48468pt x 210.03468pt>
+File: ./img//vekProdParallelo.png Graphic file (type png)
+<use ./img//vekProdParallelo.png>
+Package pdftex.def Info: ./img//vekProdParallelo.png  used on input line 86.
+(pdftex.def)             Requested size: 49.57056pt x 31.50383pt.
 [1
 
 {C:/Users/ibm4n/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./img//ortho
-.png> <./img//vekProd.png>] [2] (LA_RNA_Summary.aux)
+.png> <./img//vekProd.png> <./img//vekProdParallelo.png>] [2]
+(LA_RNA_Summary.aux)
 Package rerunfilecheck Info: File `LA_RNA_Summary.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 26883 strings out of 478582
- 523019 string characters out of 2844344
- 898624 words of memory out of 3000000
- 44561 multiletter control sequences out of 15000+600000
- 509187 words of font info for 70 fonts, out of 8000000 for 9000
+ 26904 strings out of 478582
+ 523261 string characters out of 2844344
+ 900595 words of memory out of 3000000
+ 44573 multiletter control sequences out of 15000+600000
+ 513936 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,8n,83p,445b,575s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi657\m
-atha10.pk>{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-r
-m.enc}{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathi
-t.enc} <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi6
-00\matha8.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/matha
-bx/dpi720\mathx10.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/publ
-ic/mathabx/dpi600\matha12.pk><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/font
-s/type1/public/lm/lmmi10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/font
-s/type1/public/lm/lmmi12.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/font
-s/type1/public/lm/lmmi8.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/lm/lmr12.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/lm/lmr6.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/lm/lmr8.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/lm/lmss10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/lm/lmss12.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/lm/lmssbx10.pfb>
-Output written on LA_RNA_Summary.pdf (2 pages, 314676 bytes).
+ 89i,8n,83p,445b,573s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.en
+c}{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc} <
+C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha
+6.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi60
+0\matha9.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathab
+x/dpi600\matha7.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public
+/mathabx/dpi600\mathx10.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfou
+r/public/mathabx/dpi600\matha10.pk><C:/Users/ibm4n/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/lm/lmmi10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/lm/lmmi6.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/lm/lmmi7.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/lm/lmmi9.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/lm/lmr10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/lm/lmr5.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/font
+s/type1/public/lm/lmr6.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/lm/lmr7.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/lm/lmss10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/lm/lmss12.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/lm/lmss9.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/lm/lmssbx10.pfb>
+Output written on LA_RNA_Summary.pdf (2 pages, 370750 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
+ 127 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 28 words of extra memory for PDF output out of 10000 (max. 10000000)
 
