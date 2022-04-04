@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.24)  4 APR 2022 11:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.24)  4 APR 2022 11:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1039,9 +1039,9 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \WF@everypar=\toks44
 Package: wrapfig 2003/01/31  v 3.6
 )
-LaTeX Info: Redefining \vdots on input line 57.
-LaTeX Info: Redefining \ddots on input line 80.
-LaTeX Info: Redefining \ddots on input line 88.
+LaTeX Info: Redefining \vdots on input line 56.
+LaTeX Info: Redefining \ddots on input line 79.
+LaTeX Info: Redefining \ddots on input line 87.
 
 (C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibrarydecorations.pathreplacing.code.tex
@@ -1254,10 +1254,10 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 <./img//rang.png, id=10, 300.3722pt x 92.59593pt>
 File: ./img//rang.png Graphic file (type png)
 <use ./img//rang.png>
-Package pdftex.def Info: ./img//rang.png  used on input line 166.
+Package pdftex.def Info: ./img//rang.png  used on input line 213.
 (pdftex.def)             Requested size: 225.27858pt x 69.44676pt.
 
-Underfull \hbox (badness 6032) in paragraph at lines 165--167
+Underfull \hbox (badness 6032) in paragraph at lines 212--214
 $\OML/lmm/m/it/10 rg\U/matha/m/n/10 p\OML/lmm/m/it/10 A\U/matha/m/n/10 q ^^P$ \
 OT1/lmss/m/n/10 Ge-samtan-zahl Zei-len - An-zahl Null-zei-len .
  []
@@ -1265,7 +1265,7 @@ OT1/lmss/m/n/10 Ge-samtan-zahl Zei-len - An-zahl Null-zei-len .
 <./img//loesbarkeit.png, id=11, 560.8453pt x 73.02281pt>
 File: ./img//loesbarkeit.png Graphic file (type png)
 <use ./img//loesbarkeit.png>
-Package pdftex.def Info: ./img//loesbarkeit.png  used on input line 170.
+Package pdftex.def Info: ./img//loesbarkeit.png  used on input line 217.
 (pdftex.def)             Requested size: 252.37805pt x 32.85994pt.
 [1
 
@@ -1276,16 +1276,16 @@ Package rerunfilecheck Info: File `LA_RNA_Summary.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 26966 strings out of 478582
- 524227 string characters out of 2844344
- 932595 words of memory out of 3000000
- 44625 multiletter control sequences out of 15000+600000
+ 26994 strings out of 478582
+ 524872 string characters out of 2844344
+ 946595 words of memory out of 3000000
+ 44653 multiletter control sequences out of 15000+600000
  524056 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,12n,83p,445b,579s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\m
-atha12.pk>{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-r
-m.enc}{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathi
+ 89i,12n,83p,445b,668s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc} <
+C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha
+12.pk>{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathi
 t.enc} <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi6
 00\matha6.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/matha
 bx/dpi600\matha9.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/publi
@@ -1302,13 +1302,14 @@ iKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/ibm4n/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/lm/lmr6.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/lm/lmr7.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/lm/lmss10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/lm/lmss12.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/lm/lmss9.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/lm/lmssbx10.pfb>
-Output written on LA_RNA_Summary.pdf (1 page, 436898 bytes).
+onts/type1/public/lm/lmr9.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/lm/lmss10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/lm/lmss12.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/lm/lmss9.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/font
+s/type1/public/lm/lmssbx10.pfb>
+Output written on LA_RNA_Summary.pdf (1 page, 472706 bytes).
 PDF statistics:
- 148 PDF objects out of 1000 (max. 8388607)
+ 159 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
  38 words of extra memory for PDF output out of 10000 (max. 10000000)
 
