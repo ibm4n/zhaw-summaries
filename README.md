@@ -12,5 +12,4 @@
 ## ressoucres
 - [LA](https://www.studocu.com/de-ch/document/zurcher-hochschule-fur-angewandte-wissenschaften/lineare-algebra/cheatsheet-la-cheatsheet-la1-2-semester-informatik-fur-die-sep/15361350
 )
-
-
+ - [Matrizenmultiplikation](https://studyflix.de/mathematik/matrizen-multiplizieren-1521)
