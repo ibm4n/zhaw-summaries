@@ -2,12 +2,22 @@ This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./LA_RNA_Summary.tex
-(LA_RNA_Summary.tex
+**./Setup.tex
+(Setup.tex
 LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-02-24> (0_Setup/Setup.tex
+L3 programming layer <2022-02-24>
 (C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/extsizes\extarticle.cls
 Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
+(C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/base\fleqn.clo
+File: fleqn.clo 2016/12/29 v1.2b Standard LaTeX option (flush left equations)
+\mathindent=\skip47
+Applying: [2015/01/01] Make \[ robust on input line 50.
+LaTeX Info: Redefining \[ on input line 51.
+Already applied: [0000/00/00] Make \[ robust on input line 62.
+Applying: [2015/01/01] Make \] robust on input line 74.
+LaTeX Info: Redefining \] on input line 75.
+Already applied: [0000/00/00] Make \] robust on input line 83.
+)
 (C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
 File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
@@ -28,8 +38,8 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 \c@subparagraph=\count190
 \c@figure=\count191
 \c@table=\count192
-\abovecaptionskip=\skip47
-\belowcaptionskip=\skip48
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
 \bibindent=\dimen139
 )
 (C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
@@ -66,7 +76,7 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 (C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
 (C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2021/10/15 v2.17l AMS math features
-\@mathmargin=\skip49
+\@mathmargin=\skip50
 
 For additional information on amsmath, use the `?' option.
 (C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
@@ -116,8 +126,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \totwidth@=\dimen155
 \lineht@=\dimen156
 \@envbody=\toks23
-\multlinegap=\skip50
-\multlinetaggap=\skip51
+\multlinegap=\skip51
+\multlinetaggap=\skip52
 \mathdisplay@stack=\toks24
 LaTeX Info: Redefining \[ on input line 2938.
 LaTeX Info: Redefining \] on input line 2939.
@@ -188,7 +198,7 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ) (C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/ulem\ulem.sty
 \UL@box=\box52
 \UL@hyphenbox=\box53
-\UL@skip=\skip52
+\UL@skip=\skip53
 \UL@hook=\toks25
 \UL@height=\dimen159
 \UL@pe=\count274
@@ -218,7 +228,7 @@ File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 )) (C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.st
 y
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip53
+\labelindent=\skip54
 \enit@outerparindent=\dimen162
 \enit@toks=\toks26
 \enit@inbox=\box55
@@ -373,12 +383,12 @@ Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 \ar@mcellbox=\box56
 \extrarowheight=\dimen165
 \NC@list=\toks27
-\extratabsurround=\skip54
-\backup@length=\skip55
+\extratabsurround=\skip55
+\backup@length=\skip56
 \ar@cellbox=\box57
 )
 \everycr=\toks28
-\minrowclearance=\skip56
+\minrowclearance=\skip57
 )
 (C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2022/02/26 3.73 The Babel package
@@ -416,19 +426,19 @@ Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Bcount=\count284
 \calc@Adimen=\dimen167
 \calc@Bdimen=\dimen168
-\calc@Askip=\skip57
-\calc@Bskip=\skip58
+\calc@Askip=\skip58
+\calc@Bskip=\skip59
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count285
-\calc@Cskip=\skip59
+\calc@Cskip=\skip60
 )
 (C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
 \g_MT_multlinerow_int=\count286
 \l_MT_multwidth_dim=\dimen169
-\origjot=\skip60
+\origjot=\skip61
 \l_MT_shortvdotswithinadjustabove_dim=\dimen170
 \l_MT_shortvdotswithinadjustbelow_dim=\dimen171
 \l_MT_above_intertext_sep=\dimen172
@@ -448,14 +458,14 @@ Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
 \ESO@tempdima=\dimen177
 \ESO@tempdimb=\dimen178
 )
-\wpXoffset=\skip61
-\wpYoffset=\skip62
-\tileXoffset=\skip63
-\tileYoffset=\skip64
-\tilewidth=\skip65
-\tileheight=\skip66
-\tileX=\skip67
-\tileY=\skip68
+\wpXoffset=\skip62
+\wpYoffset=\skip63
+\tileXoffset=\skip64
+\tileYoffset=\skip65
+\tilewidth=\skip66
+\tileheight=\skip67
+\tileX=\skip68
+\tileY=\skip69
 )
 (C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/changepage\changepage.s
 ty
@@ -844,8 +854,8 @@ Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \page@free=\dimen292
 \premulticols=\dimen293
 \postmulticols=\dimen294
-\multicolsep=\skip69
-\multicolbaselineskip=\skip70
+\multicolsep=\skip70
+\multicolbaselineskip=\skip71
 \partial@page=\box80
 \last@line=\box81
 \maxbalancingoverflow=\dimen295
@@ -1029,7 +1039,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip71
+\Hy@SectionHShift=\skip72
 )
 (C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
 \wrapoverhang=\dimen303
@@ -1068,248 +1078,18 @@ File: tikzlibrarycalc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 \c@brace=\count341
 )
-LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-3.
+! Emergency stop.
+<*> ./Setup.tex
+               
+*** (job aborted, no legal \end found)
 
-(C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmss.fd
-File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-
-LaTeX Warning: Unused global option(s):
-    [xcolor].
-
-(LA_RNA_Summary.aux)
-\openout1 = `LA_RNA_Summary.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-*geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: landscape 
-* h-part:(L,W,R)=(18.49411pt, 808.05862pt, 18.49411pt)
-* v-part:(T,H,B)=(19.91684pt, 551.98373pt, 25.6073pt)
-* \paperwidth=845.04684pt
-* \paperheight=597.50787pt
-* \textwidth=808.05862pt
-* \textheight=551.98373pt
-* \oddsidemargin=-53.77588pt
-* \evensidemargin=-53.77588pt
-* \topmargin=-89.35315pt
-* \headheight=12.0pt
-* \headsep=25.0pt
-* \topskip=10.0pt
-* \footskip=30.0pt
-* \marginparwidth=144.0pt
-* \marginparsep=11.0pt
-* \columnsep=8.53581pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-
-(C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
-ii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count342
-\scratchdimen=\dimen312
-\scratchbox=\box126
-\nofMPsegments=\count343
-\nofMParguments=\count344
-\everyMPshowfont=\toks45
-\MPscratchCnt=\count345
-\MPscratchDim=\dimen313
-\MPnumerator=\count346
-\makeMPintoPDFobject=\count347
-\everyMPtoPDFconversion=\toks46
-)
-(C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
-ase.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
-fg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-))
-Package hyperref Info: Link coloring OFF on input line 3.
-
-(C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
-Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
-
-(C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
-Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
-lestring.sty
-Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-)
-\c@section@level=\count348
-)
-LaTeX Info: Redefining \ref on input line 3.
-LaTeX Info: Redefining \pageref on input line 3.
-LaTeX Info: Redefining \nameref on input line 3.
- (LA_RNA_Summary.out) (LA_RNA_Summary.out)
-\@outlinefile=\write4
-\openout4 = `LA_RNA_Summary.out'.
-
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-9.
-
-(C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-9.
-
-(C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-19.
-
-(C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-19.
-
-(C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 19.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 19.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 19.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 19.
-
-
-(C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 19.
-
-
-(C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 56.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 56.
-<./img//ortho.png, id=6, 217.5628pt x 153.57375pt>
-File: ./img//ortho.png Graphic file (type png)
-<use ./img//ortho.png>
-Package pdftex.def Info: ./img//ortho.png  used on input line 58.
-(pdftex.def)             Requested size: 76.14812pt x 53.7516pt.
-
-Overfull \hbox (136.57321pt too wide) in paragraph at lines 73--73
-[][] 
- []
-
-<./img//vekProd.png, id=8, 657.2053pt x 414.04688pt>
-File: ./img//vekProd.png Graphic file (type png)
-<use ./img//vekProd.png>
-Package pdftex.def Info: ./img//vekProd.png  used on input line 83.
-(pdftex.def)             Requested size: 98.57654pt x 62.10434pt.
-<./img//vekProdParallelo.png, id=9, 330.48468pt x 210.03468pt>
-File: ./img//vekProdParallelo.png Graphic file (type png)
-<use ./img//vekProdParallelo.png>
-Package pdftex.def Info: ./img//vekProdParallelo.png  used on input line 93.
-(pdftex.def)             Requested size: 49.57056pt x 31.50383pt.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 134.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 134.
-<./img//rang.png, id=10, 300.3722pt x 92.59593pt>
-File: ./img//rang.png Graphic file (type png)
-<use ./img//rang.png>
-Package pdftex.def Info: ./img//rang.png  used on input line 213.
-(pdftex.def)             Requested size: 225.27858pt x 69.44676pt.
-
-Underfull \hbox (badness 6032) in paragraph at lines 212--214
-$\OML/lmm/m/it/10 rg\U/matha/m/n/10 p\OML/lmm/m/it/10 A\U/matha/m/n/10 q ^^P$ \
-OT1/lmss/m/n/10 Ge-samtan-zahl Zei-len - An-zahl Null-zei-len .
- []
-
-<./img//loesbarkeit.png, id=11, 560.8453pt x 73.02281pt>
-File: ./img//loesbarkeit.png Graphic file (type png)
-<use ./img//loesbarkeit.png>
-Package pdftex.def Info: ./img//loesbarkeit.png  used on input line 217.
-(pdftex.def)             Requested size: 252.37805pt x 32.85994pt.
-[1
-
-{C:/Users/ibm4n/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./img//ortho
-.png> <./img//vekProd.png> <./img//vekProdParallelo.png> <./img//rang.png> <./i
-mg//loesbarkeit.png>] (LA_RNA_Summary.aux)
-Package rerunfilecheck Info: File `LA_RNA_Summary.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
- ) 
+ 
 Here is how much of TeX's memory you used:
- 26994 strings out of 478582
- 524872 string characters out of 2844344
- 946595 words of memory out of 3000000
- 44653 multiletter control sequences out of 15000+600000
- 524056 words of font info for 93 fonts, out of 8000000 for 9000
+ 25917 strings out of 478582
+ 504800 string characters out of 2844344
+ 848947 words of memory out of 3000000
+ 43690 multiletter control sequences out of 15000+600000
+ 469365 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,12n,83p,445b,668s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc} <
-C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha
-12.pk>{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathi
-t.enc} <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi6
-00\matha6.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/matha
-bx/dpi600\matha9.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/publi
-c/mathabx/dpi600\matha7.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfou
-r/public/mathabx/dpi600\mathx10.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/
-pk/ljfour/public/mathabx/dpi600\matha10.pk><C:/Users/ibm4n/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/ibm4n/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/ibm4n/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/ibm4n/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/ibm4n/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/ibm4n/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/ibm4n/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/ibm4n/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/lm/lmr6.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/lm/lmr7.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/lm/lmr9.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/lm/lmss10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/lm/lmss12.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/lm/lmss9.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/font
-s/type1/public/lm/lmssbx10.pfb>
-Output written on LA_RNA_Summary.pdf (1 page, 473192 bytes).
-PDF statistics:
- 159 PDF objects out of 1000 (max. 8388607)
- 2 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 84i,0n,80p,410b,96s stack positions out of 10000i,1000n,20000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
