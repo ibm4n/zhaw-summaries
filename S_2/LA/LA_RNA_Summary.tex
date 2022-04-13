@@ -216,7 +216,57 @@ $\Rightarrow \frac{-14x + 6y - 4z + 8 = 0}{2} \Rightarrow E: -7x + 3y - 2z + 4 =
 
  \includegraphics[scale=0.45]{loesbarkeit.png}
 
+\section{Matrizen}
+\subsection{Begriffe}
 
+\textbf{Quadratische Matrix:} gleich viele Zeilen und Spalten  
+
+\textbf{Hauptdiagonale:} Die Diagonale von links oben nach rechts unten  
+
+\textbf{Untere- und obere Dreiecksmatrix}  
+
+\includegraphics[scale=0.25]{untere_obere.png} 
+
+\textbf{Symmetrische Matrix :} symmetrisch bzgl. Hauptdiagonale 
+
+$ \begin{pmatrix}
+1 & 5 & 6\\
+5 & 2 & 3\\
+6 & 3 & 1
+\end{pmatrix} $
+
+\WhiteSpace
+\subsection{Multiplikation / Rechenregeln}
+{\begin{multicols}{2}
+{ \includegraphics[scale=0.25]{matrix_multi.png} }
+\columnbreak
+{ \includegraphics[scale=0.8]{rechenregeln.png} }
+\end{multicols}}
+
+\subsection{Transponieren}
+
+TBD
+
+\subsection{Inverse}
+{Matrix muss quadratisch sein$: n \times n \rightarrow 2\times2, 3\times3$} 
+
+\textbf{2x2} 
+
+{\large$\begin{pmatrix}
+a & b\\
+c & d
+\end{pmatrix}^{-1} = \frac{1}{ad-bc}\cdot\begin{pmatrix}
+d & -b\\
+-c & a
+\end{pmatrix}$}
+
+{Die $2\times2$-Matrix hat genau dann ein Invese wenn $ad-bc \neq 0$}
+
+\textbf{3x3 und grösser}
+
+{$\rightarrow$ Gauss - Jordan}
+
+ \includegraphics[scale=0.25]{3x3_inverse.png} 
 \WhiteSpace
 
 \mbox{}
