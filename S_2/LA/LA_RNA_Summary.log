@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.24)  13 APR 2022 16:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.24)  15 APR 2022 12:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1302,20 +1302,48 @@ File: ./img//3x3_inverse.png Graphic file (type png)
 <use ./img//3x3_inverse.png>
 Package pdftex.def Info: ./img//3x3_inverse.png  used on input line 269.
 (pdftex.def)             Requested size: 233.3713pt x 151.69135pt.
+<./img//checkerboard.png, id=47, 47.42719pt x 48.18pt>
+File: ./img//checkerboard.png Graphic file (type png)
+<use ./img//checkerboard.png>
+Package pdftex.def Info: ./img//checkerboard.png  used on input line 290.
+(pdftex.def)             Requested size: 35.5703pt x 36.13489pt.
+<./img//laplace.png, id=48, 202.50656pt x 145.29282pt>
+File: ./img//laplace.png Graphic file (type png)
+<use ./img//laplace.png>
+Package pdftex.def Info: ./img//laplace.png  used on input line 297.
+(pdftex.def)             Requested size: 81.00117pt x 58.11609pt.
+<./img//laplace_full_1.png, id=49, 176.91093pt x 97.11281pt>
+File: ./img//laplace_full_1.png Graphic file (type png)
+<use ./img//laplace_full_1.png>
+Package pdftex.def Info: ./img//laplace_full_1.png  used on input line 303.
+(pdftex.def)             Requested size: 106.14737pt x 58.26813pt.
+<./img//laplace_full_2.png, id=50, 632.3625pt x 118.19156pt>
+File: ./img//laplace_full_2.png Graphic file (type png)
+<use ./img//laplace_full_2.png>
+Package pdftex.def Info: ./img//laplace_full_2.png  used on input line 305.
+(pdftex.def)             Requested size: 252.94052pt x 47.27577pt.
+<./img//det.png, id=51, 750.55406pt x 232.61906pt>
+File: ./img//det.png Graphic file (type png)
+<use ./img//det.png>
+Package pdftex.def Info: ./img//det.png  used on input line 314.
+(pdftex.def)             Requested size: 225.16795pt x 69.78625pt.
 [2 <./img//untere_obere.png> <./img//matrix_multi.png> <./img//rechenregeln.png
-> <./img//3x3_inverse.png>] (LA_RNA_Summary.aux)
+> <./img//3x3_inverse.png> <./img//checkerboard.png> <./img//laplace.png> <./im
+g//laplace_full_1.png> <./img//laplace_full_2.png> <./img//det.png>]
+(LA_RNA_Summary.aux)
 Package rerunfilecheck Info: File `LA_RNA_Summary.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27033 strings out of 478582
- 525818 string characters out of 2844344
+ 27076 strings out of 478582
+ 526864 string characters out of 2844344
  948595 words of memory out of 3000000
- 44687 multiletter control sequences out of 15000+600000
+ 44726 multiletter control sequences out of 15000+600000
  524056 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,12n,83p,445b,668s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.en
+{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.en
+c}{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.en
 c}{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc} <
 C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha
 8.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi72
@@ -1326,6 +1354,7 @@ ur/public/mathabx/dpi600\matha9.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/
 pk/ljfour/public/mathabx/dpi600\matha7.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX
 \fonts/pk/ljfour/public/mathabx/dpi600\mathx10.pk> <C:\Users\ibm4n\AppData\Loca
 l\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha10.pk><C:/Users/ibm4n/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/ibm4n/AppDa
 ta/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/ibm4n/AppDa
 ta/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/ibm4n/AppDa
 ta/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/ibm4n/AppDat
@@ -1343,9 +1372,9 @@ s/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/ibm4n/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/ibm4n/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/lm/lmss9.pfb><C:/Users/ibm4n/AppData/Local/Programs
 /MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on LA_RNA_Summary.pdf (2 pages, 637004 bytes).
+Output written on LA_RNA_Summary.pdf (2 pages, 763876 bytes).
 PDF statistics:
- 197 PDF objects out of 1000 (max. 8388607)
+ 214 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
- 58 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 83 words of extra memory for PDF output out of 10000 (max. 10000000)
 

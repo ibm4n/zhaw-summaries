@@ -269,6 +269,52 @@ d & -b\\
  \includegraphics[scale=0.25]{3x3_inverse.png} 
 \WhiteSpace
 
+\subsection{Determinante}
+{\textbf{2x2}}
+
+$\begin{vmatrix}
+a & b\\
+c & d
+\end{vmatrix} = a\cdot d - b\cdot c $
+\WhiteSpace
+\textbf{3x3 Regel von Sarrus}
+
+$\begin{vmatrix} a & b & c \\ d & e & f \\ g & h &i \end{vmatrix} = a \cdot e \cdot i + b \cdot f \cdot g + c \cdot d \cdot h - g \cdot e \cdot c - h \cdot f \cdot a - i \cdot d \cdot b.$
+\WhiteSpace
+\textbf{Laplacescher Entwicklungssatz ($ >$3x3)}
+
+{\begin{multicols}{2}
+Vorzeichen:
+
+\columnbreak
+{ \includegraphics[scale=0.75]{checkerboard.png} }
+ 
+\end{multicols}}
+
+{{Entwickeln nach derjenigen Zeile oder Spalte, in
+der die meisten Nullen stehen (hier gelb)}}
+{\begin{multicols}{2}
+ {\includegraphics[scale=0.40]{laplace.png}}
+\columnbreak
+
+{  $ \rightarrow  2 \cdot det \begin{vmatrix} 2 & 1 & 0 & 5 \\ 0 & 4 & 3 & -2 \\ 6 & 2 &0 & 3 \\ 3 & -1 &0 & 2 \end{vmatrix} $}
+\end{multicols}}
+
+{\includegraphics[scale=0.6]{laplace_full_1.png}Entwicklen nach 1er}  
+
+{\includegraphics[scale=0.4]{laplace_full_2.png}}
+
+
+\textbf{$det$ Dreiecksmatrix}
+$ = $ Produkt der Hauptdiagonale
+\WhiteSpace
+
+\textbf{Rechenregeln}
+
+{\includegraphics[scale=0.3]{det.png}}
+
+
+ 
 \mbox{}
 	
 \end{multicols*} 
