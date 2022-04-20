@@ -19,7 +19,39 @@
   \includegraphics[scale=0.35]{stammfunktionen.png} 
 
 \subsection{Integration durch Substitution}
-{TBD}
+{\circled{1} Substitutionsgleichung für $x: u = g(x)$}
+
+{\circled{2} Substitutionsgleichung für $dx:$}
+
+$ \frac{du}{dx} = g'(x)_{\tiny(Ableitung)} \to dx = \frac{du}{g'(x)}$
+
+{\circled{3} Integralsubstitution: Einsetzen von $ u $ und $ dx $ aus 1. und 2 in Ursprung}
+
+{\circled{4} Integration von 3.}
+
+{\circled{5} Rücksubstitution (nur unbestimmte Integrale)}
+
+
+\begin{multicols}{2}
+{Beispiel:}
+
+ 
+\columnbreak
+
+{\circled{1} $ u = 2x $}
+  
+{\circled{2} $ dx = \frac{du}{2} $}  
+
+{\circled{3} $ \int_{}{}e^u \cdot  \frac{du}{2} $}
+
+\end{multicols}
+\vspace{-10pt}
+ {\circled{4} $ \int_{}{}e^u \cdot  \frac{1}{2}du = \frac{1}{2} \cdot  \int_{}{}e^u du \rightarrow \frac{1}{2} e^u + C   $}
+
+
+{\circled{5} $\frac{1}{2} e^u + C \rightarrow \frac{1}{2} e^{2x} + C$ }
+
+
 
 \subsection{Partielle Integration}
 {\large $$u(x)\cdot v(x) - \int_{}^{}u'(x) \cdot v(x) \hspace{2px}  dx$$}

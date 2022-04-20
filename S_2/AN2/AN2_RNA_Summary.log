@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.24)  13 APR 2022 15:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.24)  20 APR 2022 17:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1202,55 +1202,61 @@ File: ./img//stammfunktionen.png Graphic file (type png)
 Package pdftex.def Info: ./img//stammfunktionen.png  used on input line 19.
 (pdftex.def)             Requested size: 126.73787pt x 154.40416pt.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-5.
+2.
 
 (C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-5.
+2.
 
 (C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-25.
+22.
 
 (C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-25.
+22.
 
 (C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 25.
+(Font)              <9> on input line 22.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 25.
+(Font)              <6> on input line 22.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 25.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 25.
+(Font)              <5> on input line 22.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
 
 
 (C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 25.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
 
 
 (C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 29.
+(Font)              <10> on input line 24.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 29.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 29.
+(Font)              <7> on input line 24.
 
-Overfull \hbox (32.2496pt too wide) detected at line 30
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 26.
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 57.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 57.
+
+Overfull \hbox (32.2496pt too wide) detected at line 62
 [][] []\OML/lmm/m/it/10 x \U/matha/m/n/10 ^^D \OML/lmm/m/it/10 e[] \U/matha/m/n
 /10 ^^P \OML/lmm/m/it/10 x \U/matha/m/n/10 ^^D \OML/lmm/m/it/10 e[] \U/matha/m/
 n/10 ^^A [][] [] ^^D \OML/lmm/m/it/10 e[]dx \U/matha/m/n/10 ^^P \OML/lmm/m/it/1
@@ -1266,35 +1272,39 @@ Package rerunfilecheck Info: File `AN2_RNA_Summary.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 26940 strings out of 478582
- 524120 string characters out of 2844344
- 893689 words of memory out of 3000000
- 44604 multiletter control sequences out of 15000+600000
- 518995 words of font info for 85 fonts, out of 8000000 for 9000
+ 26956 strings out of 478582
+ 524287 string characters out of 2844344
+ 906689 words of memory out of 3000000
+ 44614 multiletter control sequences out of 15000+600000
+ 526776 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,7n,83p,446b,717s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 89i,7n,83p,446b,746s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc} <
 C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha
-7.pk>{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit
-.enc} <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi60
-0\matha10.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/matha
-bx/dpi600\mathx10.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/publ
-ic/mathabx/dpi600\matha8.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfo
-ur/public/mathabx/dpi720\mathx10.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts
-/pk/ljfour/public/mathabx/dpi600\matha12.pk><C:/Users/ibm4n/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/ibm4n/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/ibm4n/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/ibm4n/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/ibm4n/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/ibm4n/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/ibm4n/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/ibm4n/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/ibm4n/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/lm/lmss9.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on AN2_RNA_Summary.pdf (1 page, 371848 bytes).
+8.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi72
+0\mathx10.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/matha
+bx/dpi600\matha12.pk>{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dv
+ips/lm/lm-mathit.enc} <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/publ
+ic/mathabx/dpi600\mathx10.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljf
+our/public/mathabx/dpi600\matha5.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts
+/pk/ljfour/public/mathabx/dpi600\matha7.pk> <C:\Users\ibm4n\AppData\Local\MiKTe
+X\fonts/pk/ljfour/public/mathabx/dpi600\matha10.pk> <C:\Users\ibm4n\AppData\Loc
+al\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha9.pk><C:/Users/ibm4n/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/ibm4n/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/ibm4n/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/ibm4n/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/ibm4n/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/ibm4n/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/ibm4n/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/ibm4n/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/ibm4n/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/ibm4n/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/ibm4n/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/lm/lmss9.pfb><C:/Users/ibm4n/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
+Output written on AN2_RNA_Summary.pdf (1 page, 410353 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
+ 135 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
