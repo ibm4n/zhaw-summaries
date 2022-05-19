@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1652962629 "c:/Users/ibm4n/code/zhaw-summaries/S_2/LA/LA_RNA_Summary.tex" "LA_RNA_Summary.pdf" "LA_RNA_Summary" 1652962631
+["pdflatex"] 1652963936 "c:/Users/ibm4n/code/zhaw-summaries/S_2/LA/LA_RNA_Summary.tex" "LA_RNA_Summary.pdf" "LA_RNA_Summary" 1652963940
   "0_Setup/Setup.tex" 1651128623 5646 2257df07d7c41d527b4280b689d56ee4 ""
   "C:/Users/ibm4n/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1652957476 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/ibm4n/AppData/Local/MiKTeX/fonts/pk/ljfour/public/mathabx/dpi540/mathx10.pk" 1652957503 27776 ae07969a4f77d2a903f59b07851a32a1 ""
@@ -244,15 +244,16 @@
   "C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/tex/latex/wallpaper/wallpaper.sty" 1145608440 6919 f87ec89c767393dfb3b9adfd163539b0 ""
   "C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044406800 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1636288472 56029 3f7889dab51d620aa43177c391b7b190 ""
-  "LA_RNA_Summary.aux" 1652962631 786 f47f5bbfc2cfaacfdeb81a7768199381 "pdflatex"
+  "LA_RNA_Summary.aux" 1652963939 786 38d798d5f654a99f224c0fcad902fa2a "pdflatex"
   "LA_RNA_Summary.out" 0 -1 0 "pdflatex"
-  "LA_RNA_Summary.tex" 1652962627 10756 08f12354ddeb4d4f120c84dfd48fd51b ""
-  "c:/Users/ibm4n/code/zhaw-summaries/S_2/LA/LA_RNA_Summary.tex" 1652962627 10756 08f12354ddeb4d4f120c84dfd48fd51b ""
+  "LA_RNA_Summary.tex" 1652963935 11025 64541092291da28904de38fe01a751ec ""
+  "c:/Users/ibm4n/code/zhaw-summaries/S_2/LA/LA_RNA_Summary.tex" 1652963935 11025 64541092291da28904de38fe01a751ec ""
   "img//2x2_det_geom.png" 1651128623 7640 c14982219dc5f634360121d7a75b67d9 ""
   "img//3x3_det_geom.png" 1651128623 19689 42add938a58b3ef9c8c0b49554fd9db2 ""
   "img//3x3_inverse.png" 1651128623 107861 8ba8ba3f64f3f8892137e2e733cb71eb ""
   "img//checkerboard.png" 1651128623 2758 09de2e50afe522aff26cbaba72e924ba ""
   "img//det.png" 1651128623 73174 d5b055b29c044879e0147490e06ca80e ""
+  "img//free_vars.png" 1652963266 20017 d984687fdf1361d05bb7b855715303cc ""
   "img//laplace.png" 1651128623 15462 25e933a7d02f64a884bf4756c4fa9d04 ""
   "img//laplace_full_1.png" 1651128623 14039 792e7f8731f3e778bea9cbdd067ff420 ""
   "img//laplace_full_2.png" 1651128623 66783 18f89bf46426879310ead4ce44a2ec97 ""
@@ -262,6 +263,7 @@
   "img//rang.png" 1651128623 3733 191919eaa76abbe442a8b23347d9a534 ""
   "img//rechenregeln.png" 1651128623 5334 4e29a12828eac0e9a0cfa203172373b2 ""
   "img//untere_obere.png" 1651128623 72196 a6639541d1f06b6a631c72319fc407f2 ""
+  "img//unterkrit.png" 1652963844 17955 8fea8100842c3283faee501bccf3b4b9 ""
   "img//vekProd.png" 1651128623 215014 a503b305acfe1d0d42498c2dd90ad493 ""
   "img//vekProdParallelo.png" 1651128623 17310 3d4d03eed83f3009cf1f47d2d14c6ff1 ""
   (generated)
