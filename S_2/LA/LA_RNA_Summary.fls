@@ -1201,6 +1201,15 @@ INPUT C:\Users\ibm4n\AppData\Local\MiKTeX\fonts\tfm\public\mathabx\mathb12.tfm
 INPUT C:\Users\ibm4n\AppData\Local\MiKTeX\fonts\tfm\public\mathabx\mathb8.tfm
 INPUT C:\Users\ibm4n\AppData\Local\MiKTeX\fonts\tfm\public\mathabx\mathx10.tfm
 INPUT C:\Users\ibm4n\AppData\Local\MiKTeX\fonts\tfm\public\mathabx\mathx10.tfm
+INPUT C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmss12.tfm
+INPUT C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr12.tfm
+INPUT C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi12.tfm
+INPUT C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy10.tfm
+INPUT C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\ibm4n\AppData\Local\MiKTeX\fonts\tfm\public\mathabx\matha12.tfm
+INPUT C:\Users\ibm4n\AppData\Local\MiKTeX\fonts\tfm\public\mathabx\mathb12.tfm
+INPUT C:\Users\ibm4n\AppData\Local\MiKTeX\fonts\tfm\public\mathabx\mathx10.tfm
 INPUT .\img\\rang.png
 INPUT .\img\\rang.png
 INPUT img\\rang.png
@@ -1208,6 +1217,7 @@ INPUT .\img\\rang.png
 INPUT .\img\\rang.png
 INPUT .\img\\rang.png
 INPUT .\img\\rang.png
+INPUT C:\Users\ibm4n\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT .\img\\loesbarkeit.png
 INPUT .\img\\loesbarkeit.png
 INPUT img\\loesbarkeit.png
@@ -1215,7 +1225,6 @@ INPUT .\img\\loesbarkeit.png
 INPUT .\img\\loesbarkeit.png
 INPUT .\img\\loesbarkeit.png
 INPUT .\img\\loesbarkeit.png
-INPUT C:\Users\ibm4n\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT .\img\\untere_obere.png
 INPUT .\img\\untere_obere.png
 INPUT img\\untere_obere.png
@@ -1303,6 +1312,8 @@ INPUT C:\Users\ibm4n\AppData\Local\MiKTeX\fonts\pk\ljfour\public\mathabx\dpi600\
 INPUT C:\Users\ibm4n\AppData\Local\MiKTeX\fonts\pk\ljfour\public\mathabx\dpi600\matha8.pk
 INPUT C:\Users\ibm4n\AppData\Local\MiKTeX\fonts\pk\ljfour\public\mathabx\dpi720\mathx10.pk
 INPUT C:\Users\ibm4n\AppData\Local\MiKTeX\fonts\pk\ljfour\public\mathabx\dpi720\mathx10.pk
+INPUT C:\Users\ibm4n\AppData\Local\MiKTeX\fonts\pk\ljfour\public\mathabx\dpi720\matha12.pk
+INPUT C:\Users\ibm4n\AppData\Local\MiKTeX\fonts\pk\ljfour\public\mathabx\dpi720\matha12.pk
 INPUT C:\Users\ibm4n\AppData\Local\MiKTeX\fonts\pk\ljfour\public\mathabx\dpi540\mathx10.pk
 INPUT C:\Users\ibm4n\AppData\Local\MiKTeX\fonts\pk\ljfour\public\mathabx\dpi540\mathx10.pk
 INPUT C:\Users\ibm4n\AppData\Local\MiKTeX\fonts\pk\ljfour\public\mathabx\dpi600\matha12.pk
