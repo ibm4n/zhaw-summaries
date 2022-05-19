@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.19)  19 MAY 2022 13:08
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.24)  27 APR 2022 15:38
+>>>>>>> 853783c03993a704908ee35f1f6fa42cc3ed232e
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1091,9 +1095,44 @@ Here is how much of TeX's memory you used:
  44742 multiletter control sequences out of 15000+600000
  524056 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
+<<<<<<< HEAD
  89i,13n,83p,485b,668s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc} <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha8.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi720\mathx10.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi540\mathx10.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha12.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha6.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha9.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha7.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\mathx10.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha10.pk><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss9.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
 Output written on LA_RNA_Summary.pdf (2 pages, 792504 bytes).
+=======
+ 89i,12n,83p,445b,668s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.en
+c}{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.en
+c}{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc} <
+C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha
+8.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi72
+0\mathx10.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/matha
+bx/dpi600\matha12.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/publ
+ic/mathabx/dpi600\matha6.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfo
+ur/public/mathabx/dpi600\matha9.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/
+pk/ljfour/public/mathabx/dpi600\matha7.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX
+\fonts/pk/ljfour/public/mathabx/dpi600\mathx10.pk> <C:\Users\ibm4n\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha10.pk><C:/Users/ibm4n/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/ibm4n/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/ibm4n/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/ibm4n/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/ibm4n/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/ibm4n/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/ibm4n/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/ibm4n/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/ibm4n/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/ibm4n/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/ibm4n/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/ibm4n/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/ibm4n/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/ibm4n/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/ibm4n/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/ibm4n/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/ibm4n/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/lm/lmss9.pfb><C:/Users/ibm4n/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
+Output written on LA_RNA_Summary.pdf (2 pages, 786908 bytes).
+>>>>>>> 853783c03993a704908ee35f1f6fa42cc3ed232e
 PDF statistics:
  228 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
