@@ -5,334 +5,370 @@
 % Vier Spalten
 \begin{multicols*}{3}
 
-% Info über das Dokument
-\DocumentInfo
-{Lineare Algebra S2} %Titel
-{Raphael Nambiar} %Untertitel
+    % Info über das Dokument
+    \DocumentInfo
+    {Lineare Algebra S2} %Titel
+    {Raphael Nambiar} %Untertitel
 
-\WhiteSpace
+    \WhiteSpace
 
-% Dokumentinhalt
-\section{Vektorgeometrie}
-\subsection{Begriffe}
+    % Dokumentinhalt
+    \section{Vektorgeometrie}
+    \subsection{Begriffe}
 
-\textbf{Kollinear:} Es existiert eine Gerade $g$, zu der beide Vektoren parallel sind. 
+    \textbf{Kollinear:} Es existiert eine Gerade $g$, zu der beide Vektoren parallel sind.
 
-\textbf{Komplanar:} Existiert eine Ebene $e$, zu der alle drei Vektoren parallel. 
+    \textbf{Komplanar:} Existiert eine Ebene $e$, zu der alle drei Vektoren parallel.
 
-\textbf{Ortsvektor:} Beginnt vim Ursprung. Schreibweise: $\vec{r}(P) $ 
+    \textbf{Ortsvektor:} Beginnt vim Ursprung. Schreibweise: $\vec{r}(P) $
 
-\subsection{Betrag}
+    \subsection{Betrag}
 
-$\mid \vec{a} \mid  $ = 
-$\begin{pmatrix}
-x\\
-y\\
-z
-\end{pmatrix}$ = $ \sqrt[]{x^2+y^2+z^2}$
-\WhiteSpace
-\subsection{Skalarprodukt}
+    $\mid \vec{a} \mid  $ =
+    $\begin{pmatrix}
+            x \\
+            y \\
+            z
+        \end{pmatrix}$ = $ \sqrt[]{x^2+y^2+z^2}$
+    \WhiteSpace
+    \subsection{Skalarprodukt}
 
-$\vec{a} \cdot \vec{b} =  \begin{pmatrix}
-a_x\\
-a_y\\
-a_z
-\end{pmatrix} \cdot \begin{pmatrix}
-b_x\\
-b_y\\
-b_z
-\end{pmatrix} = a_xb_x+a_yb_y+a_zb_z$
+    $\vec{a} \cdot \vec{b} =  \begin{pmatrix}
+            a_x \\
+            a_y \\
+            a_z
+        \end{pmatrix} \cdot \begin{pmatrix}
+            b_x \\
+            b_y \\
+            b_z
+        \end{pmatrix} = a_xb_x+a_yb_y+a_zb_z$
 
-$ \vec{a} \cdot \vec{b} $ = $ \mid \vec{a} \mid \cdot \mid \vec{b} \mid \cdot \cos(\varphi)$
+    $ \vec{a} \cdot \vec{b} $ = $ \mid \vec{a} \mid \cdot \mid \vec{b} \mid \cdot \cos(\varphi)$
 
-$\cos(\varphi) $ = $\frac{\vec{a} \cdot \vec{b}}{\mid \vec{a} \mid \cdot \mid \vec{b} \mid} $
+    $\cos(\varphi) $ = $\frac{\vec{a} \cdot \vec{b}}{\mid \vec{a} \mid \cdot \mid \vec{b} \mid} $
 
-\WhiteSpace
-\subsection{Orthogonal}
-{Wenn zwei Vektoren senkrecht zueinander sind.}
-$ \vec{a} \cdot \vec{b} $ = 0
-\WhiteSpace
-\subsection{Orthogonale Projektion}
-{Projektion des Vektores $\vec{b} $ auf den Vektor $\vec{a} $.}
+    \WhiteSpace
+    \subsection{Orthogonal}
+    {Wenn zwei Vektoren senkrecht zueinander sind.}
+    $ \vec{a} \cdot \vec{b} $ = 0
+    \WhiteSpace
+    \subsection{Orthogonale Projektion}
+    {Projektion des Vektores $\vec{b} $ auf den Vektor $\vec{a} $.}
 
- \includegraphics[scale=0.35]{ortho.png} 
+    \includegraphics[scale=0.35]{ortho.png}
 
-\begin{wrapfigure}{r}{4.5cm}
- \vspace{-70pt}
- $\vec{b}_a = \frac{\vec{a} \cdot  \vec{b}}{\mid \vec{a} \mid ^2} \cdot \vec{a} $
+    \begin{wrapfigure}{r}{4.5cm}
+        \vspace{-70pt}
+        $\vec{b}_a = \frac{\vec{a} \cdot  \vec{b}}{\mid \vec{a} \mid ^2} \cdot \vec{a} $
 
-$\mid \vec{b}_a  \mid  = \frac{\mid \vec{a} \mid \cdot \mid \vec{b} \mid}{\mid \vec{a} \mid }$ 
+        $\mid \vec{b}_a  \mid  = \frac{\mid \vec{a} \mid \cdot \mid \vec{b} \mid}{\mid \vec{a} \mid }$
 
 
-$ \mid \vec{b}_a \mid $ = $\mid \vec{a} \mid \cdot \cos(\varphi)$
+        $ \mid \vec{b}_a \mid $ = $\mid \vec{a} \mid \cdot \cos(\varphi)$
 
-\end{wrapfigure}
+    \end{wrapfigure}
 
 
 
-\WhiteSpace
-\subsection{Zwischenwinkel}
-{$\varphi = cos^{-1}(\frac{\vec{a}\cdot\vec{b}}{\mid \vec{a} \mid \cdot \mid \vec{b} \mid}) $}
-\WhiteSpace
-\subsection{Einheitsvektor}
-{$\vec{e}_a $ = $\frac{1}{\mid \vec{a} \mid} \cdot \vec{a}$}
-{$\mid \vec{e}_a \mid$ = 1}
+    \WhiteSpace
+    \subsection{Zwischenwinkel}
+    {$\varphi = cos^{-1}(\frac{\vec{a}\cdot\vec{b}}{\mid \vec{a} \mid \cdot \mid \vec{b} \mid}) $}
+    \WhiteSpace
+    \subsection{Einheitsvektor}
+    {$\vec{e}_a $ = $\frac{1}{\mid \vec{a} \mid} \cdot \vec{a}$}
+    {$\mid \vec{e}_a \mid$ = 1}
 
-\subsection{Vektorprodukt}
+    \subsection{Vektorprodukt}
 
- \includegraphics[scale=0.15]{vekProd.png} 
+    \includegraphics[scale=0.15]{vekProd.png}
 
 
-\begin{wrapfigure}{r}{5.5cm}
- \vspace{-70pt}
- $ \mid \vec{a} \times \vec{b} \mid = \mid\vec{a}\mid \cdot \mid\vec{b}\mid \cdot \cos(\alpha) $
- 
-{$\vec{a} \times \vec{b}$ ist orthogonal zu $\vec{a}$ und zu $\vec{b}$}
-\end{wrapfigure}
+    \begin{wrapfigure}{r}{5.5cm}
+        \vspace{-70pt}
+        $ \mid \vec{a} \times \vec{b} \mid = \mid\vec{a}\mid \cdot \mid\vec{b}\mid \cdot \cos(\alpha) $
 
-\includegraphics[scale=0.15]{vekProdParallelo.png}
-{ $\mid \vec{a} \times \vec{b} \mid $ = A }
+        {$\vec{a} \times \vec{b}$ ist orthogonal zu $\vec{a}$ und zu $\vec{b}$}
+    \end{wrapfigure}
 
-{Dreieck = $\frac{1}{2}$ A}
+    \includegraphics[scale=0.15]{vekProdParallelo.png}
+    { $\mid \vec{a} \times \vec{b} \mid $ = A }
 
-\WhiteSpace
+    {Dreieck = $\frac{1}{2}$ A}
 
+    \WhiteSpace
 
-\section{Geraden}
-\subsection{Normalenvektor}
 
-\subsection{Parameterdarstellung}
+    \section{Geraden}
+    \subsection{Normalenvektor}
+    TBD
 
-\subsection{Koordinatendarstellung}
+    \subsection{Parameterdarstellung}
+    {\large $ g: \vec{r}(P) + \lambda \cdot \vec{a}  $}
 
-\subsection{Koordinatendarstellung zu Parameterdarstellung }
+    {P: Aufpunkt}
 
-\subsection{Parameterdarstellung zu Koordinatendarstellung}
+    {$ \vec{a}$ = $\overrightarrow{PQ} $;  = Richtungsvektor}
 
-\subsection{Abstand Punkt zu Geraden}
 
-\subsection{Lage Geraden}
+    \subsection{Koordinatendarstellung}
+    {$E: ax + by + c= 0 $}
+    \subsection{Koordinatendarstellung zu Parameterdarstellung }
 
-\textbf{Identisch:}  
+    \subsection{Parameterdarstellung zu Koordinatendarstellung}
 
-\textbf{Parallel:} 
+    \subsection{Abstand Punkt zu Geraden}
+    { Gerade g: $ \begin{pmatrix}
+                1  \\
+                13 \\
+                -5
+            \end{pmatrix} + \lambda \cdot
+            \begin{pmatrix}
+                3 \\
+                5 \\
+                -4
+            \end{pmatrix} $}
 
-\textbf{Schneidend:}
+    {Punkt A: $(3,-1,4)$}
 
-\textbf{Windschief:} 
+    {$\overrightarrow{PA}$ = $\begin{pmatrix}
+                3  \\
+                -1 \\
+                4
+            \end{pmatrix} -  \begin{pmatrix}
+                1  \\
+                13 \\
+                -5
+            \end{pmatrix} =
+            \begin{pmatrix}
+                2   \\
+                -14 \\
+                9
+            \end{pmatrix} $}
 
-\subsection{Lage Bestimmen}
+    {$l = \frac{\mid\overrightarrow{PA}\times\vec{a}\mid}{\mid\vec{a}\mid} $}
 
+    \subsection{Lage Geraden}
 
-\section{Ebene}
-\subsection{Normalenvektor der Ebene (orthogonal zur Ebene)}
-{Auf der Ebene $ E $ senkrecht stehnder Vektor $\vec{n}$.}
-$\vec{n} = \vec{a} \times \vec{b}$
+    \textbf{Identisch:}
 
-\subsection{Parameterdarstellung}
+    \textbf{Parallel:}
 
-{\large $ E: \vec{r}(P) + \lambda \cdot \vec{a} + \mu \cdot \vec{b} $}
+    \textbf{Schneidend:}
 
-{P: Aufpunkt}
+    \textbf{Windschief:}
 
-{$ \vec{a}$ = $\overrightarrow{PQ} $; $ \vec{b}$ = $\overrightarrow{PR} $ = Richtungsvektoren}
+    \subsection{Lage Bestimmen}
 
 
+    \section{Ebene}
+    \subsection{Normalenvektor der Ebene (orthogonal zur Ebene)}
+    {Auf der Ebene $ E $ senkrecht stehnder Vektor $\vec{n}$.}
+    $\vec{n} = \vec{a} \times \vec{b}$
 
-\subsection{Koordinatendarstellung}
-{$E: ax + by + cz + d = 0 $}
+    \subsection{Parameterdarstellung}
 
-\subsection{Parameterdarstellung zu Koordinatendarstellung}
+    {\large $ E: \vec{r}(P) + \lambda \cdot \vec{a} + \mu \cdot \vec{b} $}
 
-$ E: \begin{pmatrix}
-2\\
-4\\
-1
-\end{pmatrix} + \lambda \cdot 
-\begin{pmatrix}
-1\\
-3\\
-1 
-\end{pmatrix} + \mu \cdot
-\begin{pmatrix}
-2\\
-4\\
--4 
-\end{pmatrix}$
+    {P: Aufpunkt}
 
-\circled{1} $\vec{n}= 
-\begin{pmatrix}
-1\\
-3\\
-1
-\end{pmatrix} \times \begin{pmatrix}
-2\\
-4\\
--4 
-\end{pmatrix} = \begin{pmatrix}
--14\\
-6\\
--4 
-\end{pmatrix} $
+    {$ \vec{a}$ = $\overrightarrow{PQ} $; $ \vec{b}$ = $\overrightarrow{PR} $ = Richtungsvektoren}
 
-\circled{2} Koordinatendarstellung $ E: -14x + 6y - 4z + d = 0$
 
-\circled{3} Aufpunkt einsetzen: $\begin{pmatrix}
-2\\
-4\\
-1
-\end{pmatrix} 	\Rightarrow  E: -14 \cdot 2  + 6 \cdot 4 - 4\cdot 1 + d = 0 $
 
-\circled{4} $d$ ausrechnen: $ E: -14 \cdot 2  + 6 \cdot 4 - 4\cdot 1 + d = 0 \Rightarrow d = 8$
+    \subsection{Koordinatendarstellung}
+    {$E: ax + by + cz + d = 0 $}
 
-\circled{5} $E: -14x + 6y - 4z + 8 = 0$
+    \subsection{Parameterdarstellung zu Koordinatendarstellung}
 
-$\Rightarrow \frac{-14x + 6y - 4z + 8 = 0}{2} \Rightarrow E: -7x + 3y - 2z + 4 = 0$ 
+    $ E: \begin{pmatrix}
+            2 \\
+            4 \\
+            1
+        \end{pmatrix} + \lambda \cdot
+        \begin{pmatrix}
+            1 \\
+            3 \\
+            1
+        \end{pmatrix} + \mu \cdot
+        \begin{pmatrix}
+            2 \\
+            4 \\
+            -4
+        \end{pmatrix}$
 
-\subsection{Koordinatendarstellung zu Parameterdarstellung }
+    \circled{1} $\vec{n}=
+        \begin{pmatrix}
+            1 \\
+            3 \\
+            1
+        \end{pmatrix} \times \begin{pmatrix}
+            2 \\
+            4 \\
+            -4
+        \end{pmatrix} = \begin{pmatrix}
+            -14 \\
+            6   \\
+            -4
+        \end{pmatrix} $
 
+    \circled{2} Koordinatendarstellung $ E: -14x + 6y - 4z + d = 0$
 
-\subsection{Abstand Punkt zu Geraden}
+    \circled{3} Aufpunkt einsetzen: $\begin{pmatrix}
+            2 \\
+            4 \\
+            1
+        \end{pmatrix} 	\Rightarrow  E: -14 \cdot 2  + 6 \cdot 4 - 4\cdot 1 + d = 0 $
 
-\subsection{Lage Geraden}
+    \circled{4} $d$ ausrechnen: $ E: -14 \cdot 2  + 6 \cdot 4 - 4\cdot 1 + d = 0 \Rightarrow d = 8$
 
-\textbf{Identisch:}  
+    \circled{5} $E: -14x + 6y - 4z + 8 = 0$
 
-\textbf{Parallel:} 
+    $\Rightarrow \frac{-14x + 6y - 4z + 8 = 0}{2} \Rightarrow E: -7x + 3y - 2z + 4 = 0$
 
-\textbf{Schneidend:}
+    \subsection{Koordinatendarstellung zu Parameterdarstellung }
 
-\textbf{Windschief:} 
 
-\subsection{Lage Bestimmen}
+    \subsection{Abstand Punkt zu Geraden}
 
-\section{Linearen Gleichungssysteme}
-\subsection{Rang}
-{Matrix muss in Zeilenstufenform sein.}
-{$rg(A) = $ Gesamtanzahl Zeilen - Anzahl Nullzeilen .}
- \includegraphics[scale=0.75]{rang.png} 
- 
-\subsection{Lösbarkeit von LGS}
+    \subsection{Lage Geraden}
 
- \includegraphics[scale=0.45]{loesbarkeit.png}
+    \textbf{Identisch:}
 
-\section{Matrizen}
-\subsection{Begriffe}
+    \textbf{Parallel:}
 
-\textbf{Quadratische Matrix:} gleich viele Zeilen und Spalten  
+    \textbf{Schneidend:}
 
-\textbf{Hauptdiagonale:} Die Diagonale von links oben nach rechts unten  
+    \textbf{Windschief:}
 
-\textbf{Untere- und obere Dreiecksmatrix}  
+    \subsection{Lage Bestimmen}
 
-\includegraphics[scale=0.25]{untere_obere.png} 
+    \section{Linearen Gleichungssysteme}
+    \subsection{Rang}
+    {Matrix muss in Zeilenstufenform sein.}
+    {$rg(A) = $ Gesamtanzahl Zeilen - Anzahl Nullzeilen .}
+    \includegraphics[scale=0.75]{rang.png}
 
-\textbf{Symmetrische Matrix :} symmetrisch bzgl. Hauptdiagonale 
+    \subsection{Lösbarkeit von LGS}
 
-$ \begin{pmatrix}
-1 & 5 & 6\\
-5 & 2 & 3\\
-6 & 3 & 1
-\end{pmatrix} $
+    \includegraphics[scale=0.45]{loesbarkeit.png}
 
-\WhiteSpace
-\subsection{Multiplikation / Rechenregeln}
-{\begin{multicols}{2}
-{ \includegraphics[scale=0.25]{matrix_multi.png} }
-\columnbreak
-{ \includegraphics[scale=0.8]{rechenregeln.png} }
-\end{multicols}}
+    \section{Matrizen}
+    \subsection{Begriffe}
 
-\subsection{Transponieren}
+    \textbf{Quadratische Matrix:} gleich viele Zeilen und Spalten
 
-TBD
+    \textbf{Hauptdiagonale:} Die Diagonale von links oben nach rechts unten
 
-\subsection{Inverse}
-{Matrix muss quadratisch sein$: n \times n \rightarrow 2\times2, 3\times3$} 
+    \textbf{Untere- und obere Dreiecksmatrix}
 
-\textbf{2x2} 
+    \includegraphics[scale=0.25]{untere_obere.png}
 
-{\large$\begin{pmatrix}
-a & b\\
-c & d
-\end{pmatrix}^{-1} = \frac{1}{ad-bc}\cdot\begin{pmatrix}
-d & -b\\
--c & a
-\end{pmatrix}$}
+    \textbf{Symmetrische Matrix :} symmetrisch bzgl. Hauptdiagonale
 
-{Die $2\times2$-Matrix hat genau dann ein Invese wenn $ad-bc \neq 0$}
+    $ \begin{pmatrix}
+            1 & 5 & 6 \\
+            5 & 2 & 3 \\
+            6 & 3 & 1
+        \end{pmatrix} $
 
-\textbf{3x3 und grösser}
+    \WhiteSpace
+    \subsection{Multiplikation / Rechenregeln}
+    {\begin{multicols}{2}
+            { \includegraphics[scale=0.25]{matrix_multi.png} }
+            \columnbreak
+            { \includegraphics[scale=0.8]{rechenregeln.png} }
+        \end{multicols}}
 
-{$\rightarrow$ Gauss - Jordan}
+    \subsection{Transponieren}
 
- \includegraphics[scale=0.25]{3x3_inverse.png} 
-\WhiteSpace
+    TBD
 
-\subsection{Determinante}
-{\textbf{2x2}}
+    \subsection{Inverse}
+    {Matrix muss quadratisch sein$: n \times n \rightarrow 2\times2, 3\times3$}
 
-$\begin{vmatrix}
-a & b\\
-c & d
-\end{vmatrix} = a\cdot d - b\cdot c $
-\WhiteSpace
-\textbf{3x3 Regel von Sarrus}
+    \textbf{2x2}
 
-$\begin{vmatrix} a & b & c \\ d & e & f \\ g & h &i \end{vmatrix} = a \cdot e \cdot i + b \cdot f \cdot g + c \cdot d \cdot h - g \cdot e \cdot c - h \cdot f \cdot a - i \cdot d \cdot b.$
-\WhiteSpace
-\textbf{Laplacescher Entwicklungssatz ($ >$3x3)}
+    {\large$\begin{pmatrix}
+            a & b \\
+            c & d
+        \end{pmatrix}^{-1} = \frac{1}{ad-bc}\cdot\begin{pmatrix}
+            d  & -b \\
+            -c & a
+        \end{pmatrix}$}
 
-{\begin{multicols}{2}
-Vorzeichen:
+    {Die $2\times2$-Matrix hat genau dann ein Invese wenn $ad-bc \neq 0$}
 
-\columnbreak
-{ \includegraphics[scale=0.75]{checkerboard.png} }
- 
-\end{multicols}}
+    \textbf{3x3 und grösser}
 
-{{Entwickeln nach derjenigen Zeile oder Spalte, in
-der die meisten Nullen stehen (hier gelb)}}
-{\begin{multicols}{2}
- {\includegraphics[scale=0.40]{laplace.png}}
-\columnbreak
+    {$\rightarrow$ Gauss - Jordan}
 
-{  $ \rightarrow  2 \cdot det \begin{vmatrix} 2 & 1 & 0 & 5 \\ 0 & 4 & 3 & -2 \\ 6 & 2 &0 & 3 \\ 3 & -1 &0 & 2 \end{vmatrix} $}
-\end{multicols}}
+    \includegraphics[scale=0.25]{3x3_inverse.png}
+    \WhiteSpace
 
-{\includegraphics[scale=0.6]{laplace_full_1.png}Entwicklen nach 1er}  
+    \subsection{Determinante}
+    {\textbf{2x2}}
 
-{\includegraphics[scale=0.4]{laplace_full_2.png}}
+    $\begin{vmatrix}
+            a & b \\
+            c & d
+        \end{vmatrix} = a\cdot d - b\cdot c $
+    \WhiteSpace
+    \textbf{3x3 Regel von Sarrus}
 
+    $\begin{vmatrix} a & b & c \\ d & e & f \\ g & h &i \end{vmatrix} = a \cdot e \cdot i + b \cdot f \cdot g + c \cdot d \cdot h - g \cdot e \cdot c - h \cdot f \cdot a - i \cdot d \cdot b.$
+    \WhiteSpace
+    \textbf{Laplacescher Entwicklungssatz ($ >$3x3)}
 
-\textbf{$det$ Dreiecksmatrix}
-$ = $ Produkt der Hauptdiagonale
-\WhiteSpace
+    {\begin{multicols}{2}
+            Vorzeichen:
 
-\textbf{Rechenregeln}
+            \columnbreak
+            { \includegraphics[scale=0.75]{checkerboard.png} }
 
-{\includegraphics[scale=0.3]{det.png}}
+        \end{multicols}}
 
-$2\times 2 \rightarrow det(5 \cdot A) = 5^2 \cdot det(A)$
+    {{Entwickeln nach derjenigen Zeile oder Spalte, in
+                der die meisten Nullen stehen (hier gelb)}}
+    {\begin{multicols}{2}
+            {\includegraphics[scale=0.40]{laplace.png}}
+            \columnbreak
 
-$3\times 3 \rightarrow det(5 \cdot A) = 5^3 \cdot det(A)$
+            {  $ \rightarrow  2 \cdot det \begin{vmatrix} 2 & 1 & 0 & 5 \\ 0 & 4 & 3 & -2 \\ 6 & 2 &0 & 3 \\ 3 & -1 &0 & 2 \end{vmatrix} $}
+        \end{multicols}}
 
- \WhiteSpace
-\subsection{Geometrische Interpretation der Determinante }
-{\textbf{2x2}}
+    {\includegraphics[scale=0.6]{laplace_full_1.png}Entwicklen nach 1er}
 
-{Fläche von $\vec{a} $ und $ \vec{b} = $ Betrag von $ det \begin{vmatrix} a1 & b1  \\ a2 & b2 \end{vmatrix} $}
-{\includegraphics[scale=0.2]{2x2_det_geom.png}}
+    {\includegraphics[scale=0.4]{laplace_full_2.png}}
 
 
+    \textbf{$det$ Dreiecksmatrix}
+    $ = $ Produkt der Hauptdiagonale
+    \WhiteSpace
 
+    \textbf{Rechenregeln}
 
-\textbf{3x3}
+    {\includegraphics[scale=0.3]{det.png}}
 
-{Volumen von $\vec{a} $, $ \vec{b}$ und $\vec{c} = $ Betrag von $   det \begin{vmatrix} a1 & b1 & c1 \\ a2 & b2 & c2 \\ a3 & b3 & c3  \end{vmatrix}  $}
- {\includegraphics[scale=0.2]{3x3_det_geom.png}}
-\mbox{}
-	
-\end{multicols*} 
+    $2\times 2 \rightarrow det(5 \cdot A) = 5^2 \cdot det(A)$
+
+    $3\times 3 \rightarrow det(5 \cdot A) = 5^3 \cdot det(A)$
+
+    \WhiteSpace
+    \subsection{Geometrische Interpretation der Determinante }
+    {\textbf{2x2}}
+
+    {Fläche von $\vec{a} $ und $ \vec{b} = $ Betrag von $ det \begin{vmatrix} a1 & b1  \\ a2 & b2 \end{vmatrix} $}
+    {\includegraphics[scale=0.2]{2x2_det_geom.png}}
+
+
+
+
+    \textbf{3x3}
+
+    {Volumen von $\vec{a} $, $ \vec{b}$ und $\vec{c} = $ Betrag von $   det \begin{vmatrix} a1 & b1 & c1 \\ a2 & b2 & c2 \\ a3 & b3 & c3  \end{vmatrix}  $}
+    {\includegraphics[scale=0.2]{3x3_det_geom.png}}
+    \mbox{}
+
+\end{multicols*}
 
 \end{document}
