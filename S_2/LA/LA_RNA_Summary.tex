@@ -15,13 +15,13 @@
     % Dokumentinhalt
     \section{Vektorgeometrie}
     \subsection{Begriffe}
+    {\textbf{Kollinear:} Es existiert eine Gerade $g$, zu der beide Vektoren parallel sind.}
+    {\textbf{Komplanar:} Existiert eine Ebene $e$, zu der alle drei Vektoren parallel.}
 
-    \textbf{Kollinear:} Es existiert eine Gerade $g$, zu der beide Vektoren parallel sind.
+    {\textbf{Ortsvektor:} Beginnt vim Ursprung. Schreibweise: $\vec{r}(P) $}
 
-    \textbf{Komplanar:} Existiert eine Ebene $e$, zu der alle drei Vektoren parallel.
-
-    \textbf{Ortsvektor:} Beginnt vim Ursprung. Schreibweise: $\vec{r}(P) $
-
+    {\textbf{Nullvektor:} Vektor mit Betrag 0,keine Richtung.:  $\vec{0} $}
+    \WhiteSpace
     \subsection{Betrag}
 
     $\mid \vec{a} \mid  $ =
@@ -67,16 +67,12 @@
         $ \mid \vec{b}_a \mid $ = $\mid \vec{a} \mid \cdot \cos(\varphi)$
 
     \end{wrapfigure}
-
-
-
     \WhiteSpace
     \subsection{Zwischenwinkel}
     {$\varphi = cos^{-1}(\frac{\vec{a}\cdot\vec{b}}{\mid \vec{a} \mid \cdot \mid \vec{b} \mid}) $}
     \WhiteSpace
     \subsection{Einheitsvektor}
-    {$\vec{e}_a $ = $\frac{1}{\mid \vec{a} \mid} \cdot \vec{a}$}
-    {$\mid \vec{e}_a \mid$ = 1}
+    {$\vec{e}_a $ = $\frac{1}{\mid \vec{a} \mid} \cdot \vec{a}$ ;$\mid \vec{e}_a \mid$ = 1}
 
     \subsection{Vektorprodukt}
 
@@ -99,8 +95,6 @@
 
 
     \section{Geraden}
-    \subsection{Normalenvektor}
-    {TBD}
 
     \subsection{Parameterdarstellung}
     {\large $ g: \vec{r}(P) + \lambda \cdot \vec{a}  $}
@@ -111,10 +105,25 @@
 
 
     \subsection{Koordinatendarstellung}
-    {$E: ax + by + c= 0 $}
+    {$g: ax + by + c= 0 $}
     \subsection{Koordinatendarstellung zu Parameterdarstellung }
+    {Zwei Punkte auf $ g $  bestimmen: 2 beliebige x Koordinaten wählen und in $ g $ einsetzen. Danach jeweils $ y $ auslesen. Dies ergibt zwei Punkte $P,Q$. In Parameterdarstellung bringen.}
 
     \subsection{Parameterdarstellung zu Koordinatendarstellung}
+    {Gerade $ g:  \begin{pmatrix}
+                7 \\
+                1
+            \end{pmatrix} + \lambda \cdot \begin{pmatrix}
+                -2 \\
+                -4
+            \end{pmatrix} $ }
+    {Gleichungssystem aufstellen und Lösen:}
+    \begin{gather*}
+        x = 7 - 2 \lambda \\
+        y = 1 - 4 \lambda
+    \end{gather*}
+    {In Koordinatendarstellung bringen:}
+    $ -2x + y + 13 = 0$
 
     \subsection{Abstand Punkt zu Geraden}
     { Gerade g: $ \begin{pmatrix}
@@ -146,70 +155,52 @@
             \end{pmatrix} $}
 
     {$l = \frac {\mid \overrightarrow{PA} \times\vec{a}\mid}{\mid\vec{a}\mid} $}
-
-    \subsection{Lage Geraden}
-
-    \textbf{Identisch:}
-
-    \textbf{Parallel:}
-
-    \textbf{Schneidend:}
-
-    \textbf{Windschief:}
-
-    \subsection{Lage Bestimmen}
-
     \section{Ebene}
 
     \subsection{Normalenvektor der Ebene (orthogonal zur Ebene)}
     {Auf der Ebene $ E $ senkrecht stehnder Vektor $\vec{n}$.}
     $\vec{n} = \vec{a} \times \vec{b}$
-
+    \WhiteSpace
     \subsection{Parameterdarstellung}
-
     {\large $ E: \vec{r}(P) + \lambda \cdot \vec{a} + \mu \cdot \vec{b} $}
-
     {P: Aufpunkt}
 
     {$ \vec{a}$ = $\overrightarrow{PQ} $; $ \vec{b}$ = $\overrightarrow{PR} $ = Richtungsvektoren}
-
-
-
+    \WhiteSpace
     \subsection{Koordinatendarstellung}
     {$E: ax + by + cz + d = 0 $}
 
     \subsection{Parameterdarstellung zu Koordinatendarstellung}
+    { $ E: \begin{pmatrix}
+                2 \\
+                4 \\
+                1
+            \end{pmatrix} + \lambda \cdot
+            \begin{pmatrix}
+                1 \\
+                3 \\
+                1
+            \end{pmatrix} + \mu \cdot
+            \begin{pmatrix}
+                2 \\
+                4 \\
+                -4
+            \end{pmatrix}$
 
-    $ E: \begin{pmatrix}
-            2 \\
-            4 \\
-            1
-        \end{pmatrix} + \lambda \cdot
-        \begin{pmatrix}
-            1 \\
-            3 \\
-            1
-        \end{pmatrix} + \mu \cdot
-        \begin{pmatrix}
-            2 \\
-            4 \\
-            -4
-        \end{pmatrix}$
-
-    $\vec{n}=
-        \begin{pmatrix}
-            1 \\
-            3 \\
-            1
-        \end{pmatrix} \times \begin{pmatrix}
-            2 \\
-            4 \\
-            -4
-        \end{pmatrix} = \begin{pmatrix}
-            -14 \\
-            6   \\
-            -4
-        \end{pmatrix} $
+        $\vec{n}=
+            \begin{pmatrix}
+                1 \\
+                3 \\
+                1
+            \end{pmatrix} \times \begin{pmatrix}
+                2 \\
+                4 \\
+                -4
+            \end{pmatrix} = \begin{pmatrix}
+                -14 \\
+                6   \\
+                -4
+            \end{pmatrix} $}
 
     \circled{2} Koordinatendarstellung $ E: -14x + 6y - 4z + d = 0$
 
@@ -224,11 +215,13 @@
     \circled{5} $E: -14x + 6y - 4z + 8 = 0$
 
     $\Rightarrow \frac{-14x + 6y - 4z + 8 = 0}{2} \Rightarrow E: -7x + 3y - 2z + 4 = 0$
-
+    \WhiteSpace
     \subsection{Koordinatendarstellung zu Parameterdarstellung }
+    {Wir bestimmen drei beliebige Punkte auf $ E$, indem wir die $x$- und $y$-Koordinaten frei wählen
+        und die zugehörigen $z$-Koordinaten aus der Koordinatendarstellung von $E$ berechnen. Aus
+        diesen drei Punkten können wir dann eine Parameterdarstellung von $E$ gewinnen.}
 
-
-    \subsection{Abstand Punkt zu Geraden}
+    \subsection{Abstand Punkt zu Ebene}
     {Abstand \Large $  l = \frac{\mid ax_A + bx_A + cz_A + d  \mid}{\mid \vec{n} \mid}$ }
     {Ebene $E:  7x+4y+-4z+3=0 $}
 
@@ -240,12 +233,13 @@
     {\circled{2} A in E einsetzten $ \rightarrow $ in Formel einsetzten: }
 
     {$l = \frac{7 \cdot 2 + 4 \cdot -3 -4 \cdot -1}{9} = 1$}
+    \WhiteSpace
+    \subsection{Spezielle Lagen von Ebenen}
+{TBD}
 
-    \subsection{Lage Geraden}
-
-    \subsection{Lage Bestimmen}
 
     \section{Linearen Gleichungssysteme}
+    \WhiteSpace
     \subsection{Rang}
     {Matrix muss in Zeilenstufenform sein.}
 
@@ -254,7 +248,7 @@
     \includegraphics[scale=0.75]{rang.png}
 
     \subsection{Lösbarkeit von LGS}
-
+    {$ n $ = Anzahl Spalten}
     \includegraphics[scale=0.45]{loesbarkeit.png}
 
     \section{Matrizen}
@@ -286,9 +280,9 @@
 
     \subsection{Transponieren}
 
-    A = $\begin{pmatrix} {\color{red}2} & {\color{red}3} & {\color{red}0} \\ 1 & 4 & 5 \end{pmatrix} \quad 
-    \rightarrow 
-    \quad A^{T} = \begin{pmatrix} {\color{red}2} & 1 \\ {\color{red}3} & 4 \\ {\color{red}0} & 5 \end{pmatrix}
+    A = $\begin{pmatrix} {\color{red}2} & {\color{red}3} & {\color{red}0} \\ 1 & 4 & 5 \end{pmatrix} \quad
+        \rightarrow
+        \quad A^{T} = \begin{pmatrix} {\color{red}2} & 1 \\ {\color{red}3} & 4 \\ {\color{red}0} & 5 \end{pmatrix}
     $
 
     {Rechenregeln:}
@@ -301,7 +295,7 @@
 
     {Gilt $ A = A^{T} $, so heißt die Matrix A symmetrisch.}
 
-    
+
     {Gilt $ A = -A^{T} $, so heißt die Matrix A antisymmetrisch.}
 
     \subsection{Inverse}
