@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.24)  27 MAY 2022 10:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.24)  27 MAY 2022 11:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1015,67 +1015,67 @@ Package pdftex.def Info: ./img//loesbarkeit.png  used on input line 252.
 <./img//untere_obere.png, id=43, 745.28438pt x 483.30562pt>
 File: ./img//untere_obere.png Graphic file (type png)
 <use ./img//untere_obere.png>
-Package pdftex.def Info: ./img//untere_obere.png  used on input line 263.
+Package pdftex.def Info: ./img//untere_obere.png  used on input line 262.
 (pdftex.def)             Requested size: 186.32063pt x 120.82611pt.
 <./img//matrix_multi.png, id=44, 359.84438pt x 428.35031pt>
 File: ./img//matrix_multi.png Graphic file (type png)
 <use ./img//matrix_multi.png>
-Package pdftex.def Info: ./img//matrix_multi.png  used on input line 279.
+Package pdftex.def Info: ./img//matrix_multi.png  used on input line 278.
 (pdftex.def)             Requested size: 89.96086pt x 107.08731pt.
 <./img//rechenregeln.png, id=45, 158.09062pt x 79.79813pt>
 File: ./img//rechenregeln.png Graphic file (type png)
 <use ./img//rechenregeln.png>
-Package pdftex.def Info: ./img//rechenregeln.png  used on input line 279.
+Package pdftex.def Info: ./img//rechenregeln.png  used on input line 278.
 (pdftex.def)             Requested size: 126.47266pt x 63.83856pt.
 
-Overfull \hbox (97.17084pt too wide) in paragraph at lines 279--279
+Overfull \hbox (97.17084pt too wide) in paragraph at lines 278--278
 [][]   []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 279--279
+Underfull \hbox (badness 10000) in paragraph at lines 278--278
 
  []
 
 <./img//3x3_inverse.png, id=46, 933.4875pt x 606.76688pt>
 File: ./img//3x3_inverse.png Graphic file (type png)
 <use ./img//3x3_inverse.png>
-Package pdftex.def Info: ./img//3x3_inverse.png  used on input line 320.
+Package pdftex.def Info: ./img//3x3_inverse.png  used on input line 319.
 (pdftex.def)             Requested size: 233.3713pt x 151.69135pt.
 <./img//checkerboard.png, id=47, 47.42719pt x 48.18pt>
 File: ./img//checkerboard.png Graphic file (type png)
 <use ./img//checkerboard.png>
-Package pdftex.def Info: ./img//checkerboard.png  used on input line 341.
+Package pdftex.def Info: ./img//checkerboard.png  used on input line 340.
 (pdftex.def)             Requested size: 35.5703pt x 36.13489pt.
 <./img//laplace.png, id=48, 202.50656pt x 145.29282pt>
 File: ./img//laplace.png Graphic file (type png)
 <use ./img//laplace.png>
-Package pdftex.def Info: ./img//laplace.png  used on input line 348.
+Package pdftex.def Info: ./img//laplace.png  used on input line 347.
 (pdftex.def)             Requested size: 81.00117pt x 58.11609pt.
 <./img//laplace_full_1.png, id=49, 176.91093pt x 97.11281pt>
 File: ./img//laplace_full_1.png Graphic file (type png)
 <use ./img//laplace_full_1.png>
-Package pdftex.def Info: ./img//laplace_full_1.png  used on input line 354.
+Package pdftex.def Info: ./img//laplace_full_1.png  used on input line 353.
 (pdftex.def)             Requested size: 106.14737pt x 58.26813pt.
 <./img//laplace_full_2.png, id=50, 632.3625pt x 118.19156pt>
 File: ./img//laplace_full_2.png Graphic file (type png)
 <use ./img//laplace_full_2.png>
-Package pdftex.def Info: ./img//laplace_full_2.png  used on input line 356.
+Package pdftex.def Info: ./img//laplace_full_2.png  used on input line 355.
 (pdftex.def)             Requested size: 252.94052pt x 47.27577pt.
 <./img//det.png, id=51, 750.55406pt x 232.61906pt>
 File: ./img//det.png Graphic file (type png)
 <use ./img//det.png>
-Package pdftex.def Info: ./img//det.png  used on input line 365.
+Package pdftex.def Info: ./img//det.png  used on input line 364.
 (pdftex.def)             Requested size: 225.16795pt x 69.78625pt.
 <./img//2x2_det_geom.png, id=52, 164.11313pt x 117.43875pt>
 File: ./img//2x2_det_geom.png Graphic file (type png)
 <use ./img//2x2_det_geom.png>
-Package pdftex.def Info: ./img//2x2_det_geom.png  used on input line 376.
+Package pdftex.def Info: ./img//2x2_det_geom.png  used on input line 375.
 (pdftex.def)             Requested size: 32.82204pt x 23.48732pt.
 <./img//3x3_det_geom.png, id=53, 266.49562pt x 201.75375pt>
 File: ./img//3x3_det_geom.png Graphic file (type png)
 <use ./img//3x3_det_geom.png>
-Package pdftex.def Info: ./img//3x3_det_geom.png  used on input line 384.
+Package pdftex.def Info: ./img//3x3_det_geom.png  used on input line 383.
 (pdftex.def)             Requested size: 53.29817pt x 40.35002pt.
 [2 <./img//rang.png> <./img//loesbarkeit.png> <./img//untere_obere.png> <./img//matrix_multi.png> <./img//rechenregeln.png> <./img//3x3_inverse.png> <./img//checkerboard.png> <./img//laplace.png> <./img//laplace_full_1.png> <./img//laplace_full_2.png> <./img//det.png> <./img//2x2_det_geom.png> <./img//3x3_det_geom.png>] (LA_RNA_Summary.aux)
 Package rerunfilecheck Info: File `LA_RNA_Summary.out' has not changed.
@@ -1090,7 +1090,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  89i,13n,83p,485b,664s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc} <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha8.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi720\mathx10.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi720\matha12.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi540\mathx10.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha12.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha6.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha9.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha7.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\mathx10.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha10.pk><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss9.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on LA_RNA_Summary.pdf (2 pages, 801621 bytes).
+Output written on LA_RNA_Summary.pdf (2 pages, 801634 bytes).
 PDF statistics:
  241 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
