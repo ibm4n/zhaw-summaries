@@ -5,119 +5,158 @@
 % Vier Spalten
 \begin{multicols*}{3}
 
-% Info über das Dokument
-\DocumentInfo
-{Analysis 2 S2} %Titel
-{Raphael Nambiar} %Untertitel
+    % Info über das Dokument
+    \DocumentInfo
+    {Analysis 2 S2} %Titel
+    {Raphael Nambiar} %Untertitel
 
-\WhiteSpace
+    \WhiteSpace
 
-% Dokumentinhalt
-\section{Integrieren}
+    % Dokumentinhalt
+    \section{Integrieren}
 
-\includegraphics[scale=0.35]{ableitungen.png} 
-\includegraphics[scale=0.35]{stammfunktionen.png} 
+    \includegraphics[scale=0.35]{ableitungen.png}
+    \includegraphics[scale=0.35]{stammfunktionen.png}
 
-\subsection{Integration durch Substitution}
-{\circled{1} Substitutionsgleichung für $x: u = g(x)$}
+    \subsection{Integration durch Substitution}
+    {\circled{1} Substitutionsgleichung für $x: u = g(x)$}
 
-{\circled{2} Substitutionsgleichung für $dx:$}
+    {\circled{2} Substitutionsgleichung für $dx:$}
 
-$ \frac{du}{dx} = g'(x)_{\tiny(Ableitung)} \to dx = \frac{du}{g'(x)}$
+    $ \frac{du}{dx} = g'(x)_{\tiny(Ableitung)} \to dx = \frac{du}{g'(x)}$
 
-{\circled{3} Integralsubstitution: Einsetzen von $ u $ und $ dx $ aus 1. und 2 in Ursprung}
+    {\circled{3} Integralsubstitution: Einsetzen von $ u $ und $ dx $ aus 1. und 2 in Ursprung}
 
-{\circled{4} Integration von 3.}
+        {\circled{4} Integration von 3.}
 
-{\circled{5} Rücksubstitution (nur unbestimmte Integrale)}
-
-
-\begin{multicols}{2}
-{Beispiel:}
-
- 
-\columnbreak
-
-{\circled{1} $ u = 2x $}
-  
-{\circled{2} $ dx = \frac{du}{2} $}  
-
-{\circled{3} $ \int_{}{}e^u \cdot  \frac{du}{2} $}
-
-\end{multicols}
-\vspace{-10pt}
- {\circled{4} $ \int_{}{}e^u \cdot  \frac{1}{2}du = \frac{1}{2} \cdot  \int_{}{}e^u du \rightarrow \frac{1}{2} e^u + C   $}
+        {\circled{5} Rücksubstitution (nur unbestimmte Integrale)}
 
 
-{\circled{5} $\frac{1}{2} e^u + C \rightarrow \frac{1}{2} e^{2x} + C$ }
+    \begin{multicols}{2}
+        {Beispiel:}
 
 
+        \columnbreak
 
-\subsection{Partielle Integration}
-{\large $$u(x)\cdot v(x) - \int_{}^{}u'(x) \cdot v(x) \hspace{2px}  dx$$}
+        {\circled{1} $ u = 2x $}
 
-\begin{multicols}{2}
-{Beispiel:}
- \[ \int_{}{}x\cdot e^x\]
-$$ \int_{}{}x\cdot e^x = x\cdot e^x -  \int_{}{}\cdot e^x dx = x\cdot e^x - e^x + C $$
-\columnbreak
- 
-{$u(x)=x$; $v'(x)=e^x$}
+        {\circled{2} $ dx = \frac{du}{2} $}
 
-{$u'(x)=1$; $v(x)=e^x$}
+        {\circled{3} $ \int_{}{}e^u \cdot  \frac{du}{2} $}
 
-\end{multicols}
+    \end{multicols}
+    \vspace{-10pt}
+    {\circled{4} $ \int_{}{}e^u \cdot  \frac{1}{2}du = \frac{1}{2} \cdot  \int_{}{}e^u du \rightarrow \frac{1}{2} e^u + C   $}
+
+
+    {\circled{5} $\frac{1}{2} e^u + C \rightarrow \frac{1}{2} e^{2x} + C$ }
 
 
 
+    \subsection{Partielle Integration}
+    {\large $$u(x)\cdot v(x) - \int_{}^{}u'(x) \cdot v(x) \hspace{2px}  dx$$}
 
+    \begin{multicols}{2}
+        {Beispiel:}
+        \[ \int_{}{}x\cdot e^x\]
+        $$ \int_{}{}x\cdot e^x = x\cdot e^x -  \int_{}{}\cdot e^x dx = x\cdot e^x - e^x + C $$
+        \columnbreak
 
-\subsection{Integration durch Partialbruchzerlegung}
-{TBD}
+        {$u(x)=x$; $v'(x)=e^x$}
 
-\section{Differentialgleichungen (DGL)}
-\subsection{Begriffe}
-{\textbf{Ordnung:} Ordnung = höchste Ableitung in der DGL}
-{\textbf{Linearität:} Funktion und Ableitung sind linear $\rightarrow x^1$ }
+        {$u'(x)=1$; $v(x)=e^x$}
 
-\subsection{Separierbare Differentialgleichungen}
-{Eine Differentialgleichung 1. Ordnung heisst separierbar wenn:}
-$$ y' = f(x)\cdot g(x)$$
-
-{How To:}
-
-\circled{1} $y' = \frac{dy}{dx} = f(x)\cdot g(y) $
-
-\circled{2} {Trennung der Variablen:} $\frac{dy}{g(y)} = f(x)\cdot dx$
-
-\circled{3} {Integration auf beiden Seiten der Gleichung (if possible):} $$\int_{}^{}{\frac{dy}{g(y)}=\int_{}^{}f(x)dx}$$
-\circled{4} {Auflösen nach y (falls möglich!)}
-
-\begin{multicols}{2}
-{Beispiel:}
-
-$$y' = y^2 = sin(x)$$
-
-\circled{1} $y' = \frac{dy}{dx}=\frac{sin(x)}{y^2}$
-
-\circled{2} $y^2\cdot dy = sin(x)\cdot dx $
-\columnbreak
- 
-\circled{3} 
-
-\circled{4} 
-
-\end{multicols}
+    \end{multicols}
 
 
 
-\subsection{Autonome Differentialgleichungen}
 
 
-\WhiteSpace
+    \subsection{Integration durch Partialbruchzerlegung}
+    {\circled{1}    Polynomdivision (falls Funktion unecht gebrochen!): Zählergrad  $>$ Nennergrad }
 
-\mbox{}
-	
-\end{multicols*} 
+
+    {\circled{2} \textbf{Nullstellen} des Nenners bestimmen (raaten, 2Klammeransatz, Horner, lösen)}
+
+    {\circled{3} Jeder Nullstelle ihren Partialbruch zuordnen:}
+
+    \includegraphics[scale=0.5]{partialbruch.png}
+    {\circled{4} Ansatz zur Partialbruchzerlegung aufstellen $\rightarrow$ $f(x)$ wird mit der Summe aller Partialbrüche gleichgesetzt}
+
+    {\circled{5} Bestimmung der Konstanten $A,A_1,A_2,...,A_r$}
+    \begin{enumerate}
+        \itemsep0em
+        \item Brüche gleichnamig machen
+        \item Einsetzen von x-Werten (Nullstellen) $\rightarrow$ LGS
+        \item LGS lösen $\rightarrow$ man erhält die Konstanten $A,A_1,B,...$
+    \end{enumerate}
+
+
+    {\circled{6} Integration der Partialbrüche}
+
+    \includegraphics[scale=0.5]{integr_partial.png}
+
+    {\textbf{Beispiel}: \large $\int_{}^{}\frac{5x+11}{x^2+3x-10}dx $ }
+    \begin{enumerate}
+        \itemsep-0.3em
+        \item ist echt gebrochen: ok
+        \item Nullstellen Nenner: $ (x-2)(x+5) \Rightarrow x_0 = 2; x_1 = -5$
+        \item $ \frac{A}{x-2}+\frac{B}{x+5}$
+        \item \large $\int_{}^{}\frac{5x+11}{x^2+3x-10}dx  = \frac{A}{x-2}+\frac{B}{x+5}$
+        \item     \begin{enumerate}
+                  \itemsep-0.3em
+                  \item    $\int_{}^{}\frac{5x+11}{x^2+3x-10}dx = \frac{A(x+5)+B(x-2)}{(x-2) +(x+5) }$
+                  \item \small $5x + 11 = A(x+5)+B(x-2) $
+                  \item  {\small einsetzen:  $ x = 2 \rightarrow A=3; $ $ x = -5 \rightarrow B=2; $}
+              \end{enumerate}
+        \item  $\int_{}^{}\frac{5x+11}{x^2+3x-10}dx =\int_{}^{}\frac{3}{x-2}+\frac{2}{x+5}dx  \newline = 3\cdot ln(|x-2|) + 2\cdot ln(|x+5|) + C $
+    \end{enumerate}
+
+
+    \section{Differentialgleichungen (DGL)}
+    \subsection{Begriffe}
+    {\textbf{Ordnung:} Ordnung = höchste Ableitung in der DGL}
+    {\textbf{Linearität:} Funktion und Ableitung sind linear $\rightarrow x^1$ }
+
+    \subsection{Separierbare Differentialgleichungen}
+    {Eine Differentialgleichung 1. Ordnung heisst separierbar wenn:}
+    $$ y' = f(x)\cdot g(x)$$
+
+    {How To:}
+
+        {TBD}
+    $y' = \frac{dy}{dx} = f(x)\cdot g(y) $
+
+    \circled{2} {Trennung der Variablen:} $\frac{dy}{g(y)} = f(x)\cdot dx$
+
+    \circled{3} {Integration auf beiden Seiten der Gleichung (if possible):} $$\int_{}^{}{\frac{dy}{g(y)}=\int_{}^{}f(x)dx}$$
+    \circled{4} {Auflösen nach y (falls möglich!)}
+
+    \begin{multicols}{2}
+        {Beispiel:}
+
+        $$y' = y^2 = sin(x)$$
+
+        \circled{1} $y' = \frac{dy}{dx}=\frac{sin(x)}{y^2}$
+
+        \circled{2} $y^2\cdot dy = sin(x)\cdot dx $
+        \columnbreak
+
+        \circled{3}
+
+        \circled{4}
+
+    \end{multicols}
+
+
+
+    \subsection{Autonome Differentialgleichungen}
+
+
+    \WhiteSpace
+
+    \mbox{}
+
+\end{multicols*}
 
 \end{document}
