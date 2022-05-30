@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1653918664 "c:/Users/ibm4n/code/zhaw-summaries/S_2/LA/LA_RNA_Summary.tex" "LA_RNA_Summary.pdf" "LA_RNA_Summary" 1653918667
+["pdflatex"] 1653920485 "c:/Users/ibm4n/code/zhaw-summaries/S_2/LA/LA_RNA_Summary.tex" "LA_RNA_Summary.pdf" "LA_RNA_Summary" 1653920488
   "0_Setup/Setup.tex" 1653897742 5403 2257df07d7c41d527b4280b689d56ee4 ""
   "C:/Users/ibm4n/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1652612062 81888 770f3d4559840b9e9d8f989d2d293e5e ""
   "C:/Users/ibm4n/AppData/Local/MiKTeX/fonts/pk/ljfour/public/mathabx/dpi540/mathx10.pk" 1653638493 27776 d8f8ff1d745f8b8abfda17d81956c757 ""
@@ -247,10 +247,10 @@
   "C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/tex/latex/wallpaper/wallpaper.sty" 1145608440 6919 f87ec89c767393dfb3b9adfd163539b0 ""
   "C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044406800 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1636288472 56029 3f7889dab51d620aa43177c391b7b190 ""
-  "LA_RNA_Summary.aux" 1653918667 786 38d798d5f654a99f224c0fcad902fa2a "pdflatex"
+  "LA_RNA_Summary.aux" 1653920488 786 38d798d5f654a99f224c0fcad902fa2a "pdflatex"
   "LA_RNA_Summary.out" 0 -1 0 "pdflatex"
-  "LA_RNA_Summary.tex" 1653918661 13794 80275ff527eadb19b9231cca7215a351 ""
-  "c:/Users/ibm4n/code/zhaw-summaries/S_2/LA/LA_RNA_Summary.tex" 1653918661 13794 80275ff527eadb19b9231cca7215a351 ""
+  "LA_RNA_Summary.tex" 1653920481 14600 86df430890edbf9d386cf1dcc7b49318 ""
+  "c:/Users/ibm4n/code/zhaw-summaries/S_2/LA/LA_RNA_Summary.tex" 1653920481 14600 86df430890edbf9d386cf1dcc7b49318 ""
   "img//2x2_det_geom.png" 1650457341 7640 c14982219dc5f634360121d7a75b67d9 ""
   "img//3x3_det_geom.png" 1650457323 19689 42add938a58b3ef9c8c0b49554fd9db2 ""
   "img//3x3_inverse.png" 1649860119 107861 8ba8ba3f64f3f8892137e2e733cb71eb ""
@@ -261,6 +261,8 @@
   "img//laplace.png" 1650016800 15462 25e933a7d02f64a884bf4756c4fa9d04 ""
   "img//laplace_full_1.png" 1650016581 14039 792e7f8731f3e778bea9cbdd067ff420 ""
   "img//laplace_full_2.png" 1650016608 66783 18f89bf46426879310ead4ce44a2ec97 ""
+  "img//linearkomb.png" 1653919809 21348 3e0021e3896e6e0aa29cf7e6785c6a14 ""
+  "img//linearkomba.png" 1653919842 26554 eedadf19c164c28a79ea38c110c9633b ""
   "img//loesbarkeit.png" 1649063564 40701 8ba6acddca2d2156a946365113a3bef4 ""
   "img//matrix_multi.png" 1649860927 20803 2526d9b650f53e4782357676b8d20ae6 ""
   "img//normiert.png" 1653897391 35362 36b7587c8763f5c34385cb4bce38aabe ""
