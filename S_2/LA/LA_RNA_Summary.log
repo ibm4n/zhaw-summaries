@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.24)  30 MAY 2022 14:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.24)  30 MAY 2022 15:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -981,151 +981,156 @@ Package pdftex.def Info: ./img//ortho.png  used on input line 58.
 <./img//vekProd.png, id=8, 657.2053pt x 414.04688pt>
 File: ./img//vekProd.png Graphic file (type png)
 <use ./img//vekProd.png>
-Package pdftex.def Info: ./img//vekProd.png  used on input line 80.
+Package pdftex.def Info: ./img//vekProd.png  used on input line 78.
 (pdftex.def)             Requested size: 98.57654pt x 62.10434pt.
-<./img//vekProdParallelo.png, id=9, 330.48468pt x 210.03468pt>
-File: ./img//vekProdParallelo.png Graphic file (type png)
-<use ./img//vekProdParallelo.png>
-Package pdftex.def Info: ./img//vekProdParallelo.png  used on input line 93.
-(pdftex.def)             Requested size: 82.62096pt x 52.50853pt.
-LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 103.
+LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 88.
  (C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmss.fd
 File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<./img//vekProd_r2.png, id=10, 442.65375pt x 121.95563pt>
+<./img//vekProd_r2.png, id=9, 442.65375pt x 121.95563pt>
 File: ./img//vekProd_r2.png Graphic file (type png)
 <use ./img//vekProd_r2.png>
-Package pdftex.def Info: ./img//vekProd_r2.png  used on input line 105.
+Package pdftex.def Info: ./img//vekProd_r2.png  used on input line 90.
 (pdftex.def)             Requested size: 177.05835pt x 48.78137pt.
+<./img//vekProdParallelo.png, id=10, 330.48468pt x 210.03468pt>
+File: ./img//vekProdParallelo.png Graphic file (type png)
+<use ./img//vekProdParallelo.png>
+Package pdftex.def Info: ./img//vekProdParallelo.png  used on input line 96.
+(pdftex.def)             Requested size: 82.62096pt x 52.50853pt.
+<./img//spatprod.png, id=11, 594.72188pt x 216.81pt>
+File: ./img//spatprod.png Graphic file (type png)
+<use ./img//spatprod.png>
+Package pdftex.def Info: ./img//spatprod.png  used on input line 108.
+(pdftex.def)             Requested size: 237.88454pt x 86.72246pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 114.
+(Font)              <12> on input line 113.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 114.
-<./img//koord_to_param.png, id=11, 1099.10625pt x 263.48438pt>
-File: ./img//koord_to_param.png Graphic file (type png)
-<use ./img//koord_to_param.png>
-Package pdftex.def Info: ./img//koord_to_param.png  used on input line 241.
-(pdftex.def)             Requested size: 219.81735pt x 52.69594pt.
+(Font)              <8> on input line 113.
  [1
 
-{C:/Users/ibm4n/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./img//ortho.png> <./img//vekProd.png> <./img//vekProdParallelo.png> <./img//vekProd_r2.png>]
+{C:/Users/ibm4n/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./img//ortho.png> <./img//vekProd.png> <./img//vekProd_r2.png> <./img//vekProdParallelo.png> <./img//spatprod.png>]
+<./img//koord_to_param.png, id=45, 1099.10625pt x 263.48438pt>
+File: ./img//koord_to_param.png Graphic file (type png)
+<use ./img//koord_to_param.png>
+Package pdftex.def Info: ./img//koord_to_param.png  used on input line 240.
+(pdftex.def)             Requested size: 219.81735pt x 52.69594pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 244.
-<./img//normiert.png, id=44, 874.01532pt x 226.59656pt>
+(Font)              <14.4> on input line 243.
+<./img//normiert.png, id=46, 874.01532pt x 226.59656pt>
 File: ./img//normiert.png Graphic file (type png)
 <use ./img//normiert.png>
-Package pdftex.def Info: ./img//normiert.png  used on input line 263.
+Package pdftex.def Info: ./img//normiert.png  used on input line 262.
 (pdftex.def)             Requested size: 174.79996pt x 45.3185pt.
-<./img//rang.png, id=45, 300.3722pt x 92.59593pt>
+<./img//rang.png, id=47, 300.3722pt x 92.59593pt>
 File: ./img//rang.png Graphic file (type png)
 <use ./img//rang.png>
-Package pdftex.def Info: ./img//rang.png  used on input line 273.
+Package pdftex.def Info: ./img//rang.png  used on input line 272.
 (pdftex.def)             Requested size: 225.27858pt x 69.44676pt.
-<./img//loesbarkeit.png, id=46, 560.8453pt x 73.02281pt>
+<./img//loesbarkeit.png, id=48, 560.8453pt x 73.02281pt>
 File: ./img//loesbarkeit.png Graphic file (type png)
 <use ./img//loesbarkeit.png>
-Package pdftex.def Info: ./img//loesbarkeit.png  used on input line 277.
+Package pdftex.def Info: ./img//loesbarkeit.png  used on input line 276.
 (pdftex.def)             Requested size: 252.37805pt x 32.85994pt.
-<./img//untere_obere.png, id=47, 745.28438pt x 483.30562pt>
+<./img//untere_obere.png, id=49, 745.28438pt x 483.30562pt>
 File: ./img//untere_obere.png Graphic file (type png)
 <use ./img//untere_obere.png>
-Package pdftex.def Info: ./img//untere_obere.png  used on input line 287.
+Package pdftex.def Info: ./img//untere_obere.png  used on input line 286.
 (pdftex.def)             Requested size: 186.32063pt x 120.82611pt.
-<./img//matrix_multi.png, id=48, 359.84438pt x 428.35031pt>
+<./img//matrix_multi.png, id=50, 359.84438pt x 428.35031pt>
 File: ./img//matrix_multi.png Graphic file (type png)
 <use ./img//matrix_multi.png>
-Package pdftex.def Info: ./img//matrix_multi.png  used on input line 303.
+Package pdftex.def Info: ./img//matrix_multi.png  used on input line 302.
 (pdftex.def)             Requested size: 89.96086pt x 107.08731pt.
-<./img//rechenregeln.png, id=49, 158.09062pt x 79.79813pt>
+<./img//rechenregeln.png, id=51, 158.09062pt x 79.79813pt>
 File: ./img//rechenregeln.png Graphic file (type png)
 <use ./img//rechenregeln.png>
-Package pdftex.def Info: ./img//rechenregeln.png  used on input line 303.
+Package pdftex.def Info: ./img//rechenregeln.png  used on input line 302.
 (pdftex.def)             Requested size: 126.47266pt x 63.83856pt.
 
-Overfull \hbox (97.17084pt too wide) in paragraph at lines 303--303
+Overfull \hbox (97.17084pt too wide) in paragraph at lines 302--302
 [][]   []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--303
+Underfull \hbox (badness 10000) in paragraph at lines 302--302
 
  []
 
-<./img//3x3_inverse.png, id=50, 933.4875pt x 606.76688pt>
+<./img//3x3_inverse.png, id=52, 933.4875pt x 606.76688pt>
 File: ./img//3x3_inverse.png Graphic file (type png)
 <use ./img//3x3_inverse.png>
-Package pdftex.def Info: ./img//3x3_inverse.png  used on input line 344.
+Package pdftex.def Info: ./img//3x3_inverse.png  used on input line 343.
 (pdftex.def)             Requested size: 233.3713pt x 151.69135pt.
-<./img//checkerboard.png, id=51, 47.42719pt x 48.18pt>
+<./img//checkerboard.png, id=53, 47.42719pt x 48.18pt>
 File: ./img//checkerboard.png Graphic file (type png)
 <use ./img//checkerboard.png>
-Package pdftex.def Info: ./img//checkerboard.png  used on input line 365.
+Package pdftex.def Info: ./img//checkerboard.png  used on input line 364.
 (pdftex.def)             Requested size: 35.5703pt x 36.13489pt.
-<./img//laplace.png, id=52, 202.50656pt x 145.29282pt>
+<./img//laplace.png, id=54, 202.50656pt x 145.29282pt>
 File: ./img//laplace.png Graphic file (type png)
 <use ./img//laplace.png>
-Package pdftex.def Info: ./img//laplace.png  used on input line 372.
+Package pdftex.def Info: ./img//laplace.png  used on input line 371.
 (pdftex.def)             Requested size: 81.00117pt x 58.11609pt.
-<./img//laplace_full_1.png, id=53, 176.91093pt x 97.11281pt>
+<./img//laplace_full_1.png, id=55, 176.91093pt x 97.11281pt>
 File: ./img//laplace_full_1.png Graphic file (type png)
 <use ./img//laplace_full_1.png>
-Package pdftex.def Info: ./img//laplace_full_1.png  used on input line 378.
+Package pdftex.def Info: ./img//laplace_full_1.png  used on input line 377.
 (pdftex.def)             Requested size: 106.14737pt x 58.26813pt.
-<./img//laplace_full_2.png, id=54, 632.3625pt x 118.19156pt>
+<./img//laplace_full_2.png, id=56, 632.3625pt x 118.19156pt>
 File: ./img//laplace_full_2.png Graphic file (type png)
 <use ./img//laplace_full_2.png>
-Package pdftex.def Info: ./img//laplace_full_2.png  used on input line 380.
+Package pdftex.def Info: ./img//laplace_full_2.png  used on input line 379.
 (pdftex.def)             Requested size: 252.94052pt x 47.27577pt.
-<./img//det.png, id=55, 750.55406pt x 232.61906pt>
+[2 <./img//koord_to_param.png> <./img//normiert.png> <./img//rang.png> <./img//loesbarkeit.png> <./img//untere_obere.png> <./img//matrix_multi.png> <./img//rechenregeln.png> <./img//3x3_inverse.png> <./img//checkerboard.png> <./img//laplace.png>]
+<./img//det.png, id=77, 750.55406pt x 232.61906pt>
 File: ./img//det.png Graphic file (type png)
 <use ./img//det.png>
-Package pdftex.def Info: ./img//det.png  used on input line 389.
+Package pdftex.def Info: ./img//det.png  used on input line 388.
 (pdftex.def)             Requested size: 225.16795pt x 69.78625pt.
-[2 <./img//koord_to_param.png> <./img//normiert.png> <./img//rang.png> <./img//loesbarkeit.png> <./img//untere_obere.png> <./img//matrix_multi.png> <./img//rechenregeln.png> <./img//3x3_inverse.png> <./img//checkerboard.png> <./img//laplace.png> <./img//laplace_full_1.png>]
-<./img//2x2_det_geom.png, id=77, 164.11313pt x 117.43875pt>
+<./img//2x2_det_geom.png, id=78, 164.11313pt x 117.43875pt>
 File: ./img//2x2_det_geom.png Graphic file (type png)
 <use ./img//2x2_det_geom.png>
-Package pdftex.def Info: ./img//2x2_det_geom.png  used on input line 400.
+Package pdftex.def Info: ./img//2x2_det_geom.png  used on input line 399.
 (pdftex.def)             Requested size: 32.82204pt x 23.48732pt.
-<./img//3x3_det_geom.png, id=78, 266.49562pt x 201.75375pt>
+<./img//3x3_det_geom.png, id=79, 266.49562pt x 201.75375pt>
 File: ./img//3x3_det_geom.png Graphic file (type png)
 <use ./img//3x3_det_geom.png>
-Package pdftex.def Info: ./img//3x3_det_geom.png  used on input line 408.
+Package pdftex.def Info: ./img//3x3_det_geom.png  used on input line 407.
 (pdftex.def)             Requested size: 53.29817pt x 40.35002pt.
 File: ./img//rang.png Graphic file (type png)
 <use ./img//rang.png>
-Package pdftex.def Info: ./img//rang.png  used on input line 418.
+Package pdftex.def Info: ./img//rang.png  used on input line 417.
 (pdftex.def)             Requested size: 225.27858pt x 69.44676pt.
 File: ./img//loesbarkeit.png Graphic file (type png)
 <use ./img//loesbarkeit.png>
-Package pdftex.def Info: ./img//loesbarkeit.png  used on input line 422.
+Package pdftex.def Info: ./img//loesbarkeit.png  used on input line 421.
 (pdftex.def)             Requested size: 252.37805pt x 32.85994pt.
-<./img//free_vars.png, id=79, 253.37518pt x 80.44339pt>
+<./img//free_vars.png, id=80, 253.37518pt x 80.44339pt>
 File: ./img//free_vars.png Graphic file (type png)
 <use ./img//free_vars.png>
-Package pdftex.def Info: ./img//free_vars.png  used on input line 426.
+Package pdftex.def Info: ./img//free_vars.png  used on input line 425.
 (pdftex.def)             Requested size: 190.03091pt x 60.33238pt.
-<./img//unterkrit.png, id=80, 345.4334pt x 33.12375pt>
+<./img//unterkrit.png, id=81, 345.4334pt x 33.12375pt>
 File: ./img//unterkrit.png Graphic file (type png)
 <use ./img//unterkrit.png>
-Package pdftex.def Info: ./img//unterkrit.png  used on input line 436.
+Package pdftex.def Info: ./img//unterkrit.png  used on input line 435.
 (pdftex.def)             Requested size: 259.0744pt x 24.84274pt.
- [3 <./img//laplace_full_2.png> <./img//det.png> <./img//2x2_det_geom.png> <./img//3x3_det_geom.png> <./img//free_vars.png> <./img//unterkrit.png>] (LA_RNA_Summary.aux)
+ [3 <./img//laplace_full_1.png> <./img//laplace_full_2.png> <./img//det.png> <./img//2x2_det_geom.png> <./img//3x3_det_geom.png> <./img//free_vars.png> <./img//unterkrit.png>] (LA_RNA_Summary.aux)
 Package rerunfilecheck Info: File `LA_RNA_Summary.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27185 strings out of 478582
- 529400 string characters out of 2844344
- 953595 words of memory out of 3000000
- 44821 multiletter control sequences out of 15000+600000
+ 27193 strings out of 478582
+ 529581 string characters out of 2844344
+ 952595 words of memory out of 3000000
+ 44828 multiletter control sequences out of 15000+600000
  532228 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,13n,83p,485b,666s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 89i,13n,83p,485b,660s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc} <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha8.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi720\mathx10.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi720\matha12.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\mathx10.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha12.pk>{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc} <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha7.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha6.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi540\mathx10.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha9.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha10.pk><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss9.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on LA_RNA_Summary.pdf (3 pages, 907471 bytes).
+Output written on LA_RNA_Summary.pdf (3 pages, 941317 bytes).
 PDF statistics:
- 262 PDF objects out of 1000 (max. 8388607)
+ 264 PDF objects out of 1000 (max. 8388607)
  4 named destinations out of 1000 (max. 500000)
- 118 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 123 words of extra memory for PDF output out of 10000 (max. 10000000)
 
