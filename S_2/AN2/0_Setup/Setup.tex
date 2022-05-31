@@ -3,126 +3,127 @@
 
 % Verwendete Pakete
 
-	\usepackage[utf8]{inputenc}
-	\usepackage[top=0.7cm, bottom=0.9cm, left=0.65 cm, right=0.65 cm, ]{geometry}
-	\usepackage{amsmath}
-	\usepackage{amsfonts}
-	\usepackage{lmodern}
-	\usepackage{graphicx}
-	\setlength{\parindent}{0pt}
-	\usepackage[normalem]{ulem}
-	\usepackage[dvipsnames]{xcolor}
-	\usepackage{enumitem}
-	\usepackage{mathabx}
-	\usepackage{enumitem}
-	\usepackage{colortbl}
-	\usepackage[ngerman]{babel}
-	\usepackage{mathtools}
-	\usepackage{wallpaper}
-	\usepackage{changepage}
-	\usepackage{tikz}
-	\usepackage{tabularx}
-	\usepackage{tcolorbox}
-	\usepackage{lipsum}
-	\usepackage{multicol}
-	\usepackage{letltxmacro}
-	\usepackage{tabularx}
-	\usepackage{multicol}
-	\usepackage{multicol}
-	\usepackage{calc}
-	\usepackage{ifthen}
-	\usepackage{hyperref}
-	\usepackage{graphicx}
-	\graphicspath{ {./img/} }
-	\usepackage{wrapfig}
+\usepackage[utf8]{inputenc}
+\usepackage[top=0.7cm, bottom=0.9cm, left=0.65 cm, right=0.65 cm, ]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\setlength{\parindent}{0pt}
+\usepackage[normalem]{ulem}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{enumitem}
+\usepackage{mathabx}
+\usepackage{enumitem}
+\usepackage{colortbl}
+\usepackage[ngerman]{babel}
+\usepackage{mathtools}
+\usepackage{wallpaper}
+\usepackage{changepage}
+\usepackage{tikz}
+\usepackage{tabularx}
+\usepackage{tcolorbox}
+\usepackage{lipsum}
+\usepackage{multicol}
+\usepackage{letltxmacro}
+\usepackage{tabularx}
+\usepackage{multicol}
+\usepackage{multicol}
+\usepackage{calc}
+\usepackage{ifthen}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\graphicspath{ {./img/} }
+\usepackage{wrapfig}
+\usepackage{tabularx}
 
 % Spalteneinstellungen
 
-	\setlength\columnsep{3mm}
-	\setlength{\columnseprule}{0pt}
-	
+\setlength\columnsep{3mm}
+\setlength{\columnseprule}{0pt}
+
 % Neue Befehle
 
-	% Bullet-Symbol für Aufzählungen
-	\renewcommand\textbullet{\ensuremath{\bullet}}
-	
-	% Eingekreiste Nummern für Aufzählungen
-	\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
-            \node[shape=circle,draw,inner sep=1.2pt] (char) {#1};}}
-            
-    % Horizontale Punkte
-    \LetLtxMacro\orgddots\ddots
-    \makeatletter
-	\DeclareRobustCommand\vdots{%
-	  \mathpalette\@vdots{}%
-	}
-	\newcommand*{\@vdots}[2]{%
-	  % #1: math style
-	  % #2: unused
-	  \sbox0{$#1\cdotp\cdotp\cdotp\m@th$}%
-	  \sbox2{$#1.\m@th$}%
-	  \vbox{%
-	    \dimen@=\wd0 %
-	    \advance\dimen@ -3\ht2 %
-	    \kern.5\dimen@
-	    % remove side bearings
-	    \dimen@=\wd2 %
-	    \advance\dimen@ -\ht2 %
-	    \dimen2=\wd0 %
-	    \advance\dimen2 -\dimen@
-	    \vbox to \dimen2{%
-	      \offinterlineskip
-	      \copy2 \vfill\copy2 \vfill\copy2 %
-	    }%
-	   }%
-	}
-	\DeclareRobustCommand\ddots{%
-		\mathinner{%
-		   \mathpalette\@ddots{}%
-		   \mkern\thinmuskip
+% Bullet-Symbol für Aufzählungen
+\renewcommand\textbullet{\ensuremath{\bullet}}
+
+% Eingekreiste Nummern für Aufzählungen
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+		\node[shape=circle,draw,inner sep=1.2pt] (char) {#1};}}
+
+% Horizontale Punkte
+\LetLtxMacro\orgddots\ddots
+\makeatletter
+\DeclareRobustCommand\vdots{%
+	\mathpalette\@vdots{}%
+}
+\newcommand*{\@vdots}[2]{%
+	% #1: math style
+	% #2: unused
+	\sbox0{$#1\cdotp\cdotp\cdotp\m@th$}%
+	\sbox2{$#1.\m@th$}%
+	\vbox{%
+		\dimen@=\wd0 %
+		\advance\dimen@ -3\ht2 %
+		\kern.5\dimen@
+		% remove side bearings
+		\dimen@=\wd2 %
+		\advance\dimen@ -\ht2 %
+		\dimen2=\wd0 %
+		\advance\dimen2 -\dimen@
+		\vbox to \dimen2{%
+			\offinterlineskip
+			\copy2 \vfill\copy2 \vfill\copy2 %
 		}%
-	}
-	
-	% Vertikale Punkte
-	\DeclareRobustCommand\ddots{%
-		  \mathinner{%
-		    \mathpalette\@ddots{}%
-		    \mkern\thinmuskip
-		  }%
-		}
-		\newcommand*{\@ddots}[2]{%
-		  % #1: math style
-		  % #2: unused
-		  \sbox0{$#1\cdotp\cdotp\cdotp\m@th$}%
-		  \sbox2{$#1.\m@th$}%
-		  \vbox{%
-		    \dimen@=\wd0 %
-		    \advance\dimen@ -3\ht2 %
-		    \kern.5\dimen@
-		    % remove side bearings
-		    \dimen@=\wd2 %
-		    \advance\dimen@ -\ht2 %
-		    \dimen2=\wd0 %
-		    \advance\dimen2 -\dimen@
-		    \vbox to \dimen2{%
-		      \offinterlineskip
-		      \hbox{$#1\mathpunct{.}\m@th$}%
-		      \vfill
-		      \hbox{$#1\mathpunct{\kern\wd2}\mathpunct{.}\m@th$}%
-		      \vfill
-		      \hbox{$#1\mathpunct{\kern\wd2}\mathpunct{\kern\wd2}\mathpunct{.}\m@th$}%
-		    }%
-		  }%
-		}
-	\makeatother
-	
-	% Schriftart
-	\renewcommand{\familydefault}{\sfdefault}
-	
-	% Dokument-Info Block	
-	\newcommand{\DocumentInfo}[3]{
+	}%
+}
+\DeclareRobustCommand\ddots{%
+	\mathinner{%
+		\mathpalette\@ddots{}%
+		\mkern\thinmuskip
+	}%
+}
+
+% Vertikale Punkte
+\DeclareRobustCommand\ddots{%
+	\mathinner{%
+		\mathpalette\@ddots{}%
+		\mkern\thinmuskip
+	}%
+}
+\newcommand*{\@ddots}[2]{%
+	% #1: math style
+	% #2: unused
+	\sbox0{$#1\cdotp\cdotp\cdotp\m@th$}%
+	\sbox2{$#1.\m@th$}%
+	\vbox{%
+		\dimen@=\wd0 %
+		\advance\dimen@ -3\ht2 %
+		\kern.5\dimen@
+		% remove side bearings
+		\dimen@=\wd2 %
+		\advance\dimen@ -\ht2 %
+		\dimen2=\wd0 %
+		\advance\dimen2 -\dimen@
+		\vbox to \dimen2{%
+			\offinterlineskip
+			\hbox{$#1\mathpunct{.}\m@th$}%
+			\vfill
+			\hbox{$#1\mathpunct{\kern\wd2}\mathpunct{.}\m@th$}%
+			\vfill
+			\hbox{$#1\mathpunct{\kern\wd2}\mathpunct{\kern\wd2}\mathpunct{.}\m@th$}%
+		}%
+	}%
+}
+\makeatother
+
+% Schriftart
+\renewcommand{\familydefault}{\sfdefault}
+
+% Dokument-Info Block	
+\newcommand{\DocumentInfo}[3]{
 	\begin{tcolorbox}[
-			arc=0mm, 
+			arc=0mm,
 			colback = white!38!black,
 			boxrule=0pt,
 			toptitle=1mm,
@@ -135,14 +136,14 @@
 			after skip = 0 mm,
 			top=0.1mm,
 			bottom=1mm]
-		
+
 		\small #3
-	\vskip1mm	
+		\vskip1mm
 	\end{tcolorbox}
-	}
-	
-	% Überschrift
-	\renewcommand{\section}[1]{
+}
+
+% Überschrift
+\renewcommand{\section}[1]{
 	\begin{tcolorbox}[
 			arc=0mm,
 			colback=white!38!black,
@@ -162,10 +163,10 @@
 
 		\textbf{#1}
 	\end{tcolorbox}
-	}
-	
-	% Abschnitt	
-	\renewcommand{\subsection}[2]{
+}
+
+% Abschnitt	
+\renewcommand{\subsection}[2]{
 	\begin{tcolorbox}[
 			arc=0mm,
 			colback=white!75!black,
@@ -181,19 +182,19 @@
 			before skip = 0mm,
 			leftright skip = -0.5mm,
 			after skip = 1.4 mm]
-			
+
 		\small \textbf{#1}
 	\end{tcolorbox}
-	
+
 	\begin{adjustwidth}{0.5mm}{1mm}
 		\small
 		#2
 		\vspace{0.5mm}
 	\end{adjustwidth}
-	}
-	
-	% Weisser Balken zwischen Abschnitten
-	\newcommand{\WhiteSpace}[0]{
+}
+
+% Weisser Balken zwischen Abschnitten
+\newcommand{\WhiteSpace}[0]{
 	\begin{tcolorbox}[
 			arc=0mm,
 			colback=white,
@@ -210,35 +211,35 @@
 			before skip = 0mm,
 			leftright skip = -0.5mm,
 			after skip = 0 mm]
-	
+
 	\end{tcolorbox}
-	}
-	
+}
+
 % Hintergrundbild (graue Spalten)
 
 %	\CenterWallPaper{1}{0_Setup/background.pdf}
 
 % TabularX Zeug (Paket für Tabellen)
 
-	\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
 
 % TikZ Zeug (Paket für Vektorgraphiken)
 
-	\usetikzlibrary{decorations.pathreplacing,calc}
+\usetikzlibrary{decorations.pathreplacing,calc}
 
-	\newcommand{\tikzmark}[2][-3pt]{\tikz[remember picture, overlay, baseline=-0.5ex]\node[#1](#2){};}
-	
-	\tikzset{brace/.style={decorate, decoration={brace}},
-	 brace mirrored/.style={decorate, decoration={brace,mirror}},
-	}
-	
-	\newcounter{brace}
-	\setcounter{brace}{0}
-	\newcommand{\drawbrace}[3][brace]{%
-	 \refstepcounter{brace}
-	 \tikz[remember picture, overlay]\draw[#1] (#2.center)--(#3.center)node[pos=0.5, name=brace-\thebrace]{};
-	}
-	
-	\newcommand{\annote}[3][]{%
-	 \tikz[remember picture, overlay]\node[#1] at (#2) {#3};
-	}
+\newcommand{\tikzmark}[2][-3pt]{\tikz[remember picture, overlay, baseline=-0.5ex]\node[#1](#2){};}
+
+\tikzset{brace/.style={decorate, decoration={brace}},
+	brace mirrored/.style={decorate, decoration={brace,mirror}},
+}
+
+\newcounter{brace}
+\setcounter{brace}{0}
+\newcommand{\drawbrace}[3][brace]{%
+	\refstepcounter{brace}
+	\tikz[remember picture, overlay]\draw[#1] (#2.center)--(#3.center)node[pos=0.5, name=brace-\thebrace]{};
+}
+
+\newcommand{\annote}[3][]{%
+	\tikz[remember picture, overlay]\node[#1] at (#2) {#3};
+}

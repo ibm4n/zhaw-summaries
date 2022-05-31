@@ -10,14 +10,30 @@
     {Analysis 2 S2} %Titel
     {Raphael Nambiar} %Untertitel
 
-    \WhiteSpace
+
 
     % Dokumentinhalt
-    \section{Integrieren}
+
 
     \includegraphics[scale=0.35]{ableitungen.png}
     \includegraphics[scale=0.35]{stammfunktionen.png}
 
+    \section{ Ableiten }
+
+    $f(x) = x^n \quad \rightarrow \quad f'(x) = n \cdot x^{n-1}$
+    \WhiteSpace
+    $f(x) = c \cdot g(x) \quad \rightarrow \quad f'(x) = c \cdot g'(x)$
+    \WhiteSpace
+    $f(x) = g(x) \cdot h(x) \quad \rightarrow \quad f'(x) = g'(x) \cdot h(x) + g(x) \cdot h'(x)$
+    \WhiteSpace
+    $f(x) = \frac{g(x)}{h(x)} \quad \rightarrow \quad f'(x)=\frac{h(x) \cdot g'(x) - g(x) \cdot h'(x)}{\left[h(x)\right]^2}$
+    \WhiteSpace
+    $f(x) = g(h(x)) \quad \rightarrow \quad f'(x) = g'(h(x)) \cdot h'(x)$
+
+    \section{ Integrieren }   
+    \WhiteSpace
+    {$\dfrac{1}{x^5} \rightarrow -\dfrac{1}{4x^4} + C$}
+    \WhiteSpace
     \subsection{Integration durch Substitution}
     {\circled{1} Substitutionsgleichung für $x: u = g(x)$}
 
@@ -32,9 +48,9 @@
         {\circled{5} Rücksubstitution (nur unbestimmte Integrale)}
 
 
-    \begin{multicols}{2}
+    \begin{multicols*}{2}
         {Beispiel:}
-
+        $\int_{}^{}e^{2x} $
 
         \columnbreak
 
@@ -44,21 +60,23 @@
 
         {\circled{3} $ \int_{}{}e^u \cdot  \frac{du}{2} $}
 
-    \end{multicols}
-    \vspace{-10pt}
+    \end{multicols*}
+
     {\circled{4} $ \int_{}{}e^u \cdot  \frac{1}{2}du = \frac{1}{2} \cdot  \int_{}{}e^u du \rightarrow \frac{1}{2} e^u + C   $}
 
 
     {\circled{5} $\frac{1}{2} e^u + C \rightarrow \frac{1}{2} e^{2x} + C$ }
 
+    \columnbreak
 
 
     \subsection{Partielle Integration}
     {\large $$u(x)\cdot v(x) - \int_{}^{}u'(x) \cdot v(x) \hspace{2px}  dx$$}
 
-    \begin{multicols}{2}
+    \begin{multicols*}{2}
         {Beispiel:}
         \[ \int_{}{}x\cdot e^x\]
+
         $$ \int_{}{}x\cdot e^x = x\cdot e^x -  \int_{}{}\cdot e^x dx = x\cdot e^x - e^x + C $$
         \columnbreak
 
@@ -66,7 +84,7 @@
 
         {$u'(x)=1$; $v(x)=e^x$}
 
-    \end{multicols}
+    \end{multicols*}
 
 
 
@@ -74,6 +92,7 @@
 
     \subsection{Integration durch Partialbruchzerlegung}
     {\circled{1}    Polynomdivision (falls Funktion unecht gebrochen!): Zählergrad  $>$ Nennergrad }
+
 
 
     {\circled{2} \textbf{Nullstellen} des Nenners bestimmen (raaten, 2Klammeransatz, Horner, lösen)}
@@ -112,6 +131,12 @@
         \item  $\int_{}^{}\frac{5x+11}{x^2+3x-10}dx =\int_{}^{}\frac{3}{x-2}+\frac{2}{x+5}dx  \newline = 3\cdot ln(|x-2|) + 2\cdot ln(|x+5|) + C $
     \end{enumerate}
 
+    \subsection{Uneigentliche Integrale}
+    { Ein $uneigentliches$ Integral hat die Eigenschaft, dass der Integrationsbereich unendlich gross
+        ist oder eine Polstelle enthält.}
+    \includegraphics[scale=0.3]{unneigaufgaben.png}
+
+    \includegraphics[scale=0.28]{unneigloesng.png}
 
     \section{Differentialgleichungen (DGL)}
     \subsection{Begriffe}
@@ -124,8 +149,7 @@
 
     {How To:}
 
-        {TBD}
-    $y' = \frac{dy}{dx} = f(x)\cdot g(y) $
+    \circled{1}$y' = \frac{dy}{dx} = f(x)\cdot g(y) $
 
     \circled{2} {Trennung der Variablen:} $\frac{dy}{g(y)} = f(x)\cdot dx$
 
