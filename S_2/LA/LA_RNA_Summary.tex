@@ -74,26 +74,27 @@
     {$\vec{e}_a $ = $\frac{1}{\mid \vec{a} \mid} \cdot \vec{a}$ ;$\mid \vec{e}_a \mid$ = 1}
     \subsection{Vektorprodukt / Kreuzprodukt}
 
-    { \begin{multicols*}{2}
-            {\includegraphics[scale=0.15]{vekProd.png}}
-            \columnbreak
+    \begin{multicols}{2}
+        \noindent
+        {\includegraphics[scale=0.15]{vekProd.png}}
+        \columnbreak
 
-            { $ \mid \vec{a} \times \vec{b} \mid = \mid\vec{a}\mid \cdot \mid\vec{b}\mid \cdot \cos(\alpha) $}
+        { $ \mid \vec{a} \times \vec{b} \mid = \mid\vec{a}\mid \cdot \mid\vec{b}\mid \cdot \cos(\alpha) $}
 
-            {$\vec{a} \times \vec{b}$ ist orthogonal zu $\vec{a}$ und zu $\vec{b}$}
+        {$\vec{a} \times \vec{b}$ ist orthogonal zu $\vec{a}$ und zu $\vec{b}$}
 
-        \end{multicols*}
+    \end{multicols}
+    \textbf{Kreuzprodukt in R²}
 
+    { \includegraphics[scale=0.4]{vekProd_r2.png}}
 
-        \textbf{Kreuzprodukt in R²}
-
-        { \includegraphics[scale=0.4]{vekProd_r2.png}}
-    }
     \subsection{Fläche / Parallelogramm }
 
-    \begin{multicols*}{2}
 
-        {\includegraphics[scale=0.25]{vekProdParallelo.png}}
+
+    \begin{multicols}{2}
+
+        {\includegraphics[scale=0.2]{vekProdParallelo.png}}
 
         \columnbreak
 
@@ -101,12 +102,13 @@
 
         {Dreieck = $\frac{1}{2}$ A}
 
-    \end{multicols*}
+    \end{multicols}
 
     \subsection{Volumen / Spatprodukt }
 
     {\includegraphics[scale=0.4]{spatprod.png}}
-
+    \vfill\null
+    \columnbreak
     \section{Geraden}
 
     \subsection{Parameterdarstellung}
@@ -170,6 +172,8 @@
     {$l = \frac {\mid \overrightarrow{PA} \times\vec{a}\mid}{\mid\vec{a}\mid} $}
 
     {\small $\vec{a} \Rightarrow $  aus der Parameterdarstellung}
+    \vfill\null
+    \columnbreak
     \section{Ebene}
 
     \subsection{Normalenvektor der Ebene (orthogonal zur Ebene)}
@@ -230,7 +234,7 @@
     \circled{5} $E: -14x + 6y - 4z + 8 = 0$
 
     $\Rightarrow \frac{-14x + 6y - 4z + 8 = 0}{2} \Rightarrow E: -7x + 3y - 2z + 4 = 0$
-    \columnbreak
+
     \subsection{Koordinatendarstellung zu Parameterdarstellung }
     {Wir bestimmen drei beliebige Punkte auf $ E$, indem wir die $x$- und $y$-Koordinaten frei wählen
         und die zugehörigen $z$-Koordinaten aus der Koordinatendarstellung von $E$ berechnen. Aus
@@ -254,14 +258,14 @@
 
     {\circled{2} $l = \frac{(3 \cdot 3) -(6 \cdot (-4)) - (2 \cdot 1)}{7} = 14$}
     \WhiteSpace
-    \subsection{Spezielle Lagen von Ebenen}
-    {TBD}
+
 
     \subsection{  normierte Koordinatendarstellung der Ebene}
     {$E: 2x + 7y - 4z + 1 = 0$}
     \includegraphics[scale=0.2]{normiert.png}
 
-
+    \vfill\null
+    \columnbreak
     \section{Linearen Gleichungssysteme}
     \WhiteSpace
     \subsection{Rang}
@@ -274,7 +278,12 @@
     \subsection{Lösbarkeit von LGS}
     {$ n $ = Anzahl Spalten(Variablen)}
     \includegraphics[scale=0.45]{loesbarkeit.png}
+    \subsection{Freie Variable}
 
+    \includegraphics[scale=0.75]{free_vars.png}
+
+    \vfill\null
+    \columnbreak
     \section{Matrizen}
     \subsection{Begriffe}
     {\textbf{Quadratische Matrix:} gleich viele Zeilen und Spalten}
@@ -320,7 +329,8 @@
 
 
     {Gilt $ A = -A^{T} $, so heißt die Matrix A antisymmetrisch.}
-
+    \vfill\null
+    \columnbreak
     \subsection{Inverse}
     {Matrix muss quadratisch sein$: n \times n \rightarrow 2\times2, 3\times3$}
 
@@ -407,24 +417,8 @@
     {\includegraphics[scale=0.2]{3x3_det_geom.png}}
     \mbox{}
 
-
-    \section{Linearen Gleichungssysteme}
-    \subsection{Rang}
-    {Matrix muss in Zeilenstufenform sein.}
-
-    {$rg(A) = $ Gesamtanzahl Zeilen - Anzahl Nullzeilen .}
-
-    \includegraphics[scale=0.75]{rang.png}
-
-    \subsection{Lösbarkeit von LGS}
-
-    \includegraphics[scale=0.45]{loesbarkeit.png}
-
-    \subsection{Freie Variable}
-
-    \includegraphics[scale=0.75]{free_vars.png}
-
-
+    \vfill\null
+    \columnbreak
     \section{Vektorräume}
 
     \subsection{Unterräume}
@@ -452,7 +446,7 @@
 
 
 
-    \subsection{Nullvektorraum}
+
 
     \subsection{Linearkombination}
     {\includegraphics[scale=0.15]{linearkomba.png}}
@@ -472,7 +466,10 @@
 
     { {\small Keine Nullzeile oder-Spalte in der Matrix} $\Longrightarrow$ Lineare Unabhängigkeit der Vektoren.}
     \subsection{Linearer Spann (Lineare Hülle)}
+    {Diese Menge besteht aus allen Vielfachen der Vektoren und deren Summen, ist also die Menge aller möglichen Linearkombinationen, die mit den gegebenen Vektoren gebildet werden können.}
+
     {$span(\vec{a},\vec{b}) = $ Ebene}
+
     {$span(\vec{a},\vec{b},\vec{c}) = $ eine Gerade mit Aufpunkt.}
 
 
@@ -534,7 +531,7 @@
     {\includegraphics[scale=0.3]{umrechnung_b_to_s_bsp.png}}
 
     {$(7,-3,-1)$ von $B$ nach $S$}
-    
+
     {\includegraphics[scale=0.3]{umrechnung_b_to_s_lsg.png}}
     \subsection{Umrechnung von Standardbasis $S$ zur Basis $B$}
     {LGS bilden:}
@@ -544,6 +541,25 @@
     {$(2,-1,3)$ von $S$ nach $B$}
 
     {\includegraphics[scale=0.3]{Group 4.png}}
+    \vfill\null
+    \columnbreak
+    \section{Lineare Abbildungen}
+    \subsection{Definition: Lineare Abbildung}
+    { Gegeben sind zwei reelle Vektorräume $V$ und $W$ (können auch identisch sein).}
+    {Eine Abbildung $f:V \rightarrow W$ heisst $lineare$ $Abbildung$, wenn für alle Vektoren $\vec{x},\vec{y} \in  V$ und jeden Skalar $\lambda \in \mathbb{R} $ gilt:}
+
+    {$(1)$ $f(\vec{x}+\vec{y})=f(\vec{x}) + f(\vec{y})$}
+
+    {$(2)$ $f(\lambda \cdot \vec{x})=\lambda \cdot f(\vec{y})$}
+    \WhiteSpace
+
+    {Der Vektor $\vec{x} \in W$, der herauskommt, wenn $f$ auf einen Vektor $\vec{x}$ angewendet, heisst \textbf{Bild} von $\vec{x}$.}
+    \WhiteSpace
+    {\textbf{Beispiele:}}
+
+    {\includegraphics[scale=0.3]{lineareabbild_aufgaben.png}}
+
+    {\includegraphics[scale=0.3]{lineareabbild_loesung.png}}
 
 \end{multicols*}
 

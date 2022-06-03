@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1654250343 "c:/Users/ibm4n/code/zhaw-summaries/S_2/LA/LA_RNA_Summary.tex" "LA_RNA_Summary.pdf" "LA_RNA_Summary" 1654250346
+["pdflatex"] 1654262198 "c:/Users/ibm4n/code/zhaw-summaries/S_2/LA/LA_RNA_Summary.tex" "LA_RNA_Summary.pdf" "LA_RNA_Summary" 1654262202
   "0_Setup/Setup.tex" 1653897742 5403 2257df07d7c41d527b4280b689d56ee4 ""
   "C:/Users/ibm4n/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1652612062 81888 770f3d4559840b9e9d8f989d2d293e5e ""
   "C:/Users/ibm4n/AppData/Local/MiKTeX/fonts/pk/ljfour/public/mathabx/dpi540/mathx10.pk" 1653638493 27776 d8f8ff1d745f8b8abfda17d81956c757 ""
@@ -66,6 +66,7 @@
   "C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/rm-lmss9.tfm" 1254938640 11004 a6c4e1a908f2608664e4229dbcec5884 ""
   "C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/rm-lmssbx10.tfm" 1254938640 10956 dad25672db463289a56f0700c0488a86 ""
   "C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/ts1-lmssbx10.tfm" 1254938640 1600 fe5e7104e884b3b32f9b4672f86d8a64 ""
+  "C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1247596673 34694 870c211f62cb72718a00e353f14f254d ""
   "C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb" 1254938640 23055 2e5b42921de910eaa97b85df04ca4891 ""
   "C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb" 1254938640 30388 702fae6a5f0e6e9c48a1d872b442ffcf ""
   "C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb" 1254938640 30696 3da7e46ecf5615eedebd9f27dab4d9d7 ""
@@ -247,10 +248,10 @@
   "C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/tex/latex/wallpaper/wallpaper.sty" 1145608440 6919 f87ec89c767393dfb3b9adfd163539b0 ""
   "C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044406800 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1636288472 56029 3f7889dab51d620aa43177c391b7b190 ""
-  "LA_RNA_Summary.aux" 1654250346 786 4a2adf4d5ff62eedd2a385662172fda9 "pdflatex"
+  "LA_RNA_Summary.aux" 1654262201 786 c8302ac3946354d4f5926543b7d66a7f "pdflatex"
   "LA_RNA_Summary.out" 0 -1 0 "pdflatex"
-  "LA_RNA_Summary.tex" 1654250342 16843 cbbec6768185c2973512834ea20cb7be ""
-  "c:/Users/ibm4n/code/zhaw-summaries/S_2/LA/LA_RNA_Summary.tex" 1654250342 16843 cbbec6768185c2973512834ea20cb7be ""
+  "LA_RNA_Summary.tex" 1654262194 17630 8c9b65512acc44396755da5e993c3679 ""
+  "c:/Users/ibm4n/code/zhaw-summaries/S_2/LA/LA_RNA_Summary.tex" 1654262194 17630 8c9b65512acc44396755da5e993c3679 ""
   "img//2x2_det_geom.png" 1650457341 7640 c14982219dc5f634360121d7a75b67d9 ""
   "img//3x3_det_geom.png" 1650457323 19689 42add938a58b3ef9c8c0b49554fd9db2 ""
   "img//3x3_inverse.png" 1649860119 107861 8ba8ba3f64f3f8892137e2e733cb71eb ""
@@ -262,6 +263,8 @@
   "img//laplace.png" 1650016800 15462 25e933a7d02f64a884bf4756c4fa9d04 ""
   "img//laplace_full_1.png" 1650016581 14039 792e7f8731f3e778bea9cbdd067ff420 ""
   "img//laplace_full_2.png" 1650016608 66783 18f89bf46426879310ead4ce44a2ec97 ""
+  "img//lineareabbild_aufgaben.png" 1654260711 49973 f21a989c837fe5b5c97c3a93647116b9 ""
+  "img//lineareabbild_loesung.png" 1654260780 165191 51e2e8b13c9d743b5332e0ef1f3c1174 ""
   "img//linearkomb.png" 1653919809 21348 3e0021e3896e6e0aa29cf7e6785c6a14 ""
   "img//linearkomba.png" 1653919842 26554 eedadf19c164c28a79ea38c110c9633b ""
   "img//loesbarkeit.png" 1649063564 40701 8ba6acddca2d2156a946365113a3bef4 ""
