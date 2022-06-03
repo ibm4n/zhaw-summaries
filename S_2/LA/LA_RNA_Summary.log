@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.24)  30 MAY 2022 16:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.24)  3 JUN 2022 10:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1140,22 +1140,37 @@ File: ./img//linearkomb.png Graphic file (type png)
 <use ./img//linearkomb.png>
 Package pdftex.def Info: ./img//linearkomb.png  used on input line 459.
 (pdftex.def)             Requested size: 225.27858pt x 26.91298pt.
-[3 <./img//laplace_full_1.png> <./img//laplace_full_2.png> <./img//det.png> <./img//2x2_det_geom.png> <./img//3x3_det_geom.png> <./img//free_vars.png> <./img//unterkrit.png> <./img//unterprf1.png> <./img//unterprf2.png> <./img//linearkomba.png> <./img//linearkomb.png>] (LA_RNA_Summary.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 506--507
+[]\OT1/lmss/bx/n/10 Menge von Vek-to-ren auf Er-zeu-gen-de-nei-gen-schaft
+ []
+
+<./img//erzeug.png, id=86, 587.94656pt x 423.83344pt>
+File: ./img//erzeug.png Graphic file (type png)
+<use ./img//erzeug.png>
+Package pdftex.def Info: ./img//erzeug.png  used on input line 508.
+(pdftex.def)             Requested size: 264.5735pt x 190.72327pt.
+
+Overfull \hbox (0.91118pt too wide) in paragraph at lines 508--509
+[][] 
+ []
+
+[3 <./img//laplace_full_1.png> <./img//laplace_full_2.png> <./img//det.png> <./img//2x2_det_geom.png> <./img//3x3_det_geom.png> <./img//free_vars.png> <./img//unterkrit.png> <./img//unterprf1.png> <./img//unterprf2.png> <./img//linearkomba.png> <./img//linearkomb.png> <./img//erzeug.png>] (LA_RNA_Summary.aux)
 Package rerunfilecheck Info: File `LA_RNA_Summary.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27230 strings out of 478582
- 530441 string characters out of 2844344
- 952595 words of memory out of 3000000
- 44861 multiletter control sequences out of 15000+600000
+ 27247 strings out of 478582
+ 530731 string characters out of 2844344
+ 951595 words of memory out of 3000000
+ 44877 multiletter control sequences out of 15000+600000
  532228 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,13n,83p,485b,660s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 89i,13n,83p,485b,664s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc} <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha8.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi720\mathx10.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi720\matha12.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\mathx10.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha12.pk>{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc} <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha7.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha6.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi540\mathx10.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha9.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha10.pk><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss9.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on LA_RNA_Summary.pdf (3 pages, 1008646 bytes).
+Output written on LA_RNA_Summary.pdf (3 pages, 1052855 bytes).
 PDF statistics:
- 273 PDF objects out of 1000 (max. 8388607)
+ 277 PDF objects out of 1000 (max. 8388607)
  4 named destinations out of 1000 (max. 500000)
- 143 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 148 words of extra memory for PDF output out of 10000 (max. 10000000)
 

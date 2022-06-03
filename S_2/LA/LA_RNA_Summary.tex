@@ -469,16 +469,54 @@
     { Vektoren nebeneinander in eine Matrix schreiben $\rightarrow$ Gauss  }
 
     { {\small Nullzeile oder -Spalte in der Matrix} $\Longrightarrow$ Lineare Abhängigkeit der Vektoren}
-    
+
     { {\small Keine Nullzeile oder-Spalte in der Matrix} $\Longrightarrow$ Lineare Unabhängigkeit der Vektoren.}
-    \subsection{Spann}
+    \subsection{Linearer Spann (Lineare Hülle)}
+    {$span(\vec{a},\vec{b}) = $ Ebene}
+    {$span(\vec{a},\vec{b},\vec{c}) = $ eine Gerade mit Aufpunkt.}
+
+
+    \subsection{Dimension}
+    { Wir betrachten einen reellen Vektorraum $V$.
+        Die Anzahl Vektoren, die eine Basis von $V$ bilden, heisst $Dimension$ von $V$.
+    }
+    {Bezeichnung: $dim(V)$}
+
+    {\textbf{Beispiele:} }
+    \begin{multicols}{2}
+        {Vektorraum $\{ \vec{0} \} \rightarrow $ dim $0$}
+
+        {$dim(span(\vec{a},\vec{b})) = 2$}
+
+        {$dim(R^{2 \times 2})=2$}
+        \columnbreak
+
+        {dim = $rg(A)$}
+
+        {$dim(R^{3 \times 3})=2$}
+
+    \end{multicols}
+
+
+
 
     \subsection{Erzeugendensystem}
+    {Eine Menge von Vektoren heißt Erzeugendensystem, wenn man mit ihnen alle Vektoren eines Vektorraumes durch Linearkombination erzeugen kann.}
+
+    {\textbf{Menge von Vektoren auf Erzeugendeneigenschaft überprüfen}}
+
+    {\includegraphics[scale=0.45]{erzeug.png}}
+
+
+
+    \subsection{Basis eines Vektorraums}
+    {Eine Basis eines Vektorraumes ist ein "minimales Erzeugendensystem" des Vektorraumes. Die Vektoren einer Basis nennt man Basisvektoren.}
+    {\textbf{Überprüfung, ob eine Menge von Vektoren eine Basis ist}}
+    {\circled{1} Die Anzahl der Vektoren stimmt überein mit der Dimension des Vektorraumes.}
+
+    {\circled{2} Die Vektoren sind linear unabhängig.}
 
     \subsection{Stuff mit Basen $B,S$}
-
-
-
 
 \end{multicols*}
 
