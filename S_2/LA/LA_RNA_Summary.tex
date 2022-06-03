@@ -272,7 +272,7 @@
     \includegraphics[scale=0.75]{rang.png}
 
     \subsection{Lösbarkeit von LGS}
-    {$ n $ = Anzahl Spalten}
+    {$ n $ = Anzahl Spalten(Variablen)}
     \includegraphics[scale=0.45]{loesbarkeit.png}
 
     \section{Matrizen}
@@ -505,19 +505,49 @@
 
     {\textbf{Menge von Vektoren auf Erzeugendeneigenschaft überprüfen}}
 
-    {\includegraphics[scale=0.45]{erzeug.png}}
+    {$\rightarrow$ Bestimmung des Rangs $rg(A)$}
 
+    {Wenn $rg(A)$ $<$ Anzahl Zeilen($m$) $\rightarrow$ kein Erzeugendensystem}
 
 
     \subsection{Basis eines Vektorraums}
     {Eine Basis eines Vektorraumes ist ein "minimales Erzeugendensystem" des Vektorraumes. Die Vektoren einer Basis nennt man Basisvektoren.}
     {\textbf{Überprüfung, ob eine Menge von Vektoren eine Basis ist}}
+    {Quadratische Matrix :$\rightarrow$ $det(A) \neq 0$}
+
+    {Generell:}
+
     {\circled{1} Die Anzahl der Vektoren stimmt überein mit der Dimension des Vektorraumes.}
 
     {\circled{2} Die Vektoren sind linear unabhängig.}
 
-    \subsection{Stuff mit Basen $B,S$}
+    {\textbf{Wichtige Basen}}
+
+    {Für $R^n$: Basis $S$ heisst $Standardbasis$ }
+
+    {Für $P_n[x]$: Basus $M$ heisst Monombasis}
+    \WhiteSpace
+    \subsection{Umrechnung von Basis $B$ zur Standardbasis $S$}
+    {$\vec{a} = a_1 \cdot \vec{b_1} + a_2 \cdot \vec{b_2} + a_3 \cdot \vec{b_3} ... + a_n \cdot \vec{b_n}$}
+
+    {Beispiel:}
+    {\includegraphics[scale=0.3]{umrechnung_b_to_s_bsp.png}}
+
+    {$(7,-3,-1)$ von $B$ nach $S$}
+    
+    {\includegraphics[scale=0.3]{umrechnung_b_to_s_lsg.png}}
+    \subsection{Umrechnung von Standardbasis $S$ zur Basis $B$}
+    {LGS bilden:}
+    {Beispiel:}
+    {\includegraphics[scale=0.3]{umrechnung_b_to_s_bsp.png}}
+
+    {$(2,-1,3)$ von $S$ nach $B$}
+
+    {\includegraphics[scale=0.3]{Group 4.png}}
 
 \end{multicols*}
+
+
+
 
 \end{document}

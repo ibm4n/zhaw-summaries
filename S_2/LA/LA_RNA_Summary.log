@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.24)  3 JUN 2022 10:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.24)  3 JUN 2022 11:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1145,32 +1145,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 506--507
 []\OT1/lmss/bx/n/10 Menge von Vek-to-ren auf Er-zeu-gen-de-nei-gen-schaft
  []
 
-<./img//erzeug.png, id=86, 587.94656pt x 423.83344pt>
-File: ./img//erzeug.png Graphic file (type png)
-<use ./img//erzeug.png>
-Package pdftex.def Info: ./img//erzeug.png  used on input line 508.
-(pdftex.def)             Requested size: 264.5735pt x 190.72327pt.
-
-Overfull \hbox (0.91118pt too wide) in paragraph at lines 508--509
-[][] 
- []
-
-[3 <./img//laplace_full_1.png> <./img//laplace_full_2.png> <./img//det.png> <./img//2x2_det_geom.png> <./img//3x3_det_geom.png> <./img//free_vars.png> <./img//unterkrit.png> <./img//unterprf1.png> <./img//unterprf2.png> <./img//linearkomba.png> <./img//linearkomb.png> <./img//erzeug.png>] (LA_RNA_Summary.aux)
+<./img//umrechnung_b_to_s_bsp.png, id=86, 198.7425pt x 77.53969pt>
+File: ./img//umrechnung_b_to_s_bsp.png Graphic file (type png)
+<use ./img//umrechnung_b_to_s_bsp.png>
+Package pdftex.def Info: ./img//umrechnung_b_to_s_bsp.png  used on input line 534.
+(pdftex.def)             Requested size: 59.6232pt x 23.26207pt.
+<./img//umrechnung_b_to_s_lsg.png, id=87, 670.00313pt x 105.39375pt>
+File: ./img//umrechnung_b_to_s_lsg.png Graphic file (type png)
+<use ./img//umrechnung_b_to_s_lsg.png>
+Package pdftex.def Info: ./img//umrechnung_b_to_s_lsg.png  used on input line 538.
+(pdftex.def)             Requested size: 201.00249pt x 31.61836pt.
+File: ./img//umrechnung_b_to_s_bsp.png Graphic file (type png)
+<use ./img//umrechnung_b_to_s_bsp.png>
+Package pdftex.def Info: ./img//umrechnung_b_to_s_bsp.png  used on input line 542.
+(pdftex.def)             Requested size: 59.6232pt x 23.26207pt.
+<./img//Group 4.png, id=88, 430.60875pt x 285.065pt>
+File: ./img//Group 4.png Graphic file (type png)
+<use ./img//Group 4.png>
+Package pdftex.def Info: ./img//Group 4.png  used on input line 546.
+(pdftex.def)             Requested size: 129.18361pt x 85.52016pt.
+[3 <./img//laplace_full_1.png> <./img//laplace_full_2.png> <./img//det.png> <./img//2x2_det_geom.png> <./img//3x3_det_geom.png> <./img//free_vars.png> <./img//unterkrit.png> <./img//unterprf1.png> <./img//unterprf2.png> <./img//linearkomba.png> <./img//linearkomb.png> <./img//umrechnung_b_to_s_bsp.png> <./img//umrechnung_b_to_s_lsg.png>] [4 <./img//Group 4.png>] (LA_RNA_Summary.aux)
 Package rerunfilecheck Info: File `LA_RNA_Summary.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27247 strings out of 478582
- 530731 string characters out of 2844344
+ 27266 strings out of 478582
+ 531349 string characters out of 2844344
  951595 words of memory out of 3000000
- 44877 multiletter control sequences out of 15000+600000
+ 44893 multiletter control sequences out of 15000+600000
  532228 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,13n,83p,485b,664s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc} <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha8.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi720\mathx10.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi720\matha12.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\mathx10.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha12.pk>{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc} <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha7.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha6.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi540\mathx10.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha9.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha10.pk><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss9.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on LA_RNA_Summary.pdf (3 pages, 1052855 bytes).
+Output written on LA_RNA_Summary.pdf (4 pages, 1057830 bytes).
 PDF statistics:
- 277 PDF objects out of 1000 (max. 8388607)
- 4 named destinations out of 1000 (max. 500000)
- 148 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 288 PDF objects out of 1000 (max. 8388607)
+ 5 named destinations out of 1000 (max. 500000)
+ 158 words of extra memory for PDF output out of 10000 (max. 10000000)
 
