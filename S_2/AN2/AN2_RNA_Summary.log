@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.24)  3 JUN 2022 13:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.24)  5 JUN 2022 15:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1053,22 +1053,62 @@ Overfull \hbox (2.48782pt too wide) in paragraph at lines 212--213
 [][] 
  []
 
-[2 <./img//autonom.png> <./img//variation_der_k_bsp.png>] (AN2_RNA_Summary.aux)
+<./img//rotationskoerper.png, id=62, 435.12563pt x 359.09157pt>
+File: ./img//rotationskoerper.png Graphic file (type png)
+<use ./img//rotationskoerper.png>
+Package pdftex.def Info: ./img//rotationskoerper.png  used on input line 227.
+(pdftex.def)             Requested size: 130.53868pt x 107.72829pt.
+
+Overfull \hbox (2.97543pt too wide) in paragraph at lines 227--228
+[][] 
+ []
+
+<./img//rotationskoerper_y.png, id=63, 224.33812pt x 342.5297pt>
+File: ./img//rotationskoerper_y.png Graphic file (type png)
+<use ./img//rotationskoerper_y.png>
+Package pdftex.def Info: ./img//rotationskoerper_y.png  used on input line 240.
+(pdftex.def)             Requested size: 78.51952pt x 119.88718pt.
+<./img//bogenlänge.png, id=64, 338.01282pt x 263.48438pt>
+File: ./img//bogenlänge.png Graphic file (type png)
+<use ./img//bogenlänge.png>
+Package pdftex.def Info: ./img//bogenlänge.png  used on input line 252.
+(pdftex.def)             Requested size: 118.30624pt x 92.2209pt.
+
+Overfull \hbox (3.02977pt too wide) detected at line 265
+\OML/lmm/m/it/10 x[] \U/matha/m/n/10 ^^P [] ^^D [][] \OML/lmm/m/it/10 x \U/matha/m/n/10 ^^D p\OML/lmm/m/it/10 f[]\U/matha/m/n/10 p\OML/lmm/m/it/10 x\U/matha/m/n/10 q ^^A \OML/lmm/m/it/10 f[]\U/matha/m/n/10 p\OML/lmm/m/it/10 x\U/matha/m/n/10 qq\OML/lmm/m/it/10 dx
+ []
+
+<./img//schwerpunkt.png, id=65, 386.19281pt x 290.58563pt>
+File: ./img//schwerpunkt.png Graphic file (type png)
+<use ./img//schwerpunkt.png>
+Package pdftex.def Info: ./img//schwerpunkt.png  used on input line 270.
+(pdftex.def)             Requested size: 135.1695pt x 101.70648pt.
+
+Overfull \hbox (7.60625pt too wide) in paragraph at lines 270--271
+[][] 
+ []
+
+<./img//schwerpunkt_rotationskoerper.png, id=66, 271.0125pt x 248.42813pt>
+File: ./img//schwerpunkt_rotationskoerper.png Graphic file (type png)
+<use ./img//schwerpunkt_rotationskoerper.png>
+Package pdftex.def Info: ./img//schwerpunkt_rotationskoerper.png  used on input line 285.
+(pdftex.def)             Requested size: 94.85579pt x 86.95114pt.
+[2 <./img//autonom.png> <./img//variation_der_k_bsp.png> <./img//rotationskoerper.png> <./img//rotationskoerper_y.png> <./img//bogenlänge.png> <./img//schwerpunkt.png> <./img//schwerpunkt_rotationskoerper.png>] (AN2_RNA_Summary.aux)
 Package rerunfilecheck Info: File `AN2_RNA_Summary.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27039 strings out of 478582
- 526141 string characters out of 2844344
+ 27087 strings out of 478582
+ 527526 string characters out of 2844344
  935689 words of memory out of 3000000
- 44676 multiletter control sequences out of 15000+600000
+ 44719 multiletter control sequences out of 15000+600000
  526776 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,7n,83p,486b,749s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha6.pk>{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc} <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha8.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi720\mathx10.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha12.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\mathx10.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha9.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha5.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha7.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha10.pk><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss9.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on AN2_RNA_Summary.pdf (2 pages, 683418 bytes).
+Output written on AN2_RNA_Summary.pdf (2 pages, 811002 bytes).
 PDF statistics:
- 209 PDF objects out of 1000 (max. 8388607)
+ 220 PDF objects out of 1000 (max. 8388607)
  15 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 
