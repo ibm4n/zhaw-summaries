@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.24)  6 JUN 2022 16:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.24)  6 JUN 2022 16:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1056,80 +1056,80 @@ Overfull \hbox (2.48782pt too wide) in paragraph at lines 225--226
 <./img//rotationskoerper.png, id=62, 435.12563pt x 359.09157pt>
 File: ./img//rotationskoerper.png Graphic file (type png)
 <use ./img//rotationskoerper.png>
-Package pdftex.def Info: ./img//rotationskoerper.png  used on input line 244.
+Package pdftex.def Info: ./img//rotationskoerper.png  used on input line 245.
 (pdftex.def)             Requested size: 130.53868pt x 107.72829pt.
 
-Overfull \hbox (2.97543pt too wide) in paragraph at lines 244--245
+Overfull \hbox (2.97543pt too wide) in paragraph at lines 245--246
 [][] 
  []
 
 <./img//rotationskoerper_y.png, id=63, 224.33812pt x 342.5297pt>
 File: ./img//rotationskoerper_y.png Graphic file (type png)
 <use ./img//rotationskoerper_y.png>
-Package pdftex.def Info: ./img//rotationskoerper_y.png  used on input line 257.
+Package pdftex.def Info: ./img//rotationskoerper_y.png  used on input line 258.
 (pdftex.def)             Requested size: 78.51952pt x 119.88718pt.
 <./img//bogenlänge.png, id=64, 338.01282pt x 263.48438pt>
 File: ./img//bogenlänge.png Graphic file (type png)
 <use ./img//bogenlänge.png>
-Package pdftex.def Info: ./img//bogenlänge.png  used on input line 269.
+Package pdftex.def Info: ./img//bogenlänge.png  used on input line 270.
 (pdftex.def)             Requested size: 118.30624pt x 92.2209pt.
 
-Overfull \hbox (3.02977pt too wide) detected at line 283
+Overfull \hbox (3.02977pt too wide) detected at line 284
 \OML/lmm/m/it/10 x[] \U/matha/m/n/10 ^^P [] ^^D [][] \OML/lmm/m/it/10 x \U/matha/m/n/10 ^^D p\OML/lmm/m/it/10 f[]\U/matha/m/n/10 p\OML/lmm/m/it/10 x\U/matha/m/n/10 q ^^A \OML/lmm/m/it/10 f[]\U/matha/m/n/10 p\OML/lmm/m/it/10 x\U/matha/m/n/10 qq\OML/lmm/m/it/10 dx
  []
 
 <./img//schwerpunkt.png, id=65, 386.19281pt x 290.58563pt>
 File: ./img//schwerpunkt.png Graphic file (type png)
 <use ./img//schwerpunkt.png>
-Package pdftex.def Info: ./img//schwerpunkt.png  used on input line 288.
+Package pdftex.def Info: ./img//schwerpunkt.png  used on input line 289.
 (pdftex.def)             Requested size: 135.1695pt x 101.70648pt.
 
-Overfull \hbox (7.60625pt too wide) in paragraph at lines 288--289
+Overfull \hbox (7.60625pt too wide) in paragraph at lines 289--290
 [][] 
  []
 
 <./img//schwerpunkt_rotationskoerper.png, id=66, 271.0125pt x 248.42813pt>
 File: ./img//schwerpunkt_rotationskoerper.png Graphic file (type png)
 <use ./img//schwerpunkt_rotationskoerper.png>
-Package pdftex.def Info: ./img//schwerpunkt_rotationskoerper.png  used on input line 303.
+Package pdftex.def Info: ./img//schwerpunkt_rotationskoerper.png  used on input line 304.
 (pdftex.def)             Requested size: 94.85579pt x 86.95114pt.
-[2 <./img//autonom.png> <./img//variation_der_k_bsp.png>]
-<./img//fak.png, id=74, 169.63374pt x 141.52875pt>
+[2 <./img//autonom.png> <./img//variation_der_k_bsp.png>] [3 <./img//rotationskoerper.png> <./img//rotationskoerper_y.png> <./img//bogenlänge.png> <./img//schwerpunkt.png> <./img//schwerpunkt_rotationskoerper.png>]
+<./img//fak.png, id=83, 169.63374pt x 141.52875pt>
 File: ./img//fak.png Graphic file (type png)
 <use ./img//fak.png>
-Package pdftex.def Info: ./img//fak.png  used on input line 319.
+Package pdftex.def Info: ./img//fak.png  used on input line 321.
 (pdftex.def)             Requested size: 84.81665pt x 70.76419pt.
-<./img//taylor_example.png, id=75, 539.01375pt x 37.64063pt>
+<./img//taylor_example.png, id=84, 539.01375pt x 37.64063pt>
 File: ./img//taylor_example.png Graphic file (type png)
 <use ./img//taylor_example.png>
-Package pdftex.def Info: ./img//taylor_example.png  used on input line 334.
+Package pdftex.def Info: ./img//taylor_example.png  used on input line 336.
 (pdftex.def)             Requested size: 188.65762pt x 13.17441pt.
-<./img//taylor_example_sol.png, id=76, 1095.3422pt x 240.9pt>
+<./img//taylor_example_sol.png, id=85, 1095.3422pt x 240.9pt>
 File: ./img//taylor_example_sol.png Graphic file (type png)
 <use ./img//taylor_example_sol.png>
-Package pdftex.def Info: ./img//taylor_example_sol.png  used on input line 336.
+Package pdftex.def Info: ./img//taylor_example_sol.png  used on input line 338.
 (pdftex.def)             Requested size: 273.83487pt x 60.22484pt.
 
-Overfull \hbox (10.17255pt too wide) in paragraph at lines 336--337
+Overfull \hbox (10.17255pt too wide) in paragraph at lines 338--339
 [][] 
  []
 
-[3 <./img//rotationskoerper.png> <./img//rotationskoerper_y.png> <./img//bogenlänge.png> <./img//schwerpunkt.png> <./img//schwerpunkt_rotationskoerper.png> <./img//fak.png> <./img//taylor_example.png> <./img//taylor_example_sol.png>] (AN2_RNA_Summary.aux)
+[4 <./img//fak.png> <./img//taylor_example.png> <./img//taylor_example_sol.png>] (AN2_RNA_Summary.aux)
 Package rerunfilecheck Info: File `AN2_RNA_Summary.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  27128 strings out of 478582
- 528419 string characters out of 2844344
+ 528409 string characters out of 2844344
  929689 words of memory out of 3000000
- 44756 multiletter control sequences out of 15000+600000
+ 44755 multiletter control sequences out of 15000+600000
  526776 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,7n,83p,486b,752s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha6.pk>{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc} <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha8.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi720\mathx10.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha12.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\mathx10.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha9.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha5.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha7.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha10.pk><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss9.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on AN2_RNA_Summary.pdf (3 pages, 876704 bytes).
+Output written on AN2_RNA_Summary.pdf (4 pages, 877757 bytes).
 PDF statistics:
- 236 PDF objects out of 1000 (max. 8388607)
- 16 named destinations out of 1000 (max. 500000)
+ 240 PDF objects out of 1000 (max. 8388607)
+ 17 named destinations out of 1000 (max. 500000)
  93 words of extra memory for PDF output out of 10000 (max. 10000000)
 
