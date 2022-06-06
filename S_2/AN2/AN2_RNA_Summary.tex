@@ -306,7 +306,45 @@
 
 
     \section{Taylor-Reihen}
+    \subsection{Definition}
+    {Eine Funktion $f(x)$ entspricht einer Taylorreihe mit unendlich vielen Gliedern. Die Stelle $x_0$ ist die Entwicklungsstelle. Die Entwicklungsstelle ist die Stelle, in deren Umgebung uns das Verhalten der Funktion interessiert.}
+    \WhiteSpace
+    \subsection{Verfahren / Formel}
 
+    \begin{multicols*}{2}
+
+        $$t_f = \sum_{k = 0}^{ \infty }\frac{f^n(x_0)}{k!}\cdot(x-x_0)^k$$
+
+        \columnbreak
+        \includegraphics[scale=0.5]{fak.png} 
+
+    \end{multicols*}  
+    {Grad: $anzahl$ Ableitungen / Schritte}
+
+    {\circled{1} Ableitungen bilden (Grad)}
+    \WhiteSpace
+    {\circled{2} $x_0$ in Ableitungen einsetzen}
+    \WhiteSpace
+    {\circled{3} Ableitungen in Formel einsetzen}
+    \WhiteSpace
+    {\circled{4} ausrechnen/kürzen/vereinfachen}
+    \WhiteSpace
+    {Beispiel:}
+
+    \includegraphics[scale=0.35]{taylor_example.png}
+
+    \includegraphics[scale=0.25]{taylor_example_sol.png}
+
+
+    \WhiteSpace
+    \section{Konvergenzen}
+    \subsection{Regel von Bernoulli-Hopital}
+
+    $$ \lim_{x \to x_0} \frac{g(x)}{h(x)} = \lim_{x \to x_0} \frac{g'(x)}{h'(x)}$$
+
+    {\circled{1} Zählerfunktion $g(x)$ und Nennerfunktion $f(x)$ getrennt voneinander ableiten}
+    \WhiteSpace
+    {\circled{2} Grenzewert von $\frac{g'(x)}{h'(x)}$ brechnen}
     \WhiteSpace
 
     \mbox{}
