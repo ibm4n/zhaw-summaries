@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1654616402 "c:/Users/ibm4n/code/zhaw-summaries/S_2/LA/LA_RNA_Summary.tex" "LA_RNA_Summary.pdf" "LA_RNA_Summary" 1654616406
+["pdflatex"] 1654628539 "c:/Users/ibm4n/code/zhaw-summaries/S_2/LA/LA_RNA_Summary.tex" "LA_RNA_Summary.pdf" "LA_RNA_Summary" 1654628543
   "0_Setup/Setup.tex" 1653897742 5403 2257df07d7c41d527b4280b689d56ee4 ""
   "C:/Users/ibm4n/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1652612062 81888 770f3d4559840b9e9d8f989d2d293e5e ""
   "C:/Users/ibm4n/AppData/Local/MiKTeX/fonts/pk/ljfour/public/mathabx/dpi540/mathx10.pk" 1653638493 27776 d8f8ff1d745f8b8abfda17d81956c757 ""
@@ -249,10 +249,10 @@
   "C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/tex/latex/wallpaper/wallpaper.sty" 1145608440 6919 f87ec89c767393dfb3b9adfd163539b0 ""
   "C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044406800 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1636288472 56029 3f7889dab51d620aa43177c391b7b190 ""
-  "LA_RNA_Summary.aux" 1654616406 786 8435940810d772621440a3bede1e98d1 "pdflatex"
+  "LA_RNA_Summary.aux" 1654628543 786 8435940810d772621440a3bede1e98d1 "pdflatex"
   "LA_RNA_Summary.out" 0 -1 0 "pdflatex"
-  "LA_RNA_Summary.tex" 1654616402 19528 715f187e11ed5a0dc54a997d98d36c4c ""
-  "c:/Users/ibm4n/code/zhaw-summaries/S_2/LA/LA_RNA_Summary.tex" 1654616402 19528 715f187e11ed5a0dc54a997d98d36c4c ""
+  "LA_RNA_Summary.tex" 1654628538 20930 64f1baa37321d199bd17936c15e90dea ""
+  "c:/Users/ibm4n/code/zhaw-summaries/S_2/LA/LA_RNA_Summary.tex" 1654628538 20930 64f1baa37321d199bd17936c15e90dea ""
   "img//2x2_det_geom.png" 1650457341 7640 c14982219dc5f634360121d7a75b67d9 ""
   "img//3x3_det_geom.png" 1650457323 19689 42add938a58b3ef9c8c0b49554fd9db2 ""
   "img//3x3_inverse.png" 1649860119 107861 8ba8ba3f64f3f8892137e2e733cb71eb ""
@@ -262,6 +262,7 @@
   "img//abbild.png" 1654613028 47680 b8f476ad37daa82e41a97bcfaa288ebb ""
   "img//abbild_1.png" 1654613449 74458 b1325b3a24dea011ae0820bca2ae92e0 ""
   "img//abbild_3.png" 1654613460 57192 3f822221ec00d0bb85e3be8bf5bfa906 ""
+  "img//bild.png" 1654627530 29732 70036079203c602e249a0690ce03ec15 ""
   "img//checkerboard.png" 1650016275 2758 09de2e50afe522aff26cbaba72e924ba ""
   "img//det.png" 1650017285 73174 d5b055b29c044879e0147490e06ca80e ""
   "img//free_vars.png" 1653894542 20017 d984687fdf1361d05bb7b855715303cc ""

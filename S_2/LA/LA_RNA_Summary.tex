@@ -610,7 +610,7 @@
     {$$\det(A) \neq 0 \quad \rightarrow \quad \text{Kern(A)}=\{0\} \quad \text{trivial}$$}
     {$$\det(A)=0 \quad \rightarrow \quad \text{Kern(A) ist nicht trivial}.$$}
 
-    {$\rightarrow$ Lösen durch LGS}
+    {$\rightarrow$ Abbildungsmatrix  $\rightarrow$ Lösen durch LGS}
 
     {Beispiel:}
 
@@ -619,8 +619,36 @@
     {\includegraphics[scale=0.28]{Kern_2.png}}
 
     \subsection{ Bild einer Matrix}
+    {Wir multiplizieren eine Matrix $A$  mit einem Vektor $\vec{x}$
+        und erhalten den Lösungsvektor $\vec{b}$.}
 
-    \subsection{Basiswechsel}
+    {Das Bild einer Matrix gibt an, welche Menge an Vektoren als Lösungen auftreten können.}
+
+    {$\to$ Die linear unabhängigen Spalten einer Matrix heißen Bild der Matrix.}
+
+   
+
+    {\circled{1} Matrix in obere Dreiecksmatrix umwandeln}
+
+    {\circled{2} Linear unabhängige Spalten mithilfe der Köpfe bestimmen}
+
+    {\circled{3} Lösung aufschreiben}
+
+    {$A =  \begin{pmatrix} 1 & 3 & 2 \\ 2 & 4 & 4 \\ 3 & 5 & 6 \end{pmatrix}$   {\circled{1}$\to$ $\begin{pmatrix} 1 & 3 & 2 \\ 0 & -2 & 0 \\ 0 & 0 & 0 \end{pmatrix}$}}
+
+    {\circled{2} $\begin{pmatrix} {\color{blue}1} & 3 & 2 \\ 0 & {\color{blue}-2} & 0 \\ 0 & 0 & 0 \end{pmatrix} \rightarrow$   $\begin{pmatrix} {\color{red}1} & {\color{red}3} & 2 \\ {\color{red}2} & {\color{red}4} & 4 \\ {\color{red}3} & {\color{red}5} & 6 \end{pmatrix}$}
+   
+    {Da sich die Köpfe in der 1. und 2. Spalte befinden, sind diese beiden Spalten der ursprünglichen (!) Matrix die linear unabhängigen Spalten.}
+ 
+    
+   
+   {\circled{3} $\text{img}(A) = \left\langle \begin{pmatrix} 1 \\ 2 \\ 3 \end{pmatrix}, \begin{pmatrix} 3 \\ 4 \\ 5 \end{pmatrix} \right\rangle$}
+   
+   Beispiel aus der Aufgabe von "Kern der Matrix"
+  
+   {\includegraphics[scale=0.28]{bild.png}}
+  
+   \subsection{Basiswechsel}
 
 
 
