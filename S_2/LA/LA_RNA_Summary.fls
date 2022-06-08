@@ -1437,6 +1437,13 @@ INPUT .\img\\abbild_3.png
 INPUT .\img\\abbild_3.png
 INPUT .\img\\abbild_3.png
 INPUT .\img\\abbild_3.png
+INPUT .\img\\bsp5.png
+INPUT .\img\\bsp5.png
+INPUT img\\bsp5.png
+INPUT .\img\\bsp5.png
+INPUT .\img\\bsp5.png
+INPUT .\img\\bsp5.png
+INPUT .\img\\bsp5.png
 INPUT .\img\\wichtige lineare Abbildungen in der Ebene.png
 INPUT .\img\\wichtige lineare Abbildungen in der Ebene.png
 INPUT img\\wichtige lineare Abbildungen in der Ebene.png
@@ -1491,6 +1498,7 @@ INPUT .\img\\bild.png
 INPUT LA_RNA_Summary.aux
 INPUT .\LA_RNA_Summary.out
 INPUT .\LA_RNA_Summary.out
+INPUT C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathsy.enc
 INPUT C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathex.enc
 INPUT C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathit.enc
 INPUT C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
@@ -1551,5 +1559,7 @@ INPUT C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmss9.p
 INPUT C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmss9.pfb
 INPUT C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmssbx10.pfb
 INPUT C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmssbx10.pfb
+INPUT C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
+INPUT C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
 INPUT C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm10.pfb
 INPUT C:\Users\ibm4n\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm10.pfb
