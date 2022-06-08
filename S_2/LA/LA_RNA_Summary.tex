@@ -417,6 +417,41 @@
     {\includegraphics[scale=0.2]{3x3_det_geom.png}}
     \mbox{}
 
+
+    \subsection{Matrizengleichungen}
+    { \begin{center}
+            \begin{tabular}{ |c|c| }
+                \hline
+                Grundgleichung        & Lösung                           \\ \hline
+                $A \cdot X=B$         & $X = A^{-1}\cdot B$              \\
+                $X \cdot A=B$         & $X = B \cdot A^{-1}\cdot $       \\
+                $A \cdot X \cdot B=C$ & $X = A^{-1}\cdot C \cdot B^{-1}$ \\
+                \hline
+            \end{tabular}
+        \end{center}}
+    {\textbf{Lösung einer Matrizengleichung:} }
+
+    {\circled{1} Wenn man eine unbekannte Matrix X ausklammert, muss X nach
+        dem Ausklammern auf der Seite stehen, wo sie vorher stand:}
+    $$A \cdot X + B \cdot X =(A + B) \cdot X$$
+
+    {\circled{2}  Die Zahlen beim Ausklammern werden mit einer Einheitsmatrix
+            multipliziert:}
+    $$A \cdot X + 4 X =( A + 4 E) \cdot X$$
+    {\circled{3} Man kann nicht durch eine Matrix dividieren, man kann aber mit
+            einer inversen Matrix multiplizieren:}
+
+        { $A\cdot X = B \to X = A^{-1} \cdot B$}
+
+        { $X\cdot A = B \to X = B \cdot A^{-1}$}
+
+        { $A\cdot X + 4 \cdot X = C \to (A+4E) \cdot X = C \to X = (A+4E)^{-1} \cdot C$}
+
+
+
+
+
+
     \vfill\null
     \columnbreak
     \section{Vektorräume}
