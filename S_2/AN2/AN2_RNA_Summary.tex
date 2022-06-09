@@ -30,6 +30,11 @@
     \WhiteSpace
     $f(x) = g(h(x)) \quad \rightarrow \quad f'(x) = g'(h(x)) \cdot h'(x)$
     \WhiteSpace
+
+    {Logarithmen:}
+
+    {$f(x) = \ln(x+a) \to f'(x) = \frac{1}{x+a}$}
+    \WhiteSpace
     \section{ Integrieren }
     \WhiteSpace
     {$\dfrac{1}{x^5} \rightarrow -\dfrac{1}{4x^4} + C$}
@@ -39,6 +44,34 @@
     \WhiteSpace
     \WhiteSpace
 
+    \section{Grenzwerte}
+    \WhiteSpace
+    {Zählergrad $>$ Nennergrad : }
+
+    {\large $ \lim_{n\to \infty} \frac{g(n)}{h(n)} = $ keinen Grenzwert}
+    \WhiteSpace
+
+    {Zählergrad $<$ Nennergrad : }
+
+    { \large $ \lim_{n\to \infty} \frac{g(n)}{h(n)} = 0$}
+    \WhiteSpace
+
+    {Zählergrad $=$ Nennergrad : }
+
+    {\large $  \lim_{n\to 8} \frac{2n^3+7n...}{5n^3-7n^2...} = \frac{2}{5}$}
+    \WhiteSpace
+
+    {$n \to \infty:$}
+
+    {\large  $ \frac{1}{n} = \frac{1}{\infty} = 0$}
+    \WhiteSpace
+
+
+
+
+    \subsection{Wahl der Methode}
+  
+    \includegraphics[scale=0.4]{methode.png}
 
     \subsection{Uneigentliche Integrale}
     { Ein $uneigentliches$ Integral hat die Eigenschaft, dass der Integrationsbereich unendlich gross
@@ -49,13 +82,14 @@
 
 
 
-
+    \vfill\null
+    \columnbreak
     \subsection{Integration durch Substitution}
     {\circled{1} Substitutionsgleichung für $x: u = g(x)$}
 
     {\circled{2} Substitutionsgleichung für $dx:$}
 
-    $ \frac{du}{dx} = g'(x)_{\tiny(Ableitung)} \to dx = \frac{du}{g'(x)}$
+    $ \frac{du}{dx} = g'(x)_{(Ableitung)} \to dx = \frac{du}{g'(x)}$
 
     {\circled{3} Integralsubstitution: Einsetzen von $ u $ und $ dx $ aus 1. und 2 in Ursprung}
 
@@ -338,7 +372,7 @@
     \includegraphics[scale=0.25]{taylor_example_sol.png}
 
 
-      \vfill\null
+    \vfill\null
     \columnbreak
     \section{Konvergenzen}
     \subsection{Konvergenzradius bei Taylor}
@@ -347,7 +381,32 @@
 
     {$$r:= \lim_{k \to \infty } |\frac{a_k}{a_{k+1}}| $$}
 
-        {$r:$ Konvergenzradius}
+    {$r:$ Konvergenzradius}
+
+    {\textbf{Berechnung:}}
+
+    {$$\sum^{\infty}_{k=1}{\frac{1}{k^2}\cdot x^k}$$}
+
+    {In $r$ Formel einsetzen $\to$ (ohne den $x$ Teil)}
+
+    {$$ \lim_{k \to \infty} \frac{\frac{1}{k^2}}{\frac{1}{(k+1)^2}} = \frac{(k+1)^2}{k^2} = (\frac{k+1}{k})^2 = (\frac{k+1}{k}) \cdot (\frac{k+1}{k})  $$}
+
+    {$$\implies k \to \infty \implies (\frac{\infty+1}{\infty}) \cdot (\frac{\infty+1}{\infty}) = 1 \cdot 1 = 1  =r$$}
+
+    \textbf{Bestimmung Intervall konvergiert:}
+
+    {$\to$ Einsetzen von $x_0$ und $r$ in folgende Definition:}
+
+    {($x_0$) aus $P(x)$ ablesen. Wenn nicht vorhanden: unendlichen Konvergenzradius und konvergiert für ganz $R$ }
+
+
+    {alle $x \in (x_0 -r,x_0 + r)$zum Konvergenzbereich gehören }
+
+
+
+    {alle $x \in (-\infty,x_0 - r)$ NICHT zum Konvergenzbereich gehören }
+
+
     \subsection{Regel von Bernoulli-Hopital}
 
 
@@ -358,6 +417,8 @@
     {\circled{2} Grenzewert von $\frac{g'(x)}{h'(x)}$ brechnen}
     \WhiteSpace
 
+    {\textbf{BEM:} Die Regel von L'HOSPITAL kann auch mehrfach hintereinander angewendet werden.}
+    {\small(Wenn Lösung nacht 1x ableiten nicht ersichtlich)}
     \mbox{}
 
 \end{multicols*}
