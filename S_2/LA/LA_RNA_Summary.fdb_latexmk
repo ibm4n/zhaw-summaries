@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1654848366 "c:/Users/ibm4n/code/zhaw-summaries/S_2/LA/LA_RNA_Summary.tex" "LA_RNA_Summary.pdf" "LA_RNA_Summary" 1654848370
+["pdflatex"] 1654862508 "c:/Users/ibm4n/code/zhaw-summaries/S_2/LA/LA_RNA_Summary.tex" "LA_RNA_Summary.pdf" "LA_RNA_Summary" 1654862512
   "0_Setup/Setup.tex" 1651128623 5646 2257df07d7c41d527b4280b689d56ee4 ""
   "C:/Users/ibm4n/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1652957476 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/ibm4n/AppData/Local/MiKTeX/fonts/pk/ljfour/public/mathabx/dpi540/mathx10.pk" 1652957503 27776 ae07969a4f77d2a903f59b07851a32a1 ""
@@ -251,16 +251,18 @@
   "C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/tex/latex/wallpaper/wallpaper.sty" 1145608440 6919 f87ec89c767393dfb3b9adfd163539b0 ""
   "C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044406800 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1636288472 56029 3f7889dab51d620aa43177c391b7b190 ""
-  "LA_RNA_Summary.aux" 1654848370 786 8435940810d772621440a3bede1e98d1 "pdflatex"
+  "LA_RNA_Summary.aux" 1654862512 786 c698f089a6d2440c647f2e17886bb25d "pdflatex"
   "LA_RNA_Summary.out" 0 -1 0 "pdflatex"
-  "LA_RNA_Summary.tex" 1654848365 24813 a16269c19cde5b6557a8826e1005ed3a ""
-  "c:/Users/ibm4n/code/zhaw-summaries/S_2/LA/LA_RNA_Summary.tex" 1654848365 24813 a16269c19cde5b6557a8826e1005ed3a ""
+  "LA_RNA_Summary.tex" 1654862503 24944 c6233e56504fa35c5a475cb9ff53d47a ""
+  "c:/Users/ibm4n/code/zhaw-summaries/S_2/LA/LA_RNA_Summary.tex" 1654862503 24944 c6233e56504fa35c5a475cb9ff53d47a ""
   "img//2x2_det_geom.png" 1651128623 7640 c14982219dc5f634360121d7a75b67d9 ""
   "img//3x3_det_geom.png" 1651128623 19689 42add938a58b3ef9c8c0b49554fd9db2 ""
   "img//3x3_inverse.png" 1651128623 107861 8ba8ba3f64f3f8892137e2e733cb71eb ""
   "img//Group 4.png" 1654329289 33601 e15a72cd9dc2ba03839efc012c1cee48 ""
   "img//Kern.png" 1654843349 53011 57264f6e239554827818157e331549d1 ""
   "img//Kern_2.png" 1654843349 62086 a4adc66a8f45e1b4baaec06dde5056c6 ""
+  "img//Kern_3.png" 1654862432 22588 095d40930732b843b8d534d677f17333 ""
+  "img//Kern_4.png" 1654862459 149402 939d104fa7b7c082c4b9d9d0f28d611d ""
   "img//abbild.png" 1654843349 47680 b8f476ad37daa82e41a97bcfaa288ebb ""
   "img//abbild_1.png" 1654843349 74458 b1325b3a24dea011ae0820bca2ae92e0 ""
   "img//abbild_3.png" 1654843349 57192 3f822221ec00d0bb85e3be8bf5bfa906 ""

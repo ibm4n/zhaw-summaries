@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.19)  10 JUN 2022 10:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.19)  10 JUN 2022 14:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1219,27 +1219,37 @@ File: ./img//Kern_2.png Graphic file (type png)
 <use ./img//Kern_2.png>
 Package pdftex.def Info: ./img//Kern_2.png  used on input line 739.
 (pdftex.def)             Requested size: 255.05113pt x 99.91258pt.
-<./img//bild.png, id=135, 863.47594pt x 118.94438pt>
+<./img//Kern_3.png, id=135, 284.34804pt x 116.5784pt>
+File: ./img//Kern_3.png Graphic file (type png)
+<use ./img//Kern_3.png>
+Package pdftex.def Info: ./img//Kern_3.png  used on input line 745.
+(pdftex.def)             Requested size: 79.6169pt x 32.64172pt.
+<./img//Kern_4.png, id=136, 850.46304pt x 374.68553pt>
+File: ./img//Kern_4.png Graphic file (type png)
+<use ./img//Kern_4.png>
+Package pdftex.def Info: ./img//Kern_4.png  used on input line 747.
+(pdftex.def)             Requested size: 238.12802pt x 104.91122pt.
+<./img//bild.png, id=137, 863.47594pt x 118.94438pt>
 File: ./img//bild.png Graphic file (type png)
 <use ./img//bild.png>
-Package pdftex.def Info: ./img//bild.png  used on input line 769.
+Package pdftex.def Info: ./img//bild.png  used on input line 777.
 (pdftex.def)             Requested size: 241.7716pt x 33.30418pt.
- [6 <./img//wichtige lineare Abbildungen in der Ebene.png> <./img//linearen Abbildungen im Raum.png> <./img//rotation.png> <./img//rotation_2.png> <./img//Kern.png> <./img//Kern_2.png> <./img//bild.png>] (LA_RNA_Summary.aux)
+ [6 <./img//wichtige lineare Abbildungen in der Ebene.png> <./img//linearen Abbildungen im Raum.png> <./img//rotation.png> <./img//rotation_2.png> <./img//Kern.png> <./img//Kern_2.png> <./img//Kern_3.png> <./img//Kern_4.png>] [7 <./img//bild.png>] (LA_RNA_Summary.aux)
 Package rerunfilecheck Info: File `LA_RNA_Summary.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27385 strings out of 478582
- 534443 string characters out of 2844344
+ 27402 strings out of 478582
+ 534779 string characters out of 2844344
  937595 words of memory out of 3000000
- 44996 multiletter control sequences out of 15000+600000
+ 45010 multiletter control sequences out of 15000+600000
  537668 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,13n,83p,485b,664s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc} <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha8.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi720\mathx10.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi720\matha12.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\mathx10.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha12.pk>{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc} <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha7.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha6.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi540\mathx10.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha9.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha10.pk><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss9.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on LA_RNA_Summary.pdf (6 pages, 1921764 bytes).
+Output written on LA_RNA_Summary.pdf (7 pages, 2062609 bytes).
 PDF statistics:
- 340 PDF objects out of 1000 (max. 8388607)
- 7 named destinations out of 1000 (max. 500000)
- 223 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 350 PDF objects out of 1000 (max. 8388607)
+ 8 named destinations out of 1000 (max. 500000)
+ 233 words of extra memory for PDF output out of 10000 (max. 10000000)
 
