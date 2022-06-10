@@ -514,7 +514,7 @@
     }
     {Bezeichnung: $dim(V)$}
 
-    {\textbf{Beispiele:} }
+    {\textbf{Es gilt:} }
     \begin{multicols}{2}
         {Vektorraum $\{ \vec{0} \} \rightarrow $ dim $0$}
 
@@ -528,7 +528,24 @@
         {$dim(R^{3 \times 3})=2$}
 
     \end{multicols}
+    {\textbf{Beispiel:} }
+    $$A: A^T = -A$$
 
+    $ \begin{pmatrix}
+            a & c \\
+            b & d
+        \end{pmatrix} =
+        \begin{pmatrix}
+            -a & -b \\
+            -c & -d
+        \end{pmatrix}$
+
+    $\implies a=-a;$ $d=-d;$ $c=-b;$ $b=-c$
+
+    $        \begin{pmatrix}
+            0  & b \\
+            -b & 0
+        \end{pmatrix} \to dim() = 1$
 
 
 
@@ -751,8 +768,13 @@
 
     {\includegraphics[scale=0.28]{bild.png}}
 
-    \subsection{Basiswechsel}
+    \subsection{Basiswechsel von $S$ nach $B$}
 
+    ${}_{B}T_{S} = ({}_{S}T_{B})^{-1}$
+
+    ${}_{S}A_{S} = {}_{S}T_{B} \cdot {}_{B}A_{B} \cdot {}_{B}T_{S}$
+
+    ${}_{B}A_{B} = {}_{B}T_{S}  \cdot {}_{S}A_{S} \cdot {}_{S}T_{B}$
 
 
 
