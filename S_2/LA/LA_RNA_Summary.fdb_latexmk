@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1654867209 "c:/Users/ibm4n/code/zhaw-summaries/S_2/LA/LA_RNA_Summary.tex" "LA_RNA_Summary.pdf" "LA_RNA_Summary" 1654867213
+["pdflatex"] 1654867409 "c:/Users/ibm4n/code/zhaw-summaries/S_2/LA/LA_RNA_Summary.tex" "LA_RNA_Summary.pdf" "LA_RNA_Summary" 1654867414
   "0_Setup/Setup.tex" 1651128623 5646 2257df07d7c41d527b4280b689d56ee4 ""
   "C:/Users/ibm4n/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1652957476 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/ibm4n/AppData/Local/MiKTeX/fonts/pk/ljfour/public/mathabx/dpi540/mathx10.pk" 1652957503 27776 ae07969a4f77d2a903f59b07851a32a1 ""
@@ -251,10 +251,10 @@
   "C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/tex/latex/wallpaper/wallpaper.sty" 1145608440 6919 f87ec89c767393dfb3b9adfd163539b0 ""
   "C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044406800 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1636288472 56029 3f7889dab51d620aa43177c391b7b190 ""
-  "LA_RNA_Summary.aux" 1654867213 786 8435940810d772621440a3bede1e98d1 "pdflatex"
+  "LA_RNA_Summary.aux" 1654867414 786 8435940810d772621440a3bede1e98d1 "pdflatex"
   "LA_RNA_Summary.out" 0 -1 0 "pdflatex"
-  "LA_RNA_Summary.tex" 1654867204 25114 9498ca271bed735f657550f4495e0e1e ""
-  "c:/Users/ibm4n/code/zhaw-summaries/S_2/LA/LA_RNA_Summary.tex" 1654867204 25114 9498ca271bed735f657550f4495e0e1e ""
+  "LA_RNA_Summary.tex" 1654867408 25114 9498ca271bed735f657550f4495e0e1e ""
+  "c:/Users/ibm4n/code/zhaw-summaries/S_2/LA/LA_RNA_Summary.tex" 1654867408 25114 9498ca271bed735f657550f4495e0e1e ""
   "img//2x2_det_geom.png" 1651128623 7640 c14982219dc5f634360121d7a75b67d9 ""
   "img//3x3_det_geom.png" 1651128623 19689 42add938a58b3ef9c8c0b49554fd9db2 ""
   "img//3x3_inverse.png" 1651128623 107861 8ba8ba3f64f3f8892137e2e733cb71eb ""
@@ -289,7 +289,7 @@
   "img//rotation.png" 1654843349 108046 24db37ab765a4fe10ae4c77a4840131b ""
   "img//rotation_2.png" 1654843349 24177 83a99887ff2217122a4749f5f701a9f8 ""
   "img//spatprod.png" 1654329289 40278 033bc5a4dd8c88e803ed40f33a7b3ab9 ""
-  "img//tabelle_spiegelung.png" 1654864102 1214087 fb599e634f8dc16e8c77600c258ea693 ""
+  "img//tabelle_spiegelung.png" 1654867405 1215086 29b6e75ba69b134c1332f1fe1a413e02 ""
   "img//umrechnung_b_to_s_bsp.png" 1654329289 8435 2a3d257d472dee7a37005c08fb9fc8d4 ""
   "img//umrechnung_b_to_s_lsg.png" 1654329289 15837 178b49f61f631e5360743d0213d99b03 ""
   "img//untere_obere.png" 1651128623 72196 a6639541d1f06b6a631c72319fc407f2 ""
