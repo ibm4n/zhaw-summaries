@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.19)  10 JUN 2022 14:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.19)  10 JUN 2022 15:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1003,259 +1003,257 @@ File: ./img//spatprod.png Graphic file (type png)
 Package pdftex.def Info: ./img//spatprod.png  used on input line 109.
 (pdftex.def)             Requested size: 237.88454pt x 86.72246pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 115.
+(Font)              <12> on input line 116.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 115.
+(Font)              <8> on input line 116.
  [1
 
 {C:/Users/ibm4n/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./img//ortho.png> <./img//vekProd.png> <./img//vekProd_r2.png> <./img//vekProdParallelo.png> <./img//spatprod.png>]
 <./img//koord_to_param.png, id=45, 1099.10625pt x 263.48438pt>
 File: ./img//koord_to_param.png Graphic file (type png)
 <use ./img//koord_to_param.png>
-Package pdftex.def Info: ./img//koord_to_param.png  used on input line 244.
+Package pdftex.def Info: ./img//koord_to_param.png  used on input line 245.
 (pdftex.def)             Requested size: 219.81735pt x 52.69594pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 247.
+(Font)              <14.4> on input line 249.
 <./img//normiert.png, id=46, 874.01532pt x 226.59656pt>
 File: ./img//normiert.png Graphic file (type png)
 <use ./img//normiert.png>
-Package pdftex.def Info: ./img//normiert.png  used on input line 265.
+Package pdftex.def Info: ./img//normiert.png  used on input line 267.
 (pdftex.def)             Requested size: 174.79996pt x 45.3185pt.
 <./img//rang.png, id=47, 300.3722pt x 92.59593pt>
 File: ./img//rang.png Graphic file (type png)
 <use ./img//rang.png>
-Package pdftex.def Info: ./img//rang.png  used on input line 276.
+Package pdftex.def Info: ./img//rang.png  used on input line 277.
 (pdftex.def)             Requested size: 225.27858pt x 69.44676pt.
 <./img//loesbarkeit.png, id=48, 560.8453pt x 73.02281pt>
 File: ./img//loesbarkeit.png Graphic file (type png)
 <use ./img//loesbarkeit.png>
-Package pdftex.def Info: ./img//loesbarkeit.png  used on input line 280.
+Package pdftex.def Info: ./img//loesbarkeit.png  used on input line 281.
 (pdftex.def)             Requested size: 252.37805pt x 32.85994pt.
 <./img//free_vars.png, id=49, 253.37518pt x 80.44339pt>
 File: ./img//free_vars.png Graphic file (type png)
 <use ./img//free_vars.png>
-Package pdftex.def Info: ./img//free_vars.png  used on input line 283.
+Package pdftex.def Info: ./img//free_vars.png  used on input line 284.
 (pdftex.def)             Requested size: 190.03091pt x 60.33238pt.
 <./img//untere_obere.png, id=50, 745.28438pt x 483.30562pt>
 File: ./img//untere_obere.png Graphic file (type png)
 <use ./img//untere_obere.png>
-Package pdftex.def Info: ./img//untere_obere.png  used on input line 295.
+Package pdftex.def Info: ./img//untere_obere.png  used on input line 296.
 (pdftex.def)             Requested size: 186.32063pt x 120.82611pt.
 <./img//matrix_multi.png, id=51, 359.84438pt x 428.35031pt>
 File: ./img//matrix_multi.png Graphic file (type png)
 <use ./img//matrix_multi.png>
-Package pdftex.def Info: ./img//matrix_multi.png  used on input line 311.
+Package pdftex.def Info: ./img//matrix_multi.png  used on input line 312.
 (pdftex.def)             Requested size: 89.96086pt x 107.08731pt.
 <./img//rechenregeln.png, id=52, 158.09062pt x 79.79813pt>
 File: ./img//rechenregeln.png Graphic file (type png)
 <use ./img//rechenregeln.png>
-Package pdftex.def Info: ./img//rechenregeln.png  used on input line 311.
+Package pdftex.def Info: ./img//rechenregeln.png  used on input line 312.
 (pdftex.def)             Requested size: 126.47266pt x 63.83856pt.
 
-Overfull \hbox (97.17084pt too wide) in paragraph at lines 311--311
+Overfull \hbox (97.17084pt too wide) in paragraph at lines 312--312
 [][]   []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--311
+Underfull \hbox (badness 10000) in paragraph at lines 312--312
 
  []
 
 <./img//3x3_inverse.png, id=53, 933.4875pt x 606.76688pt>
 File: ./img//3x3_inverse.png Graphic file (type png)
 <use ./img//3x3_inverse.png>
-Package pdftex.def Info: ./img//3x3_inverse.png  used on input line 353.
+Package pdftex.def Info: ./img//3x3_inverse.png  used on input line 354.
 (pdftex.def)             Requested size: 233.3713pt x 151.69135pt.
-[2 <./img//koord_to_param.png> <./img//normiert.png> <./img//rang.png> <./img//loesbarkeit.png> <./img//free_vars.png>]
-<./img//checkerboard.png, id=64, 47.42719pt x 48.18pt>
+[2 <./img//koord_to_param.png> <./img//normiert.png> <./img//rang.png> <./img//loesbarkeit.png> <./img//free_vars.png> <./img//untere_obere.png> <./img//matrix_multi.png> <./img//rechenregeln.png>]
+<./img//checkerboard.png, id=67, 47.42719pt x 48.18pt>
 File: ./img//checkerboard.png Graphic file (type png)
 <use ./img//checkerboard.png>
-Package pdftex.def Info: ./img//checkerboard.png  used on input line 374.
+Package pdftex.def Info: ./img//checkerboard.png  used on input line 375.
 (pdftex.def)             Requested size: 35.5703pt x 36.13489pt.
-<./img//laplace.png, id=65, 202.50656pt x 145.29282pt>
+<./img//laplace.png, id=68, 202.50656pt x 145.29282pt>
 File: ./img//laplace.png Graphic file (type png)
 <use ./img//laplace.png>
-Package pdftex.def Info: ./img//laplace.png  used on input line 381.
+Package pdftex.def Info: ./img//laplace.png  used on input line 382.
 (pdftex.def)             Requested size: 81.00117pt x 58.11609pt.
-<./img//laplace_full_1.png, id=66, 176.91093pt x 97.11281pt>
+<./img//laplace_full_1.png, id=69, 176.91093pt x 97.11281pt>
 File: ./img//laplace_full_1.png Graphic file (type png)
 <use ./img//laplace_full_1.png>
-Package pdftex.def Info: ./img//laplace_full_1.png  used on input line 387.
+Package pdftex.def Info: ./img//laplace_full_1.png  used on input line 388.
 (pdftex.def)             Requested size: 106.14737pt x 58.26813pt.
-<./img//laplace_full_2.png, id=67, 632.3625pt x 118.19156pt>
+<./img//laplace_full_2.png, id=70, 632.3625pt x 118.19156pt>
 File: ./img//laplace_full_2.png Graphic file (type png)
 <use ./img//laplace_full_2.png>
-Package pdftex.def Info: ./img//laplace_full_2.png  used on input line 389.
+Package pdftex.def Info: ./img//laplace_full_2.png  used on input line 390.
 (pdftex.def)             Requested size: 252.94052pt x 47.27577pt.
-<./img//det.png, id=68, 750.55406pt x 232.61906pt>
+<./img//det.png, id=71, 750.55406pt x 232.61906pt>
 File: ./img//det.png Graphic file (type png)
 <use ./img//det.png>
-Package pdftex.def Info: ./img//det.png  used on input line 398.
+Package pdftex.def Info: ./img//det.png  used on input line 399.
 (pdftex.def)             Requested size: 225.16795pt x 69.78625pt.
-<./img//2x2_det_geom.png, id=69, 164.11313pt x 117.43875pt>
+<./img//2x2_det_geom.png, id=72, 164.11313pt x 117.43875pt>
 File: ./img//2x2_det_geom.png Graphic file (type png)
 <use ./img//2x2_det_geom.png>
-Package pdftex.def Info: ./img//2x2_det_geom.png  used on input line 409.
+Package pdftex.def Info: ./img//2x2_det_geom.png  used on input line 410.
 (pdftex.def)             Requested size: 32.82204pt x 23.48732pt.
-<./img//3x3_det_geom.png, id=70, 266.49562pt x 201.75375pt>
+<./img//3x3_det_geom.png, id=73, 266.49562pt x 201.75375pt>
 File: ./img//3x3_det_geom.png Graphic file (type png)
 <use ./img//3x3_det_geom.png>
-Package pdftex.def Info: ./img//3x3_det_geom.png  used on input line 417.
+Package pdftex.def Info: ./img//3x3_det_geom.png  used on input line 418.
 (pdftex.def)             Requested size: 53.29817pt x 40.35002pt.
- [3 <./img//untere_obere.png> <./img//matrix_multi.png> <./img//rechenregeln.png> <./img//3x3_inverse.png> <./img//checkerboard.png> <./img//laplace.png> <./img//laplace_full_1.png> <./img//laplace_full_2.png> <./img//det.png> <./img//2x2_det_geom.png> <./img//3x3_det_geom.png>]
-<./img//unterkrit.png, id=91, 345.4334pt x 33.12375pt>
+<./img//unterkrit.png, id=74, 345.4334pt x 33.12375pt>
 File: ./img//unterkrit.png Graphic file (type png)
 <use ./img//unterkrit.png>
-Package pdftex.def Info: ./img//unterkrit.png  used on input line 464.
+Package pdftex.def Info: ./img//unterkrit.png  used on input line 465.
 (pdftex.def)             Requested size: 259.0744pt x 24.84274pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 464--466
+Underfull \hbox (badness 10000) in paragraph at lines 465--467
 [][]
  []
 
-<./img//unterprf1.png, id=92, 881.54344pt x 191.21437pt>
+<./img//unterprf1.png, id=75, 881.54344pt x 191.21437pt>
 File: ./img//unterprf1.png Graphic file (type png)
 <use ./img//unterprf1.png>
-Package pdftex.def Info: ./img//unterprf1.png  used on input line 471.
+Package pdftex.def Info: ./img//unterprf1.png  used on input line 472.
 (pdftex.def)             Requested size: 220.38531pt x 47.80347pt.
-<./img//unterprf2.png, id=93, 718.18312pt x 85.06781pt>
+<./img//unterprf2.png, id=76, 718.18312pt x 85.06781pt>
 File: ./img//unterprf2.png Graphic file (type png)
 <use ./img//unterprf2.png>
-Package pdftex.def Info: ./img//unterprf2.png  used on input line 478.
+Package pdftex.def Info: ./img//unterprf2.png  used on input line 479.
 (pdftex.def)             Requested size: 179.54533pt x 21.26689pt.
-<./img//linearkomba.png, id=94, 810.02625pt x 256.70906pt>
+<./img//linearkomba.png, id=77, 810.02625pt x 256.70906pt>
 File: ./img//linearkomba.png Graphic file (type png)
 <use ./img//linearkomba.png>
-Package pdftex.def Info: ./img//linearkomba.png  used on input line 487.
+Package pdftex.def Info: ./img//linearkomba.png  used on input line 488.
 (pdftex.def)             Requested size: 121.49869pt x 38.50468pt.
-<./img//linearkomb.png, id=95, 901.11656pt x 107.65219pt>
+<./img//linearkomb.png, id=78, 901.11656pt x 107.65219pt>
 File: ./img//linearkomb.png Graphic file (type png)
 <use ./img//linearkomb.png>
-Package pdftex.def Info: ./img//linearkomb.png  used on input line 488.
+Package pdftex.def Info: ./img//linearkomb.png  used on input line 489.
 (pdftex.def)             Requested size: 225.27858pt x 26.91298pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 555--556
+[3 <./img//3x3_inverse.png> <./img//checkerboard.png> <./img//laplace.png> <./img//laplace_full_1.png> <./img//laplace_full_2.png> <./img//det.png> <./img//2x2_det_geom.png> <./img//3x3_det_geom.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 556--557
 []\OT1/lmss/bx/n/10 Menge von Vek-to-ren auf Er-zeu-gen-de-nei-gen-schaft
  []
 
 <./img//umrechnung_b_to_s_bsp.png, id=96, 198.7425pt x 77.53969pt>
 File: ./img//umrechnung_b_to_s_bsp.png Graphic file (type png)
 <use ./img//umrechnung_b_to_s_bsp.png>
-Package pdftex.def Info: ./img//umrechnung_b_to_s_bsp.png  used on input line 583.
+Package pdftex.def Info: ./img//umrechnung_b_to_s_bsp.png  used on input line 584.
 (pdftex.def)             Requested size: 59.6232pt x 23.26207pt.
 <./img//umrechnung_b_to_s_lsg.png, id=97, 670.00313pt x 105.39375pt>
 File: ./img//umrechnung_b_to_s_lsg.png Graphic file (type png)
 <use ./img//umrechnung_b_to_s_lsg.png>
-Package pdftex.def Info: ./img//umrechnung_b_to_s_lsg.png  used on input line 587.
+Package pdftex.def Info: ./img//umrechnung_b_to_s_lsg.png  used on input line 588.
 (pdftex.def)             Requested size: 201.00249pt x 31.61836pt.
 File: ./img//umrechnung_b_to_s_bsp.png Graphic file (type png)
 <use ./img//umrechnung_b_to_s_bsp.png>
-Package pdftex.def Info: ./img//umrechnung_b_to_s_bsp.png  used on input line 591.
+Package pdftex.def Info: ./img//umrechnung_b_to_s_bsp.png  used on input line 592.
 (pdftex.def)             Requested size: 59.6232pt x 23.26207pt.
 <./img//Group 4.png, id=98, 430.60875pt x 285.065pt>
 File: ./img//Group 4.png Graphic file (type png)
 <use ./img//Group 4.png>
-Package pdftex.def Info: ./img//Group 4.png  used on input line 595.
+Package pdftex.def Info: ./img//Group 4.png  used on input line 596.
 (pdftex.def)             Requested size: 129.18361pt x 85.52016pt.
 <./img//lineareabbild_aufgaben.png, id=99, 565.36218pt x 289.83281pt>
 File: ./img//lineareabbild_aufgaben.png Graphic file (type png)
 <use ./img//lineareabbild_aufgaben.png>
-Package pdftex.def Info: ./img//lineareabbild_aufgaben.png  used on input line 612.
+Package pdftex.def Info: ./img//lineareabbild_aufgaben.png  used on input line 613.
 (pdftex.def)             Requested size: 169.60995pt x 86.9505pt.
 <./img//lineareabbild_loesung.png, id=100, 754.31813pt x 651.18282pt>
 File: ./img//lineareabbild_loesung.png Graphic file (type png)
 <use ./img//lineareabbild_loesung.png>
-Package pdftex.def Info: ./img//lineareabbild_loesung.png  used on input line 614.
+Package pdftex.def Info: ./img//lineareabbild_loesung.png  used on input line 615.
 (pdftex.def)             Requested size: 226.29718pt x 195.35635pt.
-[4 <./img//unterkrit.png> <./img//unterprf1.png> <./img//unterprf2.png> <./img//linearkomba.png> <./img//linearkomb.png> <./img//umrechnung_b_to_s_bsp.png> <./img//umrechnung_b_to_s_lsg.png>]
-<./img//abbild.png, id=112, 916.1728pt x 146.79843pt>
+[4 <./img//unterkrit.png> <./img//unterprf1.png> <./img//unterprf2.png> <./img//linearkomba.png> <./img//linearkomb.png> <./img//umrechnung_b_to_s_bsp.png> <./img//umrechnung_b_to_s_lsg.png> <./img//Group 4.png>]
+<./img//abbild.png, id=113, 916.1728pt x 146.79843pt>
 File: ./img//abbild.png Graphic file (type png)
 <use ./img//abbild.png>
-Package pdftex.def Info: ./img//abbild.png  used on input line 622.
+Package pdftex.def Info: ./img//abbild.png  used on input line 623.
 (pdftex.def)             Requested size: 229.04263pt x 36.69951pt.
-<./img//abbild_1.png, id=113, 1213.53375pt x 260.47313pt>
+<./img//abbild_1.png, id=114, 1213.53375pt x 260.47313pt>
 File: ./img//abbild_1.png Graphic file (type png)
 <use ./img//abbild_1.png>
-Package pdftex.def Info: ./img//abbild_1.png  used on input line 626.
+Package pdftex.def Info: ./img//abbild_1.png  used on input line 627.
 (pdftex.def)             Requested size: 242.70245pt x 52.09369pt.
-<./img//abbild_3.png, id=114, 733.23938pt x 240.9pt>
+<./img//abbild_3.png, id=115, 733.23938pt x 240.9pt>
 File: ./img//abbild_3.png Graphic file (type png)
 <use ./img//abbild_3.png>
-Package pdftex.def Info: ./img//abbild_3.png  used on input line 628.
+Package pdftex.def Info: ./img//abbild_3.png  used on input line 629.
 (pdftex.def)             Requested size: 219.97351pt x 72.27055pt.
-<./img//bsp5.png, id=115, 796.47563pt x 210.03468pt>
+<./img//bsp5.png, id=116, 796.47563pt x 210.03468pt>
 File: ./img//bsp5.png Graphic file (type png)
 <use ./img//bsp5.png>
-Package pdftex.def Info: ./img//bsp5.png  used on input line 632.
+Package pdftex.def Info: ./img//bsp5.png  used on input line 633.
 (pdftex.def)             Requested size: 238.94453pt x 63.01088pt.
-<./img//wichtige lineare Abbildungen in der Ebene.png, id=116, 795.72281pt x 365.11406pt>
+<./img//wichtige lineare Abbildungen in der Ebene.png, id=117, 795.72281pt x 365.11406pt>
 File: ./img//wichtige lineare Abbildungen in der Ebene.png Graphic file (type png)
 <use ./img//wichtige lineare Abbildungen in der Ebene.png>
-Package pdftex.def Info: ./img//wichtige lineare Abbildungen in der Ebene.png  used on input line 712.
+Package pdftex.def Info: ./img//wichtige lineare Abbildungen in der Ebene.png  used on input line 713.
 (pdftex.def)             Requested size: 258.60684pt x 118.66066pt.
-<./img//linearen Abbildungen im Raum.png, id=117, 810.77907pt x 825.83531pt>
+<./img//linearen Abbildungen im Raum.png, id=118, 810.77907pt x 825.83531pt>
 File: ./img//linearen Abbildungen im Raum.png Graphic file (type png)
 <use ./img//linearen Abbildungen im Raum.png>
-Package pdftex.def Info: ./img//linearen Abbildungen im Raum.png  used on input line 716.
+Package pdftex.def Info: ./img//linearen Abbildungen im Raum.png  used on input line 717.
 (pdftex.def)             Requested size: 263.50008pt x 268.3933pt.
-<./img//tabelle_spiegelung.png, id=118, 927.89517pt x 631.50214pt>
+<./img//tabelle_spiegelung.png, id=119, 927.89517pt x 631.50214pt>
 File: ./img//tabelle_spiegelung.png Graphic file (type png)
 <use ./img//tabelle_spiegelung.png>
-Package pdftex.def Info: ./img//tabelle_spiegelung.png  used on input line 720.
+Package pdftex.def Info: ./img//tabelle_spiegelung.png  used on input line 722.
 (pdftex.def)             Requested size: 255.16489pt x 173.6588pt.
- [5 <./img//Group 4.png> <./img//lineareabbild_aufgaben.png> <./img//lineareabbild_loesung.png> <./img//abbild.png> <./img//abbild_1.png> <./img//abbild_3.png> <./img//bsp5.png>]
-<./img//rotation.png, id=132, 684.30656pt x 565.36218pt>
+ [5 <./img//lineareabbild_aufgaben.png> <./img//lineareabbild_loesung.png> <./img//abbild.png> <./img//abbild_1.png> <./img//abbild_3.png> <./img//bsp5.png> <./img//wichtige lineare Abbildungen in der Ebene.png> <./img//linearen Abbildungen im Raum.png>]
+<./img//rotation.png, id=134, 684.30656pt x 565.36218pt>
 File: ./img//rotation.png Graphic file (type png)
 <use ./img//rotation.png>
-Package pdftex.def Info: ./img//rotation.png  used on input line 725.
+Package pdftex.def Info: ./img//rotation.png  used on input line 726.
 (pdftex.def)             Requested size: 261.75162pt x 216.25464pt.
-<./img//rotation_2.png, id=133, 687.31781pt x 102.3825pt>
+<./img//rotation_2.png, id=135, 687.31781pt x 102.3825pt>
 File: ./img//rotation_2.png Graphic file (type png)
 <use ./img//rotation_2.png>
-Package pdftex.def Info: ./img//rotation_2.png  used on input line 728.
+Package pdftex.def Info: ./img//rotation_2.png  used on input line 729.
 (pdftex.def)             Requested size: 223.37564pt x 33.27391pt.
-<./img//Kern.png, id=134, 905.63344pt x 274.77657pt>
+<./img//Kern.png, id=136, 905.63344pt x 274.77657pt>
 File: ./img//Kern.png Graphic file (type png)
 <use ./img//Kern.png>
-Package pdftex.def Info: ./img//Kern.png  used on input line 740.
+Package pdftex.def Info: ./img//Kern.png  used on input line 742.
 (pdftex.def)             Requested size: 253.57562pt x 76.9369pt.
-<./img//Kern_2.png, id=135, 910.90312pt x 356.83313pt>
+<./img//Kern_2.png, id=137, 910.90312pt x 356.83313pt>
 File: ./img//Kern_2.png Graphic file (type png)
 <use ./img//Kern_2.png>
-Package pdftex.def Info: ./img//Kern_2.png  used on input line 742.
+Package pdftex.def Info: ./img//Kern_2.png  used on input line 744.
 (pdftex.def)             Requested size: 255.05113pt x 99.91258pt.
-<./img//Kern_3.png, id=136, 284.34804pt x 116.5784pt>
+<./img//Kern_3.png, id=138, 284.34804pt x 116.5784pt>
 File: ./img//Kern_3.png Graphic file (type png)
 <use ./img//Kern_3.png>
-Package pdftex.def Info: ./img//Kern_3.png  used on input line 748.
+Package pdftex.def Info: ./img//Kern_3.png  used on input line 750.
 (pdftex.def)             Requested size: 79.6169pt x 32.64172pt.
-<./img//Kern_4.png, id=137, 850.46304pt x 374.68553pt>
+<./img//Kern_4.png, id=139, 850.46304pt x 374.68553pt>
 File: ./img//Kern_4.png Graphic file (type png)
 <use ./img//Kern_4.png>
-Package pdftex.def Info: ./img//Kern_4.png  used on input line 750.
+Package pdftex.def Info: ./img//Kern_4.png  used on input line 752.
 (pdftex.def)             Requested size: 238.12802pt x 104.91122pt.
- [6 <./img//wichtige lineare Abbildungen in der Ebene.png> <./img//linearen Abbildungen im Raum.png> <./img//tabelle_spiegelung.png> <./img//rotation.png> <./img//rotation_2.png> <./img//Kern.png>]
-<./img//bild.png, id=148, 863.47594pt x 118.94438pt>
+<./img//bild.png, id=140, 863.47594pt x 118.94438pt>
 File: ./img//bild.png Graphic file (type png)
 <use ./img//bild.png>
-Package pdftex.def Info: ./img//bild.png  used on input line 780.
+Package pdftex.def Info: ./img//bild.png  used on input line 783.
 (pdftex.def)             Requested size: 241.7716pt x 33.30418pt.
- [7 <./img//Kern_2.png> <./img//Kern_3.png> <./img//Kern_4.png> <./img//bild.png>] (LA_RNA_Summary.aux)
+ [6 <./img//tabelle_spiegelung.png> <./img//rotation.png> <./img//rotation_2.png> <./img//Kern.png> <./img//Kern_2.png> <./img//Kern_3.png> <./img//Kern_4.png> <./img//bild.png>] (LA_RNA_Summary.aux)
 Package rerunfilecheck Info: File `LA_RNA_Summary.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27411 strings out of 478582
- 535056 string characters out of 2844344
+ 27410 strings out of 478582
+ 535050 string characters out of 2844344
  937595 words of memory out of 3000000
  45018 multiletter control sequences out of 15000+600000
  537668 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,13n,83p,485b,664s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc} <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha8.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi720\mathx10.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi720\matha12.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\mathx10.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha12.pk>{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc} <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha7.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha6.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi540\mathx10.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha9.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha10.pk><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss9.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on LA_RNA_Summary.pdf (7 pages, 3278821 bytes).
+Output written on LA_RNA_Summary.pdf (6 pages, 3277446 bytes).
 PDF statistics:
- 352 PDF objects out of 1000 (max. 8388607)
- 8 named destinations out of 1000 (max. 500000)
+ 346 PDF objects out of 1000 (max. 8388607)
+ 7 named destinations out of 1000 (max. 500000)
  238 words of extra memory for PDF output out of 10000 (max. 10000000)
 
