@@ -619,6 +619,24 @@
     {\includegraphics[scale=0.3]{lineareabbild_aufgaben.png}}
 
     {\includegraphics[scale=0.3]{lineareabbild_loesung.png}}
+
+    \subsection{Anwendung von Lineraren Abbildungen auf Punkte}
+    {Beispiel: Rotation von Punkt $P:(2,7,9)$ um die $x-Achse$ um den Winkel $90$}
+
+    {$P$ ist immer $rechts$ von der Abbildungsmatrix:}
+
+
+
+    $$A \cdot P = \begin{pmatrix}
+            1 & 0       & 0        \\
+            0 & cos(90) & -sin(90) \\
+            0 & sin(90) & cos(90)
+        \end{pmatrix} \cdot \begin{pmatrix}
+            2 \\
+            7 \\
+            9
+        \end{pmatrix}$$
+
     \vfill\null
     \columnbreak
     \subsection{Abbildungsmatrix}
@@ -708,7 +726,7 @@
     }
     {$f \to $ Abbildungsmatrix A ; $g \to $ Abbildungsmatrix B}
 
-        {Die Matrix der Abbildung, die zuerst ausgeführt wird, steht $rechts$}
+    {Die Matrix der Abbildung, die zuerst ausgeführt wird, steht $rechts$}
 
     {$f \circ g:$ müssen wir zunächst $g$ dann $f$
         ausführen, daher steht die Matrix $B$ rechts im Matrizenprodukt:}$\to A \cdot B$
