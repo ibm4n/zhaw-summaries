@@ -70,6 +70,7 @@
     \subsection{Zwischenwinkel}
     {$\varphi = cos^{-1}(\frac{\vec{a}\cdot\vec{b}}{\mid \vec{a} \mid \cdot \mid \vec{b} \mid}) $}
     \WhiteSpace
+    \includegraphics[scale=0.4]{Zwischenwinkel.png}
     \subsection{Einheitsvektor}
     {$\vec{e}_a $ = $\frac{1}{\mid \vec{a} \mid} \cdot \vec{a}$ ;$\mid \vec{e}_a \mid$ = 1}
     \subsection{Vektorprodukt / Kreuzprodukt}
@@ -262,11 +263,31 @@
     \WhiteSpace
 
 
-    \subsection{  normierte Koordinatendarstellung der Ebene}
+    \subsection{normierte Koordinatendarstellung der Ebene}
     {$E: 2x - 6y +3z + 4 = 0$}
     \includegraphics[scale=0.2]{normiert.png}
 
-   
+    \subsection{Schnittgerade zweier Ebenen}
+    {\circled{1} Ebenen in die Koordinatendarstellung schreiben\\
+    \circled{2} 'd' auf die andere Seite des Gleicheitszeichen schreiben\\
+    \circled{3} Lgs aufstellen\\
+    \circled{4} Gauss-Jordan anwenden $\rightarrow$ Schnittgerade (siehe 'Lösung nach reduzierter Zeilenstufenform')\\
+    Bsp:}
+    \includegraphics[scale=0.3]{Schnittgerade.png}
+
+
+    \subsection{ Schnittpunkt mit Gerade}
+    {Aufpunkt von Ebene $\vec{Ea}$\\
+    Aufpunkt von Gerade $\vec{ga}$\\
+    $\vec{ga} - \vec{Ea} = \vec{c}$}
+    \circled{1} Erste 2 Vektoren im Lgs sind die Parameter Vektoren der Ebene.
+    Der Dritte Vektor, ist der Parameter vektor der geraden und der Lösungsvektor ist $\vec{c}$ \\
+    \circled{2} Lgs mit Gauss Lösen \\
+    \circled{3} Wenn die unterste Zeile nur noch aus einer führenden 1 in der untersten Zeie und einer Zahl im Lösungsvektor besteht, muss diese Zahl nur noch als Parameter in der Gerade eingesetzt werden.\\
+    \WhiteSpace
+    Sollte das Lgs nicht Lösbar sein, existiert kein Schnittpunkt $\vec{S}$
+    \WhiteSpace
+    
     \section{Lineare Gleichungssysteme}
     \WhiteSpace
     \subsection{Rang}
@@ -283,8 +304,13 @@
 
     \includegraphics[scale=0.75]{free_vars.png}
 
+    \subsection{Lösung nach reduzierter Zeilenstufenform}
+    {Bestimmen der Lösung nach reduzierter Zeilenstufenform}
+    \includegraphics[scale=0.45]{Lgs_Loesung_nach_Gauss.png}
+
     \vfill\null
     \columnbreak
+
     \section{Matrizen}
     \subsection{Begriffe}
     {\textbf{Quadratische Matrix:} gleich viele Zeilen und Spalten}
@@ -600,6 +626,19 @@
     {$(2,-1,3)$ von $S$ nach $B$}
 
     {\includegraphics[scale=0.3]{Group 4.png}}
+
+    \subsection{Matrizen als Vektor darstellen}
+
+    $\begin{pmatrix} a & b \\ c & d \end{pmatrix} \quad
+        \rightarrow \quad
+        \begin{pmatrix} a \\ b \\ c \\ d \end{pmatrix}
+    $\\
+    \includegraphics[scale=0.4]{Matrices_to_vectors.png} $\rightarrow$
+    \includegraphics[scale=0.4]{Matrices_to_vectors_2.png}
+    
+
+
+
     \vfill\null
     \columnbreak
     \section{Lineare Abbildungen}
