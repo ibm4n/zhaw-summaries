@@ -70,6 +70,7 @@
     \subsection{Zwischenwinkel}
     {$\varphi = cos^{-1}(\frac{\vec{a}\cdot\vec{b}}{\mid \vec{a} \mid \cdot \mid \vec{b} \mid}) $}
     \WhiteSpace
+    \includegraphics[scale=0.4]{Zwischenwinkel.png}
     \subsection{Einheitsvektor}
     {$\vec{e}_a $ = $\frac{1}{\mid \vec{a} \mid} \cdot \vec{a}$ ;$\mid \vec{e}_a \mid$ = 1}
     \subsection{Vektorprodukt / Kreuzprodukt}
@@ -262,10 +263,30 @@
     \WhiteSpace
 
 
-    \subsection{  normierte Koordinatendarstellung der Ebene}
+    \subsection{normierte Koordinatendarstellung der Ebene}
     {$E: 2x - 6y +3z + 4 = 0$}
     \includegraphics[scale=0.2]{normiert.png}
 
+    \subsection{Schnittgerade zweier Ebenen}
+    {\circled{1} Ebenen in die Koordinatendarstellung schreiben\\
+        \circled{2} 'd' auf die andere Seite des Gleicheitszeichen schreiben\\
+        \circled{3} Lgs aufstellen\\
+        \circled{4} Gauss-Jordan anwenden $\rightarrow$ Schnittgerade (siehe 'Lösung nach reduzierter Zeilenstufenform')\\
+        Bsp:}
+    \includegraphics[scale=0.3]{Schnittgerade.png}
+
+
+    \subsection{ Schnittpunkt mit Gerade}
+    {Aufpunkt von Ebene $\vec{Ea}$\\
+        Aufpunkt von Gerade $\vec{ga}$\\
+        $\vec{ga} - \vec{Ea} = \vec{c}$}
+    \circled{1} Erste 2 Vektoren im Lgs sind die Parameter Vektoren der Ebene.
+    Der Dritte Vektor, ist der Parameter vektor der geraden und der Lösungsvektor ist $\vec{c}$ \\
+    \circled{2} Lgs mit Gauss Lösen \\
+    \circled{3} Unterste Zeile $\to $ nur eine führenden 1 in der untersten Zeile und einer Zahl im Lösungsvektor $=$ Zahl als Parameter in Gerade einsetzen.\\
+    \WhiteSpace
+    Sollte das Lgs nicht Lösbar sein, existiert kein Schnittpunkt $\vec{S}$
+    \WhiteSpace
 
     \section{Lineare Gleichungssysteme}
     \WhiteSpace
@@ -283,8 +304,13 @@
 
     \includegraphics[scale=0.75]{free_vars.png}
 
+    \subsection{Lösung nach reduzierter Zeilenstufenform}
+    {Bestimmen der Lösung nach reduzierter Zeilenstufenform}
+    \includegraphics[scale=0.45]{Lgs_Loesung_nach_Gauss.png}
+
     \vfill\null
     \columnbreak
+
     \section{Matrizen}
     \subsection{Begriffe}
     {\textbf{Quadratische Matrix:} gleich viele Zeilen und Spalten}
@@ -305,11 +331,9 @@
 
     \WhiteSpace
     \subsection{Multiplikation / Rechenregeln}
-    {\begin{multicols}{2}
-            { \includegraphics[scale=0.25]{matrix_multi.png} }
-            \columnbreak
-            { \includegraphics[scale=0.8]{rechenregeln.png} }
-        \end{multicols}}
+
+    { \includegraphics[scale=0.8]{rechenregeln.png} }
+
 
     \subsection{Transponieren}
 
@@ -353,7 +377,24 @@
 
     \includegraphics[scale=0.25]{3x3_inverse.png}
     \WhiteSpace
+   
 
+    \subsection{Geometrische Interpretation der Determinante }
+    {\textbf{2x2}}
+
+    {Fläche von $\vec{a} $ und $ \vec{b} = $ Betrag von $ det \begin{vmatrix} a1 & b1  \\ a2 & b2 \end{vmatrix} $}
+    {\includegraphics[scale=0.2]{2x2_det_geom.png}}
+
+
+
+
+    \textbf{3x3}
+
+    {Volumen von $\vec{a} $, $ \vec{b}$ und $\vec{c} = $ Betrag von $   det \begin{vmatrix} a1 & b1 & c1 \\ a2 & b2 & c2 \\ a3 & b3 & c3  \end{vmatrix}  $}
+    {\includegraphics[scale=0.2]{3x3_det_geom.png}}
+    \mbox{}
+    \vfill\null
+    \columnbreak
     \subsection{Determinante}
     {\textbf{2x2}}
 
@@ -403,20 +444,6 @@
     $3\times 3 \rightarrow det(5 \cdot A) = 5^3 \cdot det(A)$
 
     \WhiteSpace
-    \subsection{Geometrische Interpretation der Determinante }
-    {\textbf{2x2}}
-
-    {Fläche von $\vec{a} $ und $ \vec{b} = $ Betrag von $ det \begin{vmatrix} a1 & b1  \\ a2 & b2 \end{vmatrix} $}
-    {\includegraphics[scale=0.2]{2x2_det_geom.png}}
-
-
-
-
-    \textbf{3x3}
-
-    {Volumen von $\vec{a} $, $ \vec{b}$ und $\vec{c} = $ Betrag von $   det \begin{vmatrix} a1 & b1 & c1 \\ a2 & b2 & c2 \\ a3 & b3 & c3  \end{vmatrix}  $}
-    {\includegraphics[scale=0.2]{3x3_det_geom.png}}
-    \mbox{}
     \vfill\null
     \columnbreak
 
@@ -455,7 +482,7 @@
 
 
     \vfill\null
-    \columnbreak
+    \newpage
     \section{Vektorräume}
 
     \subsection{Unterräume}
@@ -601,6 +628,19 @@
     {$(2,-1,3)$ von $S$ nach $B$}
 
     {\includegraphics[scale=0.3]{Group 4.png}}
+
+    \subsection{Matrizen als Vektor darstellen}
+
+    $\begin{pmatrix} a & b \\ c & d \end{pmatrix} \quad
+        \rightarrow \quad
+        \begin{pmatrix} a \\ b \\ c \\ d \end{pmatrix}
+    $\\
+    \includegraphics[scale=0.4]{Matrices_to_vectors.png} $\rightarrow$
+    \includegraphics[scale=0.4]{Matrices_to_vectors_2.png}
+
+
+
+
     \vfill\null
     \columnbreak
     \section{Lineare Abbildungen}
@@ -621,6 +661,12 @@
 
     {\includegraphics[scale=0.3]{lineareabbild_loesung.png}}
 
+    \vfill\null
+    \columnbreak
+
+    \subsection{ Abbildungsmatrix cAb ermitteln }
+    {\includegraphics[scale=0.6]{Abbildungsmatrix_cAb_ermitteln.png}}
+
     \subsection{Anwendung von Lineraren Abbildungen auf Punkte}
     {Beispiel: Rotation von Punkt $P:(2,7,9)$ um die $x-Achse$ um den Winkel $90$$^{\circ}$}
 
@@ -640,6 +686,7 @@
 
     \vfill\null
     \columnbreak
+
     \subsection{Abbildungsmatrix}
     {Bzgl. $Standardbasis$: Ablesen $\to$}
 
@@ -721,11 +768,16 @@
                 -4
             \end{pmatrix}$}
 
+
     \vfill\null
     \columnbreak
     \subsection{  Verknüpfung von linearen Abbildungen(Komposition)
     }
     {$f \to $ Abbildungsmatrix A ; $g \to $ Abbildungsmatrix B}
+
+    {f zuerst $\to g(f(x)) \to g \circ f \to B \cdot A$  }
+
+    {g zuerst $\to f(g(x)) \to f \circ g \to A \cdot B$  }
 
     {Die Matrix der Abbildung, die zuerst ausgeführt wird, steht $rechts$}
 
@@ -738,14 +790,16 @@
     {\includegraphics[scale=0.325]{wichtige lineare Abbildungen in der Ebene.png}}
 
     {Scherung: um den Winkel $\phi$ bedeutet: $m \to tan(\phi)$  }
-
+    \vfill\null
+    \columnbreak
     \subsection{ linearen Abbildungen im Raum}
     {$\rightarrow $ $!$ normieren nicht vergessen $!$ $\leftarrow$}
     {\includegraphics[scale=0.325]{linearen Abbildungen im Raum.png}}
 
 
-   
 
+    \vfill\null
+    \columnbreak
     \subsection{ Rotationen}
 
     {\includegraphics[scale=0.3825]{rotation.png}}
