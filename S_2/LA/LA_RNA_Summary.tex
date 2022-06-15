@@ -269,25 +269,25 @@
 
     \subsection{Schnittgerade zweier Ebenen}
     {\circled{1} Ebenen in die Koordinatendarstellung schreiben\\
-    \circled{2} 'd' auf die andere Seite des Gleicheitszeichen schreiben\\
-    \circled{3} Lgs aufstellen\\
-    \circled{4} Gauss-Jordan anwenden $\rightarrow$ Schnittgerade (siehe 'Lösung nach reduzierter Zeilenstufenform')\\
-    Bsp:}
+        \circled{2} 'd' auf die andere Seite des Gleicheitszeichen schreiben\\
+        \circled{3} Lgs aufstellen\\
+        \circled{4} Gauss-Jordan anwenden $\rightarrow$ Schnittgerade (siehe 'Lösung nach reduzierter Zeilenstufenform')\\
+        Bsp:}
     \includegraphics[scale=0.3]{Schnittgerade.png}
 
 
     \subsection{ Schnittpunkt mit Gerade}
     {Aufpunkt von Ebene $\vec{Ea}$\\
-    Aufpunkt von Gerade $\vec{ga}$\\
-    $\vec{ga} - \vec{Ea} = \vec{c}$}
+        Aufpunkt von Gerade $\vec{ga}$\\
+        $\vec{ga} - \vec{Ea} = \vec{c}$}
     \circled{1} Erste 2 Vektoren im Lgs sind die Parameter Vektoren der Ebene.
     Der Dritte Vektor, ist der Parameter vektor der geraden und der Lösungsvektor ist $\vec{c}$ \\
     \circled{2} Lgs mit Gauss Lösen \\
-    \circled{3} Wenn die unterste Zeile nur noch aus einer führenden 1 in der untersten Zeie und einer Zahl im Lösungsvektor besteht, muss diese Zahl nur noch als Parameter in der Gerade eingesetzt werden.\\
+    \circled{3} Unterste Zeile $\to $ nur eine führenden 1 in der untersten Zeile und einer Zahl im Lösungsvektor $=$ Zahl als Parameter in Gerade einsetzen.\\
     \WhiteSpace
     Sollte das Lgs nicht Lösbar sein, existiert kein Schnittpunkt $\vec{S}$
     \WhiteSpace
-    
+
     \section{Lineare Gleichungssysteme}
     \WhiteSpace
     \subsection{Rang}
@@ -331,11 +331,9 @@
 
     \WhiteSpace
     \subsection{Multiplikation / Rechenregeln}
-    {\begin{multicols}{2}
-            { \includegraphics[scale=0.25]{matrix_multi.png} }
-            \columnbreak
-            { \includegraphics[scale=0.8]{rechenregeln.png} }
-        \end{multicols}}
+
+    { \includegraphics[scale=0.8]{rechenregeln.png} }
+
 
     \subsection{Transponieren}
 
@@ -379,7 +377,24 @@
 
     \includegraphics[scale=0.25]{3x3_inverse.png}
     \WhiteSpace
+   
 
+    \subsection{Geometrische Interpretation der Determinante }
+    {\textbf{2x2}}
+
+    {Fläche von $\vec{a} $ und $ \vec{b} = $ Betrag von $ det \begin{vmatrix} a1 & b1  \\ a2 & b2 \end{vmatrix} $}
+    {\includegraphics[scale=0.2]{2x2_det_geom.png}}
+
+
+
+
+    \textbf{3x3}
+
+    {Volumen von $\vec{a} $, $ \vec{b}$ und $\vec{c} = $ Betrag von $   det \begin{vmatrix} a1 & b1 & c1 \\ a2 & b2 & c2 \\ a3 & b3 & c3  \end{vmatrix}  $}
+    {\includegraphics[scale=0.2]{3x3_det_geom.png}}
+    \mbox{}
+    \vfill\null
+    \columnbreak
     \subsection{Determinante}
     {\textbf{2x2}}
 
@@ -429,21 +444,8 @@
     $3\times 3 \rightarrow det(5 \cdot A) = 5^3 \cdot det(A)$
 
     \WhiteSpace
-    \subsection{Geometrische Interpretation der Determinante }
-    {\textbf{2x2}}
-
-    {Fläche von $\vec{a} $ und $ \vec{b} = $ Betrag von $ det \begin{vmatrix} a1 & b1  \\ a2 & b2 \end{vmatrix} $}
-    {\includegraphics[scale=0.2]{2x2_det_geom.png}}
-
-
-
-
-    \textbf{3x3}
-
-    {Volumen von $\vec{a} $, $ \vec{b}$ und $\vec{c} = $ Betrag von $   det \begin{vmatrix} a1 & b1 & c1 \\ a2 & b2 & c2 \\ a3 & b3 & c3  \end{vmatrix}  $}
-    {\includegraphics[scale=0.2]{3x3_det_geom.png}}
-    \mbox{}
-
+    \vfill\null
+    \columnbreak
 
     \subsection{Matrizengleichungen}
     { \begin{center}
@@ -480,7 +482,7 @@
 
 
     \vfill\null
-    \columnbreak
+    \newpage
     \section{Vektorräume}
 
     \subsection{Unterräume}
@@ -605,7 +607,7 @@
 
     {Für $P_n[x]$: Basus $M$ heisst Monombasis}
     \WhiteSpace
-    
+
     \vfill\null
     \columnbreak
     \subsection{Umrechnung von Basis $B$ zur Standardbasis $S$}
@@ -635,7 +637,7 @@
     $\\
     \includegraphics[scale=0.4]{Matrices_to_vectors.png} $\rightarrow$
     \includegraphics[scale=0.4]{Matrices_to_vectors_2.png}
-    
+
 
 
 
@@ -661,13 +663,30 @@
 
     \vfill\null
     \columnbreak
-    
+
     \subsection{ Abbildungsmatrix cAb ermitteln }
     {\includegraphics[scale=0.6]{Abbildungsmatrix_cAb_ermitteln.png}}
-    
+
+    \subsection{Anwendung von Lineraren Abbildungen auf Punkte}
+    {Beispiel: Rotation von Punkt $P:(2,7,9)$ um die $x-Achse$ um den Winkel $90$$^{\circ}$}
+
+    {$P$ ist immer $rechts$ von der Abbildungsmatrix:}
+
+
+
+    $$A \cdot P = \begin{pmatrix}
+            1 & 0               & 0                \\
+            0 & cos(90^{\circ}) & -sin(90^{\circ}) \\
+            0 & sin(90^{\circ}) & cos(90^{\circ})
+        \end{pmatrix} \cdot \begin{pmatrix}
+            2 \\
+            7 \\
+            9
+        \end{pmatrix}$$
+
     \vfill\null
     \columnbreak
-        
+
     \subsection{Abbildungsmatrix}
     {Bzgl. $Standardbasis$: Ablesen $\to$}
 
@@ -762,19 +781,25 @@
 
     {Die Matrix der Abbildung, die zuerst ausgeführt wird, steht $rechts$}
 
+    {$f \circ g:$ müssen wir zunächst $g$ dann $f$
+        ausführen, daher steht die Matrix $B$ rechts im Matrizenprodukt:}$\to A \cdot B$
+    {{$g \circ f \to B \cdot A; $  }{$f \circ g \to A \cdot B$  }}
+
     \subsection{ lineare Abbildungen in der Ebene}
-    {$\rightarrow $ $!$ normieren nicht vergessen $!$ $\leftarrow$}
+
     {\includegraphics[scale=0.325]{wichtige lineare Abbildungen in der Ebene.png}}
 
+    {Scherung: um den Winkel $\phi$ bedeutet: $m \to tan(\phi)$  }
+    \vfill\null
+    \columnbreak
     \subsection{ linearen Abbildungen im Raum}
     {$\rightarrow $ $!$ normieren nicht vergessen $!$ $\leftarrow$}
     {\includegraphics[scale=0.325]{linearen Abbildungen im Raum.png}}
+
+
+
     \vfill\null
     \columnbreak
-    
-    \subsection{ Übersicht}
-    {\includegraphics[scale=0.275]{tabelle_spiegelung.png}}
-    
     \subsection{ Rotationen}
 
     {\includegraphics[scale=0.3825]{rotation.png}}
@@ -798,7 +823,7 @@
     {\includegraphics[scale=0.28]{Kern_2.png}}
 
 
-    
+
     {Beispiel 2:}
 
     {\includegraphics[scale=0.28]{Kern_3.png}}
@@ -845,6 +870,10 @@
     ${}_{B}A_{B} = {}_{B}T_{S}  \cdot {}_{S}A_{S} \cdot {}_{S}T_{B}$
 
 
+    \vfill\null
+    \newpage
+    \subsection{ Übersicht}
+    {\includegraphics[scale=0.675]{tabelle_spiegelung.png}}
 
 \end{multicols*}
 
