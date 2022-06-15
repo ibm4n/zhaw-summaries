@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1655144967 "c:/Git/Summaries/zhaw-summaries/S_2/LA/LA_RNA_Summary.tex" "LA_RNA_Summary.pdf" "LA_RNA_Summary" 1655144971
+["pdflatex"] 1655241984 "c:/Git/Summaries/zhaw-summaries/S_2/LA/LA_RNA_Summary.tex" "LA_RNA_Summary.pdf" "LA_RNA_Summary" 1655241988
   "0_Setup/Setup.tex" 1655031183 5646 2257df07d7c41d527b4280b689d56ee4 ""
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc" 1256933040 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc" 1256933040 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
@@ -254,13 +254,14 @@
   "C:/Users/nicow/AppData/Roaming/MiKTeX/tex/latex/ulem/ulem.sty" 1578655045 15682 94f55b803e160cf7fb6e4d77d07cfe1d ""
   "C:/Users/nicow/AppData/Roaming/MiKTeX/tex/latex/wallpaper/wallpaper.sty" 1145608440 6919 f87ec89c767393dfb3b9adfd163539b0 ""
   "C:/Users/nicow/AppData/Roaming/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044406800 26220 3701aebf80ccdef248c0c20dd062fea9 ""
-  "LA_RNA_Summary.aux" 1655144971 654 e8980e786f93b02402b9bd978d7b58fb "pdflatex"
+  "LA_RNA_Summary.aux" 1655241988 654 e8980e786f93b02402b9bd978d7b58fb "pdflatex"
   "LA_RNA_Summary.out" 0 -1 0 "pdflatex"
-  "LA_RNA_Summary.tex" 1655144967 26892 7ba6d4b7bd83ecbb046caa32f4266ad3 ""
-  "c:/Git/Summaries/zhaw-summaries/S_2/LA/LA_RNA_Summary.tex" 1655144967 26892 7ba6d4b7bd83ecbb046caa32f4266ad3 ""
+  "LA_RNA_Summary.tex" 1655241983 27125 af89c3c724269956ed59f515623692e5 ""
+  "c:/Git/Summaries/zhaw-summaries/S_2/LA/LA_RNA_Summary.tex" 1655241983 27125 af89c3c724269956ed59f515623692e5 ""
   "img//2x2_det_geom.png" 1655031183 7640 c14982219dc5f634360121d7a75b67d9 ""
   "img//3x3_det_geom.png" 1655031183 19689 42add938a58b3ef9c8c0b49554fd9db2 ""
   "img//3x3_inverse.png" 1655031183 107861 8ba8ba3f64f3f8892137e2e733cb71eb ""
+  "img//Abbildungsmatrix_cAb_ermitteln.png" 1655238405 85950 6f39a9d547eb744d04b4a062b99aa68c ""
   "img//Group 4.png" 1655031183 33601 e15a72cd9dc2ba03839efc012c1cee48 ""
   "img//Kern.png" 1655031183 53011 57264f6e239554827818157e331549d1 ""
   "img//Kern_2.png" 1655031183 62086 a4adc66a8f45e1b4baaec06dde5056c6 ""

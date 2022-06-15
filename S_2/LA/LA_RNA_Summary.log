@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.12)  13 JUN 2022 20:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.12)  14 JUN 2022 23:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1201,94 +1201,99 @@ File: ./img//lineareabbild_loesung.png Graphic file (type png)
 <use ./img//lineareabbild_loesung.png>
 Package pdftex.def Info: ./img//lineareabbild_loesung.png  used on input line 660.
 (pdftex.def)             Requested size: 226.29718pt x 195.35635pt.
-<./img//abbild.png, id=118, 916.1728pt x 146.79843pt>
+<./img//Abbildungsmatrix_cAb_ermitteln.png, id=118, 386.6445pt x 387.24675pt>
+File: ./img//Abbildungsmatrix_cAb_ermitteln.png Graphic file (type png)
+<use ./img//Abbildungsmatrix_cAb_ermitteln.png>
+Package pdftex.def Info: ./img//Abbildungsmatrix_cAb_ermitteln.png  used on input line 666.
+(pdftex.def)             Requested size: 231.98848pt x 232.34982pt.
+<./img//abbild.png, id=119, 916.1728pt x 146.79843pt>
 File: ./img//abbild.png Graphic file (type png)
 <use ./img//abbild.png>
-Package pdftex.def Info: ./img//abbild.png  used on input line 668.
+Package pdftex.def Info: ./img//abbild.png  used on input line 676.
 (pdftex.def)             Requested size: 229.04263pt x 36.69951pt.
-<./img//abbild_1.png, id=119, 1213.53375pt x 260.47313pt>
+<./img//abbild_1.png, id=120, 1213.53375pt x 260.47313pt>
 File: ./img//abbild_1.png Graphic file (type png)
 <use ./img//abbild_1.png>
-Package pdftex.def Info: ./img//abbild_1.png  used on input line 672.
+Package pdftex.def Info: ./img//abbild_1.png  used on input line 680.
 (pdftex.def)             Requested size: 242.70245pt x 52.09369pt.
-<./img//abbild_3.png, id=120, 733.23938pt x 240.9pt>
+<./img//abbild_3.png, id=121, 733.23938pt x 240.9pt>
 File: ./img//abbild_3.png Graphic file (type png)
 <use ./img//abbild_3.png>
-Package pdftex.def Info: ./img//abbild_3.png  used on input line 674.
+Package pdftex.def Info: ./img//abbild_3.png  used on input line 682.
 (pdftex.def)             Requested size: 219.97351pt x 72.27055pt.
-<./img//bsp5.png, id=121, 796.47563pt x 210.03468pt>
+<./img//bsp5.png, id=122, 796.47563pt x 210.03468pt>
 File: ./img//bsp5.png Graphic file (type png)
 <use ./img//bsp5.png>
-Package pdftex.def Info: ./img//bsp5.png  used on input line 678.
+Package pdftex.def Info: ./img//bsp5.png  used on input line 686.
 (pdftex.def)             Requested size: 238.94453pt x 63.01088pt.
-<./img//wichtige lineare Abbildungen in der Ebene.png, id=122, 795.72281pt x 365.11406pt>
+ [5 <./img//umrechnung_b_to_s_bsp.png> <./img//umrechnung_b_to_s_lsg.png> <./img//Group 4.png> <./img//Matrices_to_vectors.png> <./img//Matrices_to_vectors_2.png> <./img//lineareabbild_aufgaben.png> <./img//lineareabbild_loesung.png> <./img//Abbildungsmatrix_cAb_ermitteln.png>]
+<./img//wichtige lineare Abbildungen in der Ebene.png, id=136, 795.72281pt x 365.11406pt>
 File: ./img//wichtige lineare Abbildungen in der Ebene.png Graphic file (type png)
 <use ./img//wichtige lineare Abbildungen in der Ebene.png>
-Package pdftex.def Info: ./img//wichtige lineare Abbildungen in der Ebene.png  used on input line 758.
+Package pdftex.def Info: ./img//wichtige lineare Abbildungen in der Ebene.png  used on input line 767.
 (pdftex.def)             Requested size: 258.60684pt x 118.66066pt.
-<./img//linearen Abbildungen im Raum.png, id=123, 810.77907pt x 825.83531pt>
+<./img//linearen Abbildungen im Raum.png, id=137, 810.77907pt x 825.83531pt>
 File: ./img//linearen Abbildungen im Raum.png Graphic file (type png)
 <use ./img//linearen Abbildungen im Raum.png>
-Package pdftex.def Info: ./img//linearen Abbildungen im Raum.png  used on input line 762.
+Package pdftex.def Info: ./img//linearen Abbildungen im Raum.png  used on input line 771.
 (pdftex.def)             Requested size: 263.50008pt x 268.3933pt.
- [5 <./img//umrechnung_b_to_s_bsp.png> <./img//umrechnung_b_to_s_lsg.png> <./img//Group 4.png> <./img//Matrices_to_vectors.png> <./img//Matrices_to_vectors_2.png> <./img//lineareabbild_aufgaben.png> <./img//lineareabbild_loesung.png> <./img//abbild.png> <./img//abbild_1.png> <./img//abbild_3.png> <./img//bsp5.png>]
-<./img//tabelle_spiegelung.png, id=141, 927.89517pt x 631.50214pt>
+<./img//tabelle_spiegelung.png, id=138, 927.89517pt x 631.50214pt>
 File: ./img//tabelle_spiegelung.png Graphic file (type png)
 <use ./img//tabelle_spiegelung.png>
-Package pdftex.def Info: ./img//tabelle_spiegelung.png  used on input line 767.
+Package pdftex.def Info: ./img//tabelle_spiegelung.png  used on input line 776.
 (pdftex.def)             Requested size: 255.16489pt x 173.6588pt.
-<./img//rotation.png, id=142, 684.30656pt x 565.36218pt>
+<./img//rotation.png, id=139, 684.30656pt x 565.36218pt>
 File: ./img//rotation.png Graphic file (type png)
 <use ./img//rotation.png>
-Package pdftex.def Info: ./img//rotation.png  used on input line 771.
+Package pdftex.def Info: ./img//rotation.png  used on input line 780.
 (pdftex.def)             Requested size: 261.75162pt x 216.25464pt.
-<./img//rotation_2.png, id=143, 687.31781pt x 102.3825pt>
+<./img//rotation_2.png, id=140, 687.31781pt x 102.3825pt>
 File: ./img//rotation_2.png Graphic file (type png)
 <use ./img//rotation_2.png>
-Package pdftex.def Info: ./img//rotation_2.png  used on input line 774.
+Package pdftex.def Info: ./img//rotation_2.png  used on input line 783.
 (pdftex.def)             Requested size: 223.37564pt x 33.27391pt.
-<./img//Kern.png, id=144, 905.63344pt x 274.77657pt>
+<./img//Kern.png, id=141, 905.63344pt x 274.77657pt>
 File: ./img//Kern.png Graphic file (type png)
 <use ./img//Kern.png>
-Package pdftex.def Info: ./img//Kern.png  used on input line 787.
+Package pdftex.def Info: ./img//Kern.png  used on input line 796.
 (pdftex.def)             Requested size: 253.57562pt x 76.9369pt.
-<./img//Kern_2.png, id=145, 910.90312pt x 356.83313pt>
+ [6 <./img//abbild.png> <./img//abbild_1.png> <./img//abbild_3.png> <./img//bsp5.png> <./img//wichtige lineare Abbildungen in der Ebene.png> <./img//linearen Abbildungen im Raum.png> <./img//tabelle_spiegelung.png> <./img//rotation.png> <./img//rotation_2.png>]
+<./img//Kern_2.png, id=156, 910.90312pt x 356.83313pt>
 File: ./img//Kern_2.png Graphic file (type png)
 <use ./img//Kern_2.png>
-Package pdftex.def Info: ./img//Kern_2.png  used on input line 789.
+Package pdftex.def Info: ./img//Kern_2.png  used on input line 798.
 (pdftex.def)             Requested size: 255.05113pt x 99.91258pt.
-<./img//Kern_3.png, id=146, 284.34804pt x 116.5784pt>
+<./img//Kern_3.png, id=157, 284.34804pt x 116.5784pt>
 File: ./img//Kern_3.png Graphic file (type png)
 <use ./img//Kern_3.png>
-Package pdftex.def Info: ./img//Kern_3.png  used on input line 795.
+Package pdftex.def Info: ./img//Kern_3.png  used on input line 804.
 (pdftex.def)             Requested size: 79.6169pt x 32.64172pt.
-<./img//Kern_4.png, id=147, 850.46304pt x 374.68553pt>
+<./img//Kern_4.png, id=158, 850.46304pt x 374.68553pt>
 File: ./img//Kern_4.png Graphic file (type png)
 <use ./img//Kern_4.png>
-Package pdftex.def Info: ./img//Kern_4.png  used on input line 797.
+Package pdftex.def Info: ./img//Kern_4.png  used on input line 806.
 (pdftex.def)             Requested size: 238.12802pt x 104.91122pt.
- [6 <./img//wichtige lineare Abbildungen in der Ebene.png> <./img//linearen Abbildungen im Raum.png> <./img//tabelle_spiegelung.png> <./img//rotation.png> <./img//rotation_2.png> <./img//Kern.png> <./img//Kern_2.png> <./img//Kern_3.png> <./img//Kern_4.png>]
-<./img//bild.png, id=161, 863.47594pt x 118.94438pt>
+<./img//bild.png, id=159, 863.47594pt x 118.94438pt>
 File: ./img//bild.png Graphic file (type png)
 <use ./img//bild.png>
-Package pdftex.def Info: ./img//bild.png  used on input line 828.
+Package pdftex.def Info: ./img//bild.png  used on input line 837.
 (pdftex.def)             Requested size: 241.7716pt x 33.30418pt.
- [7 <./img//bild.png>] (LA_RNA_Summary.aux)
+ [7 <./img//Kern.png> <./img//Kern_2.png> <./img//Kern_3.png> <./img//Kern_4.png> <./img//bild.png>] (LA_RNA_Summary.aux)
 Package rerunfilecheck Info: File `LA_RNA_Summary.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27550 strings out of 478614
- 532277 string characters out of 2852937
+ 27559 strings out of 478614
+ 532650 string characters out of 2852937
  939839 words of memory out of 3000000
- 45111 multiletter control sequences out of 15000+600000
+ 45119 multiletter control sequences out of 15000+600000
  537668 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,13n,83p,482b,757s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc} <C:\Users\nicow\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha8.pk> <C:\Users\nicow\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi720\mathx10.pk> <C:\Users\nicow\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi720\matha12.pk> <C:\Users\nicow\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\mathx10.pk> <C:\Users\nicow\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha12.pk>{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc} <C:\Users\nicow\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha7.pk> <C:\Users\nicow\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha6.pk> <C:\Users\nicow\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi540\mathx10.pk> <C:\Users\nicow\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha9.pk> <C:\Users\nicow\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha10.pk><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on LA_RNA_Summary.pdf (7 pages, 3432198 bytes).
+Output written on LA_RNA_Summary.pdf (7 pages, 3496184 bytes).
 PDF statistics:
- 364 PDF objects out of 1000 (max. 8388607)
+ 366 PDF objects out of 1000 (max. 8388607)
  8 named destinations out of 1000 (max. 500000)
- 263 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 268 words of extra memory for PDF output out of 10000 (max. 10000000)
 
