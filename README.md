@@ -4,7 +4,7 @@
 
 
 
-⚠️ ***No guarantee or liability for completeness or correctness.***⚠️
+⚠️ **Use of these summaries is at your own risk.** ⚠️
 
 
 
