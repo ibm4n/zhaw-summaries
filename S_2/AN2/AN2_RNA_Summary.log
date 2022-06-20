@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.24)  20 JUN 2022 09:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.24)  20 JUN 2022 09:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1062,111 +1062,120 @@ Overfull \hbox (2.48782pt too wide) in paragraph at lines 267--268
 <./img//euler.png, id=68, 788.9475pt x 85.82062pt>
 File: ./img//euler.png Graphic file (type png)
 <use ./img//euler.png>
-Package pdftex.def Info: ./img//euler.png  used on input line 280.
+Package pdftex.def Info: ./img//euler.png  used on input line 283.
 (pdftex.def)             Requested size: 236.68607pt x 25.74637pt.
 <./img//euler_2.png, id=69, 1340.00626pt x 630.85687pt>
 File: ./img//euler_2.png Graphic file (type png)
 <use ./img//euler_2.png>
-Package pdftex.def Info: ./img//euler_2.png  used on input line 282.
+Package pdftex.def Info: ./img//euler_2.png  used on input line 285.
 (pdftex.def)             Requested size: 294.80229pt x 138.78894pt.
 
-Overfull \hbox (31.13997pt too wide) in paragraph at lines 282--283
+Overfull \hbox (31.13997pt too wide) in paragraph at lines 285--286
 [][] 
  []
 
-<./img//rotationskoerper.png, id=70, 435.12563pt x 359.09157pt>
+<./img//euler_bswp.png, id=70, 1093.83656pt x 654.19406pt>
+File: ./img//euler_bswp.png Graphic file (type png)
+<use ./img//euler_bswp.png>
+Package pdftex.def Info: ./img//euler_bswp.png  used on input line 287.
+(pdftex.def)             Requested size: 355.49268pt x 212.61055pt.
+
+Overfull \hbox (91.83035pt too wide) in paragraph at lines 287--288
+[][] 
+ []
+
+<./img//rotationskoerper.png, id=71, 435.12563pt x 359.09157pt>
 File: ./img//rotationskoerper.png Graphic file (type png)
 <use ./img//rotationskoerper.png>
-Package pdftex.def Info: ./img//rotationskoerper.png  used on input line 295.
+Package pdftex.def Info: ./img//rotationskoerper.png  used on input line 300.
 (pdftex.def)             Requested size: 130.53868pt x 107.72829pt.
 
-Overfull \hbox (2.97543pt too wide) in paragraph at lines 295--296
+Overfull \hbox (2.97543pt too wide) in paragraph at lines 300--301
 [][] 
  []
 
-<./img//rotationskoerper_y.png, id=71, 224.33812pt x 342.5297pt>
+<./img//rotationskoerper_y.png, id=72, 224.33812pt x 342.5297pt>
 File: ./img//rotationskoerper_y.png Graphic file (type png)
 <use ./img//rotationskoerper_y.png>
-Package pdftex.def Info: ./img//rotationskoerper_y.png  used on input line 308.
+Package pdftex.def Info: ./img//rotationskoerper_y.png  used on input line 313.
 (pdftex.def)             Requested size: 78.51952pt x 119.88718pt.
-<./img//bogenlänge.png, id=72, 338.01282pt x 263.48438pt>
+<./img//bogenlänge.png, id=73, 338.01282pt x 263.48438pt>
 File: ./img//bogenlänge.png Graphic file (type png)
 <use ./img//bogenlänge.png>
-Package pdftex.def Info: ./img//bogenlänge.png  used on input line 320.
+Package pdftex.def Info: ./img//bogenlänge.png  used on input line 325.
 (pdftex.def)             Requested size: 118.30624pt x 92.2209pt.
-
-Overfull \hbox (3.02977pt too wide) detected at line 334
+[3 <./img//autonom.png> <./img//variation_der_k_bsp.png> <./img//euler.png> <./img//euler_2.png> <./img//euler_bswp.png>]
+Overfull \hbox (3.02977pt too wide) detected at line 339
 \OML/lmm/m/it/10 x[] \U/matha/m/n/10 ^^P [] ^^D [][] \OML/lmm/m/it/10 x \U/matha/m/n/10 ^^D p\OML/lmm/m/it/10 f[]\U/matha/m/n/10 p\OML/lmm/m/it/10 x\U/matha/m/n/10 q ^^A \OML/lmm/m/it/10 f[]\U/matha/m/n/10 p\OML/lmm/m/it/10 x\U/matha/m/n/10 qq\OML/lmm/m/it/10 dx
  []
 
-<./img//schwerpunkt.png, id=73, 386.19281pt x 290.58563pt>
+<./img//schwerpunkt.png, id=84, 386.19281pt x 290.58563pt>
 File: ./img//schwerpunkt.png Graphic file (type png)
 <use ./img//schwerpunkt.png>
-Package pdftex.def Info: ./img//schwerpunkt.png  used on input line 339.
+Package pdftex.def Info: ./img//schwerpunkt.png  used on input line 344.
 (pdftex.def)             Requested size: 135.1695pt x 101.70648pt.
 
-Overfull \hbox (7.60625pt too wide) in paragraph at lines 339--340
+Overfull \hbox (7.60625pt too wide) in paragraph at lines 344--345
 [][] 
  []
 
-[3 <./img//autonom.png> <./img//variation_der_k_bsp.png> <./img//euler.png> <./img//euler_2.png>]
-<./img//schwerpunkt_rotationskoerper.png, id=83, 271.0125pt x 248.42813pt>
+<./img//schwerpunkt_rotationskoerper.png, id=85, 271.0125pt x 248.42813pt>
 File: ./img//schwerpunkt_rotationskoerper.png Graphic file (type png)
 <use ./img//schwerpunkt_rotationskoerper.png>
-Package pdftex.def Info: ./img//schwerpunkt_rotationskoerper.png  used on input line 354.
+Package pdftex.def Info: ./img//schwerpunkt_rotationskoerper.png  used on input line 359.
 (pdftex.def)             Requested size: 94.85579pt x 86.95114pt.
- [4 <./img//rotationskoerper.png> <./img//rotationskoerper_y.png> <./img//bogenlänge.png> <./img//schwerpunkt.png> <./img//schwerpunkt_rotationskoerper.png>]
-<./img//fak.png, id=93, 169.63374pt x 141.52875pt>
+[4 <./img//rotationskoerper.png> <./img//rotationskoerper_y.png> <./img//bogenlänge.png> <./img//schwerpunkt.png> <./img//schwerpunkt_rotationskoerper.png>]
+<./img//fak.png, id=95, 169.63374pt x 141.52875pt>
 File: ./img//fak.png Graphic file (type png)
 <use ./img//fak.png>
-Package pdftex.def Info: ./img//fak.png  used on input line 371.
+Package pdftex.def Info: ./img//fak.png  used on input line 376.
 (pdftex.def)             Requested size: 84.81665pt x 70.76419pt.
-<./img//taylor_example.png, id=94, 539.01375pt x 37.64063pt>
+<./img//taylor_example.png, id=96, 539.01375pt x 37.64063pt>
 File: ./img//taylor_example.png Graphic file (type png)
 <use ./img//taylor_example.png>
-Package pdftex.def Info: ./img//taylor_example.png  used on input line 386.
+Package pdftex.def Info: ./img//taylor_example.png  used on input line 391.
 (pdftex.def)             Requested size: 188.65762pt x 13.17441pt.
-<./img//taylor_example_sol.png, id=95, 1095.3422pt x 240.9pt>
+<./img//taylor_example_sol.png, id=97, 1095.3422pt x 240.9pt>
 File: ./img//taylor_example_sol.png Graphic file (type png)
 <use ./img//taylor_example_sol.png>
-Package pdftex.def Info: ./img//taylor_example_sol.png  used on input line 388.
+Package pdftex.def Info: ./img//taylor_example_sol.png  used on input line 393.
 (pdftex.def)             Requested size: 273.83487pt x 60.22484pt.
 
-Overfull \hbox (10.17255pt too wide) in paragraph at lines 388--389
+Overfull \hbox (10.17255pt too wide) in paragraph at lines 393--394
 [][] 
  []
 
-<./img//taylor_overvieqw.png, id=96, 459.86089pt x 409.96017pt>
+<./img//taylor_overvieqw.png, id=98, 459.86089pt x 409.96017pt>
 File: ./img//taylor_overvieqw.png Graphic file (type png)
 <use ./img//taylor_overvieqw.png>
-Package pdftex.def Info: ./img//taylor_overvieqw.png  used on input line 393.
+Package pdftex.def Info: ./img//taylor_overvieqw.png  used on input line 398.
 (pdftex.def)             Requested size: 229.92987pt x 204.97958pt.
-<./img//taylor7.jpg, id=97, 103.8279pt x 34.4487pt>
+<./img//taylor7.jpg, id=99, 103.8279pt x 34.4487pt>
 File: ./img//taylor7.jpg Graphic file (type jpg)
 <use ./img//taylor7.jpg>
-Package pdftex.def Info: ./img//taylor7.jpg  used on input line 395.
+Package pdftex.def Info: ./img//taylor7.jpg  used on input line 400.
 (pdftex.def)             Requested size: 259.56909pt x 86.12152pt.
-<./img//1556295318.jpg, id=98, 254.45062pt x 67.75313pt>
+<./img//1556295318.jpg, id=100, 254.45062pt x 67.75313pt>
 File: ./img//1556295318.jpg Graphic file (type jpg)
 <use ./img//1556295318.jpg>
-Package pdftex.def Info: ./img//1556295318.jpg  used on input line 398.
+Package pdftex.def Info: ./img//1556295318.jpg  used on input line 403.
 (pdftex.def)             Requested size: 127.22499pt x 33.87646pt.
 [5 <./img//fak.png> <./img//taylor_example.png> <./img//taylor_example_sol.png> <./img//taylor_overvieqw.png> <./img//taylor7.jpg> <./img//1556295318.jpg>] (AN2_RNA_Summary.aux)
 Package rerunfilecheck Info: File `AN2_RNA_Summary.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27188 strings out of 478582
- 529707 string characters out of 2844344
+ 27196 strings out of 478582
+ 529904 string characters out of 2844344
  926689 words of memory out of 3000000
- 44808 multiletter control sequences out of 15000+600000
+ 44815 multiletter control sequences out of 15000+600000
  524056 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,7n,83p,486b,755s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha6.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi720\mathx10.pk>{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc} <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha9.pk>{C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc} <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha12.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha8.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\mathx10.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha5.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha7.pk> <C:\Users\ibm4n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/mathabx/dpi600\matha10.pk><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss9.pfb><C:/Users/ibm4n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on AN2_RNA_Summary.pdf (5 pages, 1528220 bytes).
+Output written on AN2_RNA_Summary.pdf (5 pages, 1593221 bytes).
 PDF statistics:
- 261 PDF objects out of 1000 (max. 8388607)
+ 263 PDF objects out of 1000 (max. 8388607)
  18 named destinations out of 1000 (max. 500000)
- 123 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 128 words of extra memory for PDF output out of 10000 (max. 10000000)
 
