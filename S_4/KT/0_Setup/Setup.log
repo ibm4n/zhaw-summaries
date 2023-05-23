@@ -1,0 +1,1075 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.23)  23 MAY 2023 10:17
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup
+(/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21>
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:5: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 \usepackage[utf8]{
+                      inputenc}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:6: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...ttom=0.9cm, left=0.65 cm, right=0.65 cm, ]{
+                                                  geometry}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:7: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 \usepackage{
+                amsmath}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:8: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \usepackage{
+                amsfonts}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:9: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 \usepackage{
+                lmodern}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:10: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \usepackage{
+                 graphicx}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:12: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 \usepackage[normalem]{
+                           ulem}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:13: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 \usepackage[dvipsnames]{
+                             xcolor}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:14: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \usepackage{
+                 enumitem}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:15: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \usepackage{
+                 mathabx}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:16: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \usepackage{
+                 enumitem}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:17: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 \usepackage{
+                 colortbl}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:18: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 \usepackage[ngerman]{
+                          babel}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:19: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 \usepackage{
+                 mathtools}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:20: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \usepackage{
+                 wallpaper}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:21: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 \usepackage{
+                 changepage}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:22: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 \usepackage{
+                 tikz}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:23: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 \usepackage{
+                 tabularx}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:24: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 \usepackage{
+                 tcolorbox}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:25: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \usepackage{
+                 lipsum}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:26: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 \usepackage{
+                 letltxmacro}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:27: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 \usepackage{
+                 multicol}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:28: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 \usepackage{
+                 calc}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:29: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 \usepackage{
+                 ifthen}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:30: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 \usepackage{
+                 hyperref}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:31: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 \usepackage{
+                 graphicx}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:32: Undefined control sequence.
+l.32 \graphicspath
+                  { {./img/} }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:32: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 \graphicspath{ {.
+                      /img/} }
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no / in font nullfont!
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:33: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 \usepackage{
+                 wrapfig}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:50: Undefined control sequence.
+l.50 \LetLtxMacro
+                 \orgddots\ddots
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:50: Undefined control sequence.
+l.50 \LetLtxMacro\orgddots
+                          \ddots
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:50: Missing $ inserted.
+<inserted text> 
+                $
+l.50 \LetLtxMacro\orgddots\ddots
+                                
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:50: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 \LetLtxMacro\orgddots\ddots
+                                
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 50.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 50.
+Missing character: There is no . in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no . in font nullfont!
+LaTeX Info: Redefining \vdots on input line 52.
+LaTeX Info: Redefining \ddots on input line 75.
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:81: Missing $ inserted.
+<inserted text> 
+                $
+l.81 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (3.33325pt too wide) in paragraph at lines 50--81
+[]$[]$ 
+ []
+
+LaTeX Info: Redefining \ddots on input line 83.
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:112: LaTeX Error: Command \@ already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.112 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:112: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.112 }
+       
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no s in font nullfont!
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:112: Missing number, treated as zero.
+<to be read again> 
+                   d
+l.112 }
+       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:112: You already have nine parameters.
+\reserved@a ...\def \expandafter \@\reserved@b #10
+                                                  d{
+l.112 }
+       
+I'm going to ignore the # sign you just used,
+as well as the token that followed it.
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:112: You can't use `macro parameter character #' in math mode.
+<recently read> ##
+                  
+l.112 }
+       
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:112: Undefined control sequence.
+<argument> $##1\cdotp \cdotp \cdotp \m 
+                                       @th$
+l.112 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:112: You can't use `macro parameter character #' in math mode.
+<recently read> ##
+                  
+l.112 }
+       
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:112: Undefined control sequence.
+<argument> $##1.\m 
+                   @th$
+l.112 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:112: Missing number, treated as zero.
+<to be read again> 
+                   @
+l.112 }
+       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:112: Missing number, treated as zero.
+<to be read again> 
+                   @
+l.112 }
+       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:112: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   @
+l.112 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:112: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.112 }
+       
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no = in font nullfont!
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:112: Missing number, treated as zero.
+<to be read again> 
+                   \advance 
+l.112 }
+       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:112: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \advance 
+l.112 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:112: Missing number, treated as zero.
+<to be read again> 
+                   @
+l.112 }
+       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:112: Missing number, treated as zero.
+<to be read again> 
+                   @
+l.112 }
+       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:112: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   @
+l.112 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no 3 in font nullfont!
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:112: Missing number, treated as zero.
+<to be read again> 
+                   \kern 
+l.112 }
+       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:112: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \kern 
+l.112 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:112: Missing number, treated as zero.
+<to be read again> 
+                   @
+l.112 }
+       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Missing character: There is no @ in font nullfont!
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:112: Missing number, treated as zero.
+<to be read again> 
+                   @
+l.112 }
+       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:112: Missing number, treated as zero.
+<to be read again> 
+                   @
+l.112 }
+       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:112: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   @
+l.112 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no = in font nullfont!
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:112: Missing number, treated as zero.
+<to be read again> 
+                   \advance 
+l.112 }
+       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:112: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \advance 
+l.112 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:112: Missing number, treated as zero.
+<to be read again> 
+                   @
+l.112 }
+       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:112: Missing number, treated as zero.
+<to be read again> 
+                   @
+l.112 }
+       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:112: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   @
+l.112 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no = in font nullfont!
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:112: Missing number, treated as zero.
+<to be read again> 
+                   \advance 
+l.112 }
+       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:112: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \advance 
+l.112 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:112: Missing number, treated as zero.
+<to be read again> 
+                   @
+l.112 }
+       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Missing character: There is no @ in font nullfont!
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:112: You can't use `macro parameter character #' in math mode.
+<recently read> ##
+                  
+l.112 }
+       
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:112: Undefined control sequence.
+<argument> ...ineskip \hbox {$##1\mathpunct {.}\m 
+                                                  @th$}\vfill \hbox {$##1\ma...
+l.112 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:112: You can't use `macro parameter character #' in math mode.
+<recently read> ##
+                  
+l.112 }
+       
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:112: Undefined control sequence.
+<argument> ...punct {\kern \wd 2}\mathpunct {.}\m 
+                                                  @th$}\vfill \hbox {$##1\ma...
+l.112 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:112: You can't use `macro parameter character #' in math mode.
+<recently read> ##
+                  
+l.112 }
+       
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:112: Undefined control sequence.
+<argument> ...punct {\kern \wd 2}\mathpunct {.}\m 
+                                                  @th$}}}
+l.112 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (29.92818pt too wide) in paragraph at lines 112--112
+[] 
+ []
+
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:141: LaTeX Error: Command \section undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.141 \renewcommand{\section}
+                             [1]{
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:164: LaTeX Error: Command \subsection undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.164 \renewcommand{\subsection}
+                                [2]{
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:219: Undefined control sequence.
+l.219 \newcolumntype
+                    {C}[1]{>{\centering\arraybackslash}p{#1}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:219: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.219 \newcolumntype{C
+                      }[1]{>{\centering\arraybackslash}p{#1}}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no C in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no > in font nullfont!
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:219: Undefined control sequence.
+l.219 ...umntype{C}[1]{>{\centering\arraybackslash
+                                                  }p{#1}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no p in font nullfont!
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:219: You can't use `macro parameter character #' in horizontal mode.
+l.219 ...ype{C}[1]{>{\centering\arraybackslash}p{#
+                                                  1}}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 1 in font nullfont!
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:223: Undefined control sequence.
+l.223 \usetikzlibrary
+                     {decorations.pathreplacing,calc}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:223: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.223 \usetikzlibrary{d
+                       ecorations.pathreplacing,calc}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no c in font nullfont!
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:227: Undefined control sequence.
+l.227 \tikzset
+              {brace/.style={decorate, decoration={brace}},
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/home/ibm4n/code/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup.tex:227: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.227 \tikzset{b
+                race/.style={decorate, decoration={brace}},
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no b in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no , in font nullfont!
+\c@brace=\count185
+)
+! Emergency stop.
+<*> ...de/zhaw/zhaw-summaries/S_4/KT/0_Setup/Setup
+                                                  
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 40 strings out of 480121
+ 726 string characters out of 5892160
+ 284498 words of memory out of 5000000
+ 18106 multiletter control sequences out of 15000+600000
+ 469259 words of font info for 28 fonts, out of 8000000 for 9000
+ 59 hyphenation exceptions out of 8191
+ 19i,6n,15p,168b,54s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
