@@ -29,9 +29,12 @@
 \usepackage{ifthen}
 \usepackage{hyperref}
 \usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{decorations.pathmorphing}
 \graphicspath{ {./img/} }
 \usepackage{wrapfig}
-
+\newcommand{\hr}{\centerline{\rule{3.5in}{1pt}}}
+%\colorbox[HTML]{e4e4e4}{\makebox[\textwidth-2\fboxsep][l]
 % Spalteneinstellungen
 
 \setlength\columnsep{3mm}
@@ -41,6 +44,15 @@
 
 % Bullet-Symbol für Aufzählungen
 \renewcommand\textbullet{\ensuremath{\bullet}}
+
+
+\tikzstyle{mybox} = [draw=black, fill=white, very thick,
+rectangle, rounded corners, inner sep=10pt, inner ysep=10pt]
+\tikzstyle{fancytitle} =[fill=black, text=white, font=\bfseries]
+
+\tikzstyle{examplebox} = [draw=gray, fill=white, thick,
+rectangle, rounded corners, inner sep=4pt, inner ysep=12pt]
+\tikzstyle{exampletitle} =[fill=gray, text=black, font=\bfseries]
 
 % Eingekreiste Nummern für Aufzählungen
 \newcommand*\circled[1]{\tikz[baseline=(char.base)]{

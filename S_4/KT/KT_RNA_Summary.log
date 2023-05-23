@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.23)  23 MAY 2023 13:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.23)  23 MAY 2023 15:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -812,29 +812,30 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
 )
 \Hy@SectionHShift=\skip71
-) (/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen304
-\WF@size=\dimen305
-\c@WF@wrappedlines=\count340
-\WF@box=\box124
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen304
+\pgfdecoratedremainingdistance=\dimen305
+\pgfdecoratedinputsegmentcompleteddistance=\dimen306
+\pgfdecoratedinputsegmentremainingdistance=\dimen307
+\pgf@decorate@distancetomove=\dimen308
+\pgf@decorate@repeatstate=\count340
+\pgfdecorationsegmentamplitude=\dimen309
+\pgfdecorationsegmentlength=\dimen310
+)
+\tikz@lib@dec@box=\box124
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen311
+\WF@size=\dimen312
+\c@WF@wrappedlines=\count341
+\WF@box=\box125
 \WF@everypar=\toks45
 Package: wrapfig 2003/01/31  v 3.6
 )
-LaTeX Info: Redefining \vdots on input line 52.
-LaTeX Info: Redefining \ddots on input line 75.
-LaTeX Info: Redefining \ddots on input line 83.
- (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen306
-\pgfdecoratedremainingdistance=\dimen307
-\pgfdecoratedinputsegmentcompleteddistance=\dimen308
-\pgfdecoratedinputsegmentremainingdistance=\dimen309
-\pgf@decorate@distancetomove=\dimen310
-\pgf@decorate@repeatstate=\count341
-\pgfdecorationsegmentamplitude=\dimen311
-\pgfdecorationsegmentlength=\dimen312
-)
-\tikz@lib@dec@box=\box125
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
+LaTeX Info: Redefining \vdots on input line 64.
+LaTeX Info: Redefining \ddots on input line 87.
+LaTeX Info: Redefining \ddots on input line 95.
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 \c@brace=\count342
@@ -975,25 +976,95 @@ File: img/osi-2.png Graphic file (type png)
 <use img/osi-2.png>
 Package pdftex.def Info: img/osi-2.png  used on input line 33.
 (pdftex.def)             Requested size: 231.56691pt x 141.22871pt.
-) [1
+) (./sections/uebertragungsmedien.tex [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./img/osi-1.png> <./img/osi-2.png>] (./KT_RNA_Summary.aux)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./img/osi-1.png> <./img/osi-2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 30.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 30.
+<img/Signale und Störungen.png, id=22, 1228.59pt x 286.06876pt>
+File: img/Signale und Störungen.png Graphic file (type png)
+<use img/Signale und Störungen.png>
+Package pdftex.def Info: img/Signale und Störungen.png  used on input line 51.
+(pdftex.def)             Requested size: 276.43956pt x 64.36705pt.
+
+Overfull \hbox (17.04512pt too wide) in paragraph at lines 51--51
+[][] 
+ []
+
+<img/twisted.png, id=23, 1067.99pt x 286.06876pt>
+File: img/twisted.png Graphic file (type png)
+<use img/twisted.png>
+Package pdftex.def Info: img/twisted.png  used on input line 65.
+(pdftex.def)             Requested size: 240.30368pt x 64.36705pt.
+) (./sections/Physical-Layer.tex [2 <./img/Signale und Störungen.png> <./img/twisted.png>]
+<img/kopplung.png, id=40, 495.8525pt x 425.59pt>
+File: img/kopplung.png Graphic file (type png)
+<use img/kopplung.png>
+Package pdftex.def Info: img/kopplung.png  used on input line 19.
+(pdftex.def)             Requested size: 173.55096pt x 148.95872pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+<img/kopplung_2.png, id=41, 469.755pt x 478.78876pt>
+File: img/kopplung_2.png Graphic file (type png)
+<use img/kopplung_2.png>
+Package pdftex.def Info: img/kopplung_2.png  used on input line 25.
+(pdftex.def)             Requested size: 164.41672pt x 167.57857pt.
+<img/async.png, id=42, 1015.795pt x 401.5pt>
+File: img/async.png Graphic file (type png)
+<use img/async.png>
+Package pdftex.def Info: img/async.png  used on input line 51.
+(pdftex.def)             Requested size: 253.94812pt x 100.37474pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
+
+ []
+
+<img/sync.png, id=43, 961.5925pt x 504.88625pt>
+File: img/sync.png Graphic file (type png)
+<use img/sync.png>
+Package pdftex.def Info: img/sync.png  used on input line 55.
+(pdftex.def)             Requested size: 264.43141pt x 138.84029pt.
+
+Overfull \hbox (5.03697pt too wide) in paragraph at lines 55--55
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+
+ []
+
+) [3 <./img/kopplung.png> <./img/kopplung_2.png> <./img/async.png> <./img/sync.png>] (./KT_RNA_Summary.aux)
 Package rerunfilecheck Info: File `KT_RNA_Summary.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27046 strings out of 480121
- 518500 string characters out of 5892160
- 882053 words of memory out of 5000000
- 44504 multiletter control sequences out of 15000+600000
- 503818 words of font info for 61 fonts, out of 8000000 for 9000
+ 27286 strings out of 480121
+ 524718 string characters out of 5892160
+ 892544 words of memory out of 5000000
+ 44712 multiletter control sequences out of 15000+600000
+ 513936 words of font info for 77 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 89i,17n,83p,482b,574s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}</usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss9.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha5.pfb>
-Output written on KT_RNA_Summary.pdf (1 page, 180759 bytes).
+ 89i,17n,83p,482b,916s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss9.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha9.pfb>
+Output written on KT_RNA_Summary.pdf (3 pages, 513676 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
- 29 compressed objects within 1 object stream
- 2 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 125 PDF objects out of 1000 (max. 8388607)
+ 71 compressed objects within 1 object stream
+ 6 named destinations out of 1000 (max. 500000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
