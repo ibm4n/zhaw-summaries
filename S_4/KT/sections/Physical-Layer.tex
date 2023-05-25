@@ -27,6 +27,22 @@
 }
 
 \columnbreak
+\subsection{Leitungscodes}{
+    Leitungscodes sollen:
+
+    \begin{itemize}[noitemsep]
+        \item die physikalisch vorhandene Bandbreite effizient nutzen
+        \item Taktrückgewinnung erlauben, um eine separate Taktleitung einzusparen
+        \item möglichst gleichspannungsfrei sein, um Sender und Empfänger mit Übertragern (Signaltransformatoren, Magnetics) galvanisch trennen zu können.
+    \end{itemize}
+
+    Beispiele:
+    \begin{itemize}[noitemsep]
+        \item 3-wertiger AMI-Code (Alternate Mark Inversion)
+        \item PAM3 Kanalcodierung
+    \end{itemize}
+}
+
 \subsection{Serielle asynchrone Übertragung}{
 
     \includegraphics[scale=.25]{img/async.png}
@@ -46,11 +62,13 @@
 
 }
 
+
+
 \subsection{Serielle synchrone Übertragung}{
     \includegraphics[scale=.275]{img/sync.png}
 }
 
-
+\columnbreak
 \subsection{Datenübertragungsrate}{
     \begin{itemize}[noitemsep]
         \item Baudrate $\to$ Symbole pro Sekunde
@@ -67,7 +85,7 @@
 {  T [s] = Bit-Dauer, B = Baud \\}
 $$ T = \frac{1}{B}$$
 
-\columnbreak
+
 \subsection{maximale Symbolrate}
 {    Die maximale Symbolrate $f_s$ (Baud) ist gleich der doppelten Bandbreite B (Hz) des
     Übertragungskanals.

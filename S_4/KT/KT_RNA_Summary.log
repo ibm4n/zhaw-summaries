@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.23)  23 MAY 2023 15:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.23)  25 MAY 2023 07:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1021,50 +1021,182 @@ Package pdftex.def Info: img/kopplung_2.png  used on input line 25.
 <img/async.png, id=42, 1015.795pt x 401.5pt>
 File: img/async.png Graphic file (type png)
 <use img/async.png>
-Package pdftex.def Info: img/async.png  used on input line 47.
+Package pdftex.def Info: img/async.png  used on input line 63.
 (pdftex.def)             Requested size: 253.94812pt x 100.37474pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--47
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--47
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
 
  []
 
 <img/sync.png, id=43, 961.5925pt x 504.88625pt>
 File: img/sync.png Graphic file (type png)
 <use img/sync.png>
-Package pdftex.def Info: img/sync.png  used on input line 51.
+Package pdftex.def Info: img/sync.png  used on input line 69.
 (pdftex.def)             Requested size: 264.43141pt x 138.84029pt.
 
-Overfull \hbox (5.03697pt too wide) in paragraph at lines 51--51
+Overfull \hbox (5.03697pt too wide) in paragraph at lines 69--69
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
 
  []
 
-) [3 <./img/kopplung.png> <./img/kopplung_2.png> <./img/async.png> <./img/sync.png>] (./KT_RNA_Summary.aux)
+) (./sections/Datalink-Layer.tex [3 <./img/kopplung.png> <./img/kopplung_2.png> <./img/async.png> <./img/sync.png>]
+LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 12.
+ (/usr/share/texmf/tex/latex/lm/ts1lmss.fd
+File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+<img/framing_async.png, id=55, 863.225pt x 206.7725pt>
+File: img/framing_async.png Graphic file (type png)
+<use img/framing_async.png>
+Package pdftex.def Info: img/framing_async.png  used on input line 12.
+(pdftex.def)             Requested size: 258.9695pt x 62.03223pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+[][]
+ []
+
+<img/framing_sync.png, id=56, 865.2325pt x 357.335pt>
+File: img/framing_sync.png Graphic file (type png)
+<use img/framing_sync.png>
+Package pdftex.def Info: img/framing_sync.png  used on input line 22.
+(pdftex.def)             Requested size: 237.93307pt x 98.2647pt.
+
+Overfull \hbox (0.53864pt too wide) in paragraph at lines 22--22
+[] 
+ []
+
+) (./sections/Ethernet-1.tex
+<img/bus.png, id=57, 748.7975pt x 312.16624pt>
+File: img/bus.png Graphic file (type png)
+<use img/bus.png>
+Package pdftex.def Info: img/bus.png  used on input line 96.
+(pdftex.def)             Requested size: 112.31477pt x 46.8229pt.
+<img/linie.png, id=58, 748.7975pt x 312.16624pt>
+File: img/linie.png Graphic file (type png)
+<use img/linie.png>
+Package pdftex.def Info: img/linie.png  used on input line 96.
+(pdftex.def)             Requested size: 112.31477pt x 46.8229pt.
+<img/Ring.png, id=59, 627.34375pt x 422.57875pt>
+File: img/Ring.png Graphic file (type png)
+<use img/Ring.png>
+Package pdftex.def Info: img/Ring.png  used on input line 96.
+(pdftex.def)             Requested size: 94.09749pt x 63.38406pt.
+<img/Vermascht.png, id=60, 627.34375pt x 422.57875pt>
+File: img/Vermascht.png Graphic file (type png)
+<use img/Vermascht.png>
+Package pdftex.def Info: img/Vermascht.png  used on input line 96.
+(pdftex.def)             Requested size: 94.09749pt x 63.38406pt.
+<img/Stern.png, id=61, 772.8875pt x 269.005pt>
+File: img/Stern.png Graphic file (type png)
+<use img/Stern.png>
+Package pdftex.def Info: img/Stern.png  used on input line 96.
+(pdftex.def)             Requested size: 115.92812pt x 40.349pt.
+<img/Baum.png, id=62, 706.64pt x 339.2675pt>
+File: img/Baum.png Graphic file (type png)
+<use img/Baum.png>
+Package pdftex.def Info: img/Baum.png  used on input line 96.
+(pdftex.def)             Requested size: 105.99142pt x 50.88792pt.
+ [4 <./img/framing_async.png> <./img/framing_sync.png> <./img/bus.png> <./img/linie.png> <./img/ring.png> <./img/vermascht.png> <./img/stern.png> <./img/baum.png>]
+<img/Unicast.png, id=77, 250.9375pt x 166.6225pt>
+File: img/Unicast.png Graphic file (type png)
+<use img/Unicast.png>
+Package pdftex.def Info: img/Unicast.png  used on input line 149.
+(pdftex.def)             Requested size: 50.1866pt x 33.3239pt.
+
+Overfull \hbox (4.57454pt too wide) in paragraph at lines 149--149
+[][] 
+ []
+
+<img/Multicast.png, id=78, 250.9375pt x 166.6225pt>
+File: img/Multicast.png Graphic file (type png)
+<use img/Multicast.png>
+Package pdftex.def Info: img/Multicast.png  used on input line 149.
+(pdftex.def)             Requested size: 50.1866pt x 33.3239pt.
+
+Underfull \hbox (badness 5119) in paragraph at lines 149--149
+[]\OT1/lmss/m/n/7 Frame tr[]agt die Multicast-
+ []
+
+
+Overfull \hbox (4.57454pt too wide) in paragraph at lines 149--149
+[][] 
+ []
+
+<img/Broadcast.png, id=79, 250.9375pt x 166.6225pt>
+File: img/Broadcast.png Graphic file (type png)
+<use img/Broadcast.png>
+Package pdftex.def Info: img/Broadcast.png  used on input line 149.
+(pdftex.def)             Requested size: 50.1866pt x 33.3239pt.
+
+Overfull \hbox (4.57454pt too wide) in paragraph at lines 149--149
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
+
+ []
+
+<img/mac-1.png, id=80, 755.82375pt x 704.6325pt>
+File: img/mac-1.png Graphic file (type png)
+<use img/mac-1.png>
+Package pdftex.def Info: img/mac-1.png  used on input line 162.
+(pdftex.def)             Requested size: 188.95547pt x 176.1577pt.
+<img/mac-2.png, id=81, 818.05624pt x 623.32875pt>
+File: img/mac-2.png Graphic file (type png)
+<use img/mac-2.png>
+Package pdftex.def Info: img/mac-2.png  used on input line 162.
+(pdftex.def)             Requested size: 204.51355pt x 155.8318pt.
+<img/manchester.png, id=82, 937.5025pt x 193.72375pt>
+File: img/manchester.png Graphic file (type png)
+<use img/manchester.png>
+Package pdftex.def Info: img/manchester.png  used on input line 173.
+(pdftex.def)             Requested size: 257.80682pt x 53.2727pt.
+<img/NRZI.png, id=83, 723.70375pt x 199.74625pt>
+File: img/NRZI.png Graphic file (type png)
+<use img/NRZI.png>
+Package pdftex.def Info: img/NRZI.png  used on input line 190.
+(pdftex.def)             Requested size: 199.01363pt x 54.92886pt.
+<img/E-Frame.png, id=84, 588.1975pt x 744.7825pt>
+File: img/E-Frame.png Graphic file (type png)
+<use img/E-Frame.png>
+Package pdftex.def Info: img/E-Frame.png  used on input line 190.
+(pdftex.def)             Requested size: 161.75032pt x 204.81013pt.
+<img/E-2.png, id=85, 981.6675pt x 725.71124pt>
+File: img/E-2.png Graphic file (type png)
+<use img/E-2.png>
+Package pdftex.def Info: img/E-2.png  used on input line 190.
+(pdftex.def)             Requested size: 269.9519pt x 199.56567pt.
+
+Overfull \hbox (14.82535pt too wide) in paragraph at lines 190--190
+[][]
+ []
+
+) (./sections/Ethernet-2.tex) [5 <./img/unicast.png> <./img/multicast.png> <./img/broadcast.png> <./img/mac-1.png> <./img/mac-2.png> <./img/manchester.png> <./img/NRZI.png> <./img/E-Frame.png> <./img/E-2.png>] (./sections/Anhang.tex) (./KT_RNA_Summary.aux)
 Package rerunfilecheck Info: File `KT_RNA_Summary.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27285 strings out of 480121
- 524702 string characters out of 5892160
- 892544 words of memory out of 5000000
- 44711 multiletter control sequences out of 15000+600000
- 513936 words of font info for 77 fonts, out of 8000000 for 9000
+ 27481 strings out of 480121
+ 528374 string characters out of 5892160
+ 899543 words of memory out of 5000000
+ 44871 multiletter control sequences out of 15000+600000
+ 517033 words of font info for 79 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 89i,17n,83p,482b,916s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss9.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha9.pfb>
-Output written on KT_RNA_Summary.pdf (3 pages, 513457 bytes).
+ 89i,17n,83p,482b,989s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss9.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha9.pfb>
+Output written on KT_RNA_Summary.pdf (5 pages, 1038262 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
- 71 compressed objects within 1 object stream
- 6 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 178 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
+ 8 named destinations out of 1000 (max. 500000)
+ 138 words of extra memory for PDF output out of 10000 (max. 10000000)
 
