@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.23)  25 MAY 2023 07:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.23)  25 MAY 2023 17:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1180,23 +1180,34 @@ Overfull \hbox (14.82535pt too wide) in paragraph at lines 190--190
 [][]
  []
 
-) (./sections/Ethernet-2.tex) [5 <./img/unicast.png> <./img/multicast.png> <./img/broadcast.png> <./img/mac-1.png> <./img/mac-2.png> <./img/manchester.png> <./img/NRZI.png> <./img/E-Frame.png> <./img/E-2.png>] (./sections/Anhang.tex) (./KT_RNA_Summary.aux)
+) (./sections/Ethernet-2.tex
+<img/vlan.png, id=86, 289.08pt x 123.46124pt>
+File: img/vlan.png Graphic file (type png)
+<use img/vlan.png>
+Package pdftex.def Info: img/vlan.png  used on input line 20.
+(pdftex.def)             Requested size: 216.80946pt x 92.59569pt.
+<img/spanning_tree.png, id=87, 947.54pt x 397.485pt>
+File: img/spanning_tree.png Graphic file (type png)
+<use img/spanning_tree.png>
+Package pdftex.def Info: img/spanning_tree.png  used on input line 27.
+(pdftex.def)             Requested size: 260.56706pt x 109.30568pt.
+ [5 <./img/unicast.png> <./img/multicast.png> <./img/broadcast.png> <./img/mac-1.png> <./img/mac-2.png> <./img/manchester.png> <./img/NRZI.png> <./img/E-Frame.png> <./img/E-2.png>]) [6 <./img/vlan.png> <./img/spanning_tree.png>] (./sections/Anhang.tex) (./KT_RNA_Summary.aux)
 Package rerunfilecheck Info: File `KT_RNA_Summary.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27481 strings out of 480121
- 528374 string characters out of 5892160
- 899543 words of memory out of 5000000
- 44871 multiletter control sequences out of 15000+600000
- 517033 words of font info for 79 fonts, out of 8000000 for 9000
+ 27508 strings out of 480121
+ 528826 string characters out of 5892160
+ 899544 words of memory out of 5000000
+ 44890 multiletter control sequences out of 15000+600000
+ 517403 words of font info for 80 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  89i,17n,83p,482b,989s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss9.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha9.pfb>
-Output written on KT_RNA_Summary.pdf (5 pages, 1038262 bytes).
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss9.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha9.pfb>
+Output written on KT_RNA_Summary.pdf (6 pages, 1092042 bytes).
 PDF statistics:
- 178 PDF objects out of 1000 (max. 8388607)
- 85 compressed objects within 1 object stream
- 8 named destinations out of 1000 (max. 500000)
- 138 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 194 PDF objects out of 1000 (max. 8388607)
+ 95 compressed objects within 1 object stream
+ 13 named destinations out of 1000 (max. 500000)
+ 148 words of extra memory for PDF output out of 10000 (max. 10000000)
 
