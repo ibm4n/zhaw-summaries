@@ -1,6 +1,6 @@
 
 \section{Ethernet 1 (LAN, Grundlagen)}
-\WhiteSpace
+
 \subsection{Topologien}
 {
     \begin{tikzpicture}
@@ -92,9 +92,9 @@
         };
         \node[exampletitle, right=8pt] at (box.north west) {Baum};
     \end{tikzpicture}
-    \vfill\null
+
 }
-\newpage
+
 \subsection{Übertragungsarten}{
     \begin{multicols*}{2}
 
@@ -147,7 +147,7 @@
     \end{multicols*}
 
 }
-
+\newpage
 \subsection{MAC Adressen}{
 Adressierung in LANs, bestehen aus 6 Bytes \\
 
@@ -160,7 +160,8 @@ Adressierung in LANs, bestehen aus 6 Bytes \\
     \includegraphics[scale=.25]{img/mac-2.png}
 }
 }
-
+\vfill\null
+\columnbreak
 \subsection{10 Mbit/s (10BASE-T) Manchester Codierung}{
     \begin{itemize}[noitemsep]
         \item Erlaubt die Taktrückgewinnung auf einfache Weise: weil Bei jedem Bit gibt es einen Signalwechsel
@@ -171,6 +172,7 @@ Adressierung in LANs, bestehen aus 6 Bytes \\
     \includegraphics[scale=.275]{img/manchester.png}
 
 }
+
 \subsection{100 Mbit/s (100BASE-TX) NRZI-Codierung }{
     {  \begin{itemize}[noitemsep]
                 \item NRZI-Codierung (Non Return to Zero Inverted),kombiniert mit MLT-3 (MLT-3 = Multi-Level Transmit) 125 MBaud → 1 Symbol entspricht 8 ns
@@ -182,11 +184,13 @@ Adressierung in LANs, bestehen aus 6 Bytes \\
 
         }
 
-    \subsection{Ethernet – Frame Format}{
-        \includegraphics[scale=.275]{img/E-Frame.png}
+}
+\vfill\null
+\columnbreak
+\subsection{Ethernet - Frame Format}{
+    \includegraphics[scale=.275]{img/E-Frame.png}
 
-        \includegraphics[scale=.275]{img/E-2.png}
-    }
+    \includegraphics[scale=.275]{img/E-2.png}
 }
 
 
