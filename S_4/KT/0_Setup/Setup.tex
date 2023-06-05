@@ -52,6 +52,27 @@
 \renewcommand\textbullet{\ensuremath{\bullet}}
 
 
+\def\unsignedbytecalc#1{%
+	\par\smallskip
+	\noindent$#1_{10}$\par
+	\smallskip
+	\gdef\result{}%
+	$\left.\begin{array}{r@{\quad}|c}\udbc{#1}\end{array}\right\}\result$\par}
+
+\makeatletter
+
+\def\udbc#1{%
+\ifnum#1=\z@
+	\expandafter\@gobble
+\else
+	\expandafter\@firstofone
+\fi
+{\!\underline{\,#1}&\edef\r{\ifodd#1 1\else 0\fi}\r\xdef\result{\r\result}\\
+\expandafter\udbc\expandafter{\the\numexpr(\ifodd#1 #1-1\else#1\fi)/2\relax}%
+}}
+
+
+
 \tikzstyle{mybox} = [draw=black, fill=white, very thick,
 rectangle, rounded corners, inner sep=10pt, inner ysep=10pt]
 \tikzstyle{fancytitle} =[fill=black, text=white, font=\bfseries]

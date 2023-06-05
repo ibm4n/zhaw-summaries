@@ -13,17 +13,17 @@
 
     {Direkte Verbindung zweier Kommunikationspartner }
 
-    \includegraphics[scale=.35]{img/kopplung.png}
+    \includegraphics[scale=.25]{img/kopplung.png}
 }
 
 \paragraph{Shared Medium }{
     {Mehrere Partner verwenden das gleiche Medium   \\}
 
-    \includegraphics[scale=.35]{img/kopplung_2.png}
+    \includegraphics[scale=.25]{img/kopplung_2.png}
 
 }
-\vfill\null
-\columnbreak
+
+
 \subsection{Leitungscodes}{
     Leitungscodes sollen:
 
@@ -65,13 +65,20 @@
     \includegraphics[scale=.275]{img/sync.png}
 }
 
-\columnbreak
+
 \subsection{Datenübertragungsrate}{
     \begin{itemize}[noitemsep]
         \item Baudrate $\to$ Symbole pro Sekunde
         \item Zeichenrate $\to$ Zeichen pro Sekunde
     \end{itemize}
+
 }
+\subsection{Maximale Zeichenrate (asynchronen Schnittstelle)}{
+    T [s] = Bit-Dauer \\
+    Maximale Zeichenrate \\ = \LARGE $\frac{1}{T*(BitsProZeichen + StoppBits)} $
+}
+
+
 
 \subsection{Frequenz}{
     {Die Frequenz ist die Anzahl der Schwingungen pro Sekunde.\\
@@ -93,8 +100,9 @@ $$ T = \frac{1}{B}$$
 $$ f_s = 2 \cdot B$$
 
 \subsection{Maximal erreichbare Bitrate}{
-R [bit/s] = Bitrate \\
+R [bit/s] = Bitrate \\ {Für M Signalzustände und Bandbreite B [Hz]}  \\
 $$ R \leq 2B \cdot log_2{M} $$
+
 $$ log_2(x) = \frac{log_{10}(x)}{log_{10}(2)} $$
 }
 

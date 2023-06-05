@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.23)  26 MAY 2023 16:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.23)  5 JUN 2023 14:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -842,9 +842,9 @@ Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \WF@everypar=\toks46
 Package: wrapfig 2003/01/31  v 3.6
 )
-LaTeX Info: Redefining \vdots on input line 70.
-LaTeX Info: Redefining \ddots on input line 93.
-LaTeX Info: Redefining \ddots on input line 101.
+LaTeX Info: Redefining \vdots on input line 91.
+LaTeX Info: Redefining \ddots on input line 114.
+LaTeX Info: Redefining \ddots on input line 122.
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
@@ -1018,7 +1018,7 @@ Package pdftex.def Info: img/twisted.png  used on input line 62.
 File: img/kopplung.png Graphic file (type png)
 <use img/kopplung.png>
 Package pdftex.def Info: img/kopplung.png  used on input line 16.
-(pdftex.def)             Requested size: 173.55096pt x 148.95872pt.
+(pdftex.def)             Requested size: 123.96281pt x 106.39723pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
@@ -1028,7 +1028,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--21
 File: img/kopplung_2.png Graphic file (type png)
 <use img/kopplung_2.png>
 Package pdftex.def Info: img/kopplung_2.png  used on input line 22.
-(pdftex.def)             Requested size: 164.41672pt x 167.57857pt.
+(pdftex.def)             Requested size: 117.43846pt x 119.69688pt.
 <img/async.png, id=40, 1015.795pt x 401.5pt>
 File: img/async.png Graphic file (type png)
 <use img/async.png>
@@ -1054,8 +1054,12 @@ Overfull \hbox (5.03697pt too wide) in paragraph at lines 66--66
 [][]
  []
 
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <17.28> on input line 79.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 79.
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--99
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
 
  []
 
@@ -1064,7 +1068,7 @@ LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 1
  (/usr/share/texmf/tex/latex/lm/ts1lmss.fd
 File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<img/framing_async.png, id=50, 863.225pt x 206.7725pt>
+<img/framing_async.png, id=53, 863.225pt x 206.7725pt>
 File: img/framing_async.png Graphic file (type png)
 <use img/framing_async.png>
 Package pdftex.def Info: img/framing_async.png  used on input line 12.
@@ -1074,7 +1078,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--12
 [][]
  []
 
-<img/framing_sync.png, id=51, 865.2325pt x 357.335pt>
+<img/framing_sync.png, id=54, 865.2325pt x 357.335pt>
 File: img/framing_sync.png Graphic file (type png)
 <use img/framing_sync.png>
 Package pdftex.def Info: img/framing_sync.png  used on input line 22.
@@ -1085,37 +1089,37 @@ Overfull \hbox (0.53864pt too wide) in paragraph at lines 22--22
  []
 
 ) (./sections/Ethernet-1.tex
-<img/bus.png, id=52, 748.7975pt x 312.16624pt>
+<img/bus.png, id=55, 748.7975pt x 312.16624pt>
 File: img/bus.png Graphic file (type png)
 <use img/bus.png>
 Package pdftex.def Info: img/bus.png  used on input line 96.
 (pdftex.def)             Requested size: 112.31477pt x 46.8229pt.
-<img/linie.png, id=53, 748.7975pt x 312.16624pt>
+<img/linie.png, id=56, 748.7975pt x 312.16624pt>
 File: img/linie.png Graphic file (type png)
 <use img/linie.png>
 Package pdftex.def Info: img/linie.png  used on input line 96.
 (pdftex.def)             Requested size: 112.31477pt x 46.8229pt.
-<img/Ring.png, id=54, 627.34375pt x 422.57875pt>
+<img/Ring.png, id=57, 627.34375pt x 422.57875pt>
 File: img/Ring.png Graphic file (type png)
 <use img/Ring.png>
 Package pdftex.def Info: img/Ring.png  used on input line 96.
 (pdftex.def)             Requested size: 94.09749pt x 63.38406pt.
-<img/Vermascht.png, id=55, 627.34375pt x 422.57875pt>
+<img/Vermascht.png, id=58, 627.34375pt x 422.57875pt>
 File: img/Vermascht.png Graphic file (type png)
 <use img/Vermascht.png>
 Package pdftex.def Info: img/Vermascht.png  used on input line 96.
 (pdftex.def)             Requested size: 94.09749pt x 63.38406pt.
-<img/Stern.png, id=56, 772.8875pt x 269.005pt>
+<img/Stern.png, id=59, 772.8875pt x 269.005pt>
 File: img/Stern.png Graphic file (type png)
 <use img/Stern.png>
 Package pdftex.def Info: img/Stern.png  used on input line 96.
 (pdftex.def)             Requested size: 115.92812pt x 40.349pt.
-<img/Baum.png, id=57, 706.64pt x 339.2675pt>
+<img/Baum.png, id=60, 706.64pt x 339.2675pt>
 File: img/Baum.png Graphic file (type png)
 <use img/Baum.png>
 Package pdftex.def Info: img/Baum.png  used on input line 96.
 (pdftex.def)             Requested size: 105.99142pt x 50.88792pt.
-<img/Unicast.png, id=58, 250.9375pt x 166.6225pt>
+<img/Unicast.png, id=61, 250.9375pt x 166.6225pt>
 File: img/Unicast.png Graphic file (type png)
 <use img/Unicast.png>
 Package pdftex.def Info: img/Unicast.png  used on input line 149.
@@ -1125,7 +1129,7 @@ Overfull \hbox (4.57454pt too wide) in paragraph at lines 149--149
 [][] 
  []
 
-<img/Multicast.png, id=59, 250.9375pt x 166.6225pt>
+<img/Multicast.png, id=62, 250.9375pt x 166.6225pt>
 File: img/Multicast.png Graphic file (type png)
 <use img/Multicast.png>
 Package pdftex.def Info: img/Multicast.png  used on input line 149.
@@ -1140,7 +1144,7 @@ Overfull \hbox (4.57454pt too wide) in paragraph at lines 149--149
 [][] 
  []
 
-<img/Broadcast.png, id=60, 250.9375pt x 166.6225pt>
+<img/Broadcast.png, id=63, 250.9375pt x 166.6225pt>
 File: img/Broadcast.png Graphic file (type png)
 <use img/Broadcast.png>
 Package pdftex.def Info: img/Broadcast.png  used on input line 149.
@@ -1155,32 +1159,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 162--162
 
  []
 
-<img/mac-1.png, id=78, 755.82375pt x 704.6325pt>
+<img/mac-1.png, id=81, 755.82375pt x 704.6325pt>
 File: img/mac-1.png Graphic file (type png)
 <use img/mac-1.png>
 Package pdftex.def Info: img/mac-1.png  used on input line 162.
 (pdftex.def)             Requested size: 188.95547pt x 176.1577pt.
-<img/mac-2.png, id=79, 818.05624pt x 623.32875pt>
+<img/mac-2.png, id=82, 818.05624pt x 623.32875pt>
 File: img/mac-2.png Graphic file (type png)
 <use img/mac-2.png>
 Package pdftex.def Info: img/mac-2.png  used on input line 162.
 (pdftex.def)             Requested size: 204.51355pt x 155.8318pt.
-<img/manchester.png, id=80, 937.5025pt x 193.72375pt>
+<img/manchester.png, id=83, 937.5025pt x 193.72375pt>
 File: img/manchester.png Graphic file (type png)
 <use img/manchester.png>
 Package pdftex.def Info: img/manchester.png  used on input line 174.
 (pdftex.def)             Requested size: 257.80682pt x 53.2727pt.
-<img/NRZI.png, id=81, 723.70375pt x 199.74625pt>
+<img/NRZI.png, id=84, 723.70375pt x 199.74625pt>
 File: img/NRZI.png Graphic file (type png)
 <use img/NRZI.png>
 Package pdftex.def Info: img/NRZI.png  used on input line 187.
 (pdftex.def)             Requested size: 199.01363pt x 54.92886pt.
-<img/E-Frame.png, id=82, 588.1975pt x 744.7825pt>
+<img/E-Frame.png, id=85, 588.1975pt x 744.7825pt>
 File: img/E-Frame.png Graphic file (type png)
 <use img/E-Frame.png>
 Package pdftex.def Info: img/E-Frame.png  used on input line 194.
 (pdftex.def)             Requested size: 161.75032pt x 204.81013pt.
-<img/E-2.png, id=83, 981.6675pt x 725.71124pt>
+<img/E-2.png, id=86, 981.6675pt x 725.71124pt>
 File: img/E-2.png Graphic file (type png)
 <use img/E-2.png>
 Package pdftex.def Info: img/E-2.png  used on input line 194.
@@ -1191,27 +1195,27 @@ Overfull \hbox (10.55746pt too wide) in paragraph at lines 194--194
  []
 
 ) (./sections/Ethernet-2.tex [4 <./img/mac-1.png> <./img/mac-2.png> <./img/manchester.png> <./img/NRZI.png> <./img/E-Frame.png> <./img/E-2.png>]
-<img/vlan.png, id=94, 289.08pt x 123.46124pt>
+<img/vlan.png, id=97, 289.08pt x 123.46124pt>
 File: img/vlan.png Graphic file (type png)
 <use img/vlan.png>
 Package pdftex.def Info: img/vlan.png  used on input line 20.
 (pdftex.def)             Requested size: 216.80946pt x 92.59569pt.
-<img/spanning_tree.png, id=95, 947.54pt x 397.485pt>
+<img/spanning_tree.png, id=98, 947.54pt x 397.485pt>
 File: img/spanning_tree.png Graphic file (type png)
 <use img/spanning_tree.png>
 Package pdftex.def Info: img/spanning_tree.png  used on input line 30.
 (pdftex.def)             Requested size: 260.56706pt x 109.30568pt.
-<img/arp.png, id=96, 528.97626pt x 208.78pt>
+<img/arp.png, id=99, 528.97626pt x 208.78pt>
 File: img/arp.png Graphic file (type png)
 <use img/arp.png>
 Package pdftex.def Info: img/arp.png  used on input line 71.
 (pdftex.def)             Requested size: 238.03711pt x 93.95012pt.
-<img/ip-header-1.png, id=97, 663.47874pt x 325.215pt>
+<img/ip-header-1.png, id=100, 663.47874pt x 325.215pt>
 File: img/ip-header-1.png Graphic file (type png)
 <use img/ip-header-1.png>
 Package pdftex.def Info: img/ip-header-1.png  used on input line 78.
 (pdftex.def)             Requested size: 248.80391pt x 121.95532pt.
-<img/ip-header-2.png.png, id=98, 632.3625pt x 353.32pt>
+<img/ip-header-2.png.png, id=101, 632.3625pt x 353.32pt>
 File: img/ip-header-2.png.png Graphic file (type png)
 <use img/ip-header-2.png.png>
 Package pdftex.def Info: img/ip-header-2.png.png  used on input line 79.
@@ -1226,43 +1230,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--81
 []
  []
 
-<img/fragment.png, id=99, 423.5825pt x 126.4725pt>
+<img/fragment.png, id=102, 423.5825pt x 126.4725pt>
 File: img/fragment.png Graphic file (type png)
 <use img/fragment.png>
 Package pdftex.def Info: img/fragment.png  used on input line 99.
 (pdftex.def)             Requested size: 211.79073pt x 63.23608pt.
-<img/netztklassen.png, id=100, 544.0325pt x 282.05376pt>
+<img/netztklassen.png, id=103, 544.0325pt x 282.05376pt>
 File: img/netztklassen.png Graphic file (type png)
 <use img/netztklassen.png>
 Package pdftex.def Info: img/netztklassen.png  used on input line 112.
 (pdftex.def)             Requested size: 231.2149pt x 119.8734pt.
 [5 <./img/vlan.png> <./img/spanning_tree.png> <./img/arp.png> <./img/ip-header-1.png> <./img/ip-header-2.png.png> <./img/fragment.png>]) (./sections/Transport-Layer.tex
-<img/ports.png, id=112, 574.145pt x 90.3375pt>
+<img/ports.png, id=115, 574.145pt x 90.3375pt>
 File: img/ports.png Graphic file (type png)
 <use img/ports.png>
 Package pdftex.def Info: img/ports.png  used on input line 48.
 (pdftex.def)             Requested size: 258.36285pt x 40.65149pt.
-<img/aufbau.png, id=113, 509.905pt x 354.32375pt>
+<img/aufbau.png, id=116, 509.905pt x 354.32375pt>
 File: img/aufbau.png Graphic file (type png)
 <use img/aufbau.png>
 Package pdftex.def Info: img/aufbau.png  used on input line 114.
 (pdftex.def)             Requested size: 229.45512pt x 159.4442pt.
-<img/datenaustausch.png, id=114, 691.58376pt x 289.08pt>
+<img/datenaustausch.png, id=117, 691.58376pt x 289.08pt>
 File: img/datenaustausch.png Graphic file (type png)
 <use img/datenaustausch.png>
 Package pdftex.def Info: img/datenaustausch.png  used on input line 114.
 (pdftex.def)             Requested size: 242.05794pt x 101.1795pt.
-<img/abbau.png, id=115, 500.87125pt x 411.5375pt>
+<img/abbau.png, id=118, 500.87125pt x 411.5375pt>
 File: img/abbau.png Graphic file (type png)
 <use img/abbau.png>
 Package pdftex.def Info: img/abbau.png  used on input line 114.
 (pdftex.def)             Requested size: 225.38997pt x 185.19016pt.
-<img/ueberlast.png, id=116, 693.59125pt x 393.47pt>
+<img/ueberlast.png, id=119, 693.59125pt x 393.47pt>
 File: img/ueberlast.png Graphic file (type png)
 <use img/ueberlast.png>
 Package pdftex.def Info: img/ueberlast.png  used on input line 121.
 (pdftex.def)             Requested size: 260.09607pt x 147.55087pt.
-<img/tcp-flow.png, id=117, 573.14125pt x 437.635pt>
+<img/tcp-flow.png, id=120, 573.14125pt x 437.635pt>
 File: img/tcp-flow.png Graphic file (type png)
 <use img/tcp-flow.png>
 Package pdftex.def Info: img/tcp-flow.png  used on input line 124.
@@ -1273,18 +1277,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--124
  []
 
 [6 <./img/netztklassen.png> <./img/ports.png> <./img/aufbau.png> <./img/datenaustausch.png> <./img/abbau.png> <./img/ueberlast.png>]) (./sections/Application-Layer.tex
-<img/NAT.png, id=128, 564.1075pt x 315.1775pt>
+<img/NAT.png, id=131, 564.1075pt x 315.1775pt>
 File: img/NAT.png Graphic file (type png)
 <use img/NAT.png>
 Package pdftex.def Info: img/NAT.png  used on input line 34.
 (pdftex.def)             Requested size: 253.84602pt x 141.82855pt.
-<img/tftp.png, id=129, 524.96124pt x 489.83pt>
+<img/tftp.png, id=132, 524.96124pt x 489.83pt>
 File: img/tftp.png Graphic file (type png)
 <use img/tftp.png>
 Package pdftex.def Info: img/tftp.png  used on input line 49.
 (pdftex.def)             Requested size: 262.47998pt x 244.9144pt.
 ) [7 <./img/tcp-flow.png> <./img/NAT.png> <./img/tftp.png>] (./sections/Anhang.tex
-<img/ipaddressierung.png, id=138, 957.5775pt x 276.03125pt>
+<img/ipaddressierung.png, id=141, 957.5775pt x 276.03125pt>
 File: img/ipaddressierung.png Graphic file (type png)
 <use img/ipaddressierung.png>
 Package pdftex.def Info: img/ipaddressierung.png  used on input line 5.
@@ -1294,7 +1298,7 @@ Overfull \hbox (23.1396pt too wide) in paragraph at lines 5--6
 [][] 
  []
 
-<img/subnetzmasken.png, id=139, 1417.295pt x 836.12375pt>
+<img/subnetzmasken.png, id=142, 1417.295pt x 836.12375pt>
 File: img/subnetzmasken.png Graphic file (type png)
 <use img/subnetzmasken.png>
 Package pdftex.def Info: img/subnetzmasken.png  used on input line 16.
@@ -1304,33 +1308,38 @@ Overfull \hbox (20.10051pt too wide) in paragraph at lines 16--17
 [][] 
  []
 
-<img/binary-subnet.png, id=140, 184.69pt x 289.08pt>
+<img/binary-subnet.png, id=143, 184.69pt x 289.08pt>
 File: img/binary-subnet.png Graphic file (type png)
 <use img/binary-subnet.png>
 Package pdftex.def Info: img/binary-subnet.png  used on input line 28.
 (pdftex.def)             Requested size: 120.04706pt x 187.89977pt.
-<img/filteringdb.png, id=141, 587.19376pt x 356.33125pt>
+<img/filteringdb.png, id=144, 587.19376pt x 356.33125pt>
 File: img/filteringdb.png Graphic file (type png)
 <use img/filteringdb.png>
 Package pdftex.def Info: img/filteringdb.png  used on input line 42.
 (pdftex.def)             Requested size: 381.67142pt x 231.61256pt.
-) [8 <./img/ipaddressierung.png> <./img/subnetzmasken.png> <./img/binary-subnet.png> <./img/filteringdb.png>] (./KT_RNA_Summary.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--55
+
+ []
+
+[8 <./img/ipaddressierung.png> <./img/subnetzmasken.png> <./img/binary-subnet.png> <./img/filteringdb.png>]) [9] (./KT_RNA_Summary.aux)
 Package rerunfilecheck Info: File `KT_RNA_Summary.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27943 strings out of 480121
- 535836 string characters out of 5892160
- 922573 words of memory out of 5000000
- 45302 multiletter control sequences out of 15000+600000
- 517403 words of font info for 80 fonts, out of 8000000 for 9000
+ 27982 strings out of 480121
+ 536313 string characters out of 5892160
+ 922693 words of memory out of 5000000
+ 45329 multiletter control sequences out of 15000+600000
+ 530282 words of font info for 97 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  89i,17n,83p,482b,1222s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss9.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha9.pfb>
-Output written on KT_RNA_Summary.pdf (8 pages, 1960576 bytes).
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss9.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/mathx10.pfb>
+Output written on KT_RNA_Summary.pdf (9 pages, 1994707 bytes).
 PDF statistics:
- 236 PDF objects out of 1000 (max. 8388607)
- 99 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
+ 268 PDF objects out of 1000 (max. 8388607)
+ 121 compressed objects within 2 object streams
+ 16 named destinations out of 1000 (max. 500000)
  233 words of extra memory for PDF output out of 10000 (max. 10000000)
 
