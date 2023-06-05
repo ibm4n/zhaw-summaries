@@ -2,63 +2,68 @@
 \begin{tikzpicture}
     \node [examplebox] (box){
         \begin{minipage}{0.475\textwidth}
-            \includegraphics[scale=0.425]{img/ipaddressierung.png}
-        \end{minipage}
-    };
-    \node[exampletitle, right=8pt] at (box.north west) {Addressierung IPv4 Beispiel:};
-\end{tikzpicture}
-
-
-
-\begin{tikzpicture}
-    \node [examplebox] (box){
-        \begin{minipage}{0.475\textwidth}
-            \includegraphics[scale=0.285]{img/subnetzmasken.png}
-        \end{minipage}
-    };
-    \node[exampletitle, right=8pt] at (box.north west) {IP Subnetzmasken};
-\end{tikzpicture}
-
-
-
-
-\begin{tikzpicture}
-    \node [examplebox] (box){
-        \begin{minipage}{0.475\textwidth}
-            \includegraphics[scale=0.65]{img/binary-subnet.png}
-
-            https://www.itslot.de/2019/02/ipv4-subnetting-berechnen-schritt-fur.html
-        \end{minipage}
-    };
-    \node[exampletitle, right=8pt] at (box.north west) {Subnetze Berechnen};
-\end{tikzpicture}
-
-
-\begin{tikzpicture}
-    \node [examplebox] (box){
-        \begin{minipage}{0.475\textwidth}
             { Aging-Time: $50$ Sekunden}
             \\
-            \includegraphics[scale=0.65]{img/filteringdb.png}
+            \includegraphics[scale=0.55]{img/filteringdb.png}
         \end{minipage}
     };
     \node[exampletitle, right=8pt] at (box.north west) {Filtering-Database};
 \end{tikzpicture}
 
+\begin{tikzpicture}
+    \node [examplebox] (box){
+        \begin{minipage}{0.475\textwidth}
+            \includegraphics[scale=0.4]{img/ipaddressierung.png}
+        \end{minipage}
+    };
+    \node[exampletitle, right=8pt] at (box.north west) {Addressierung IPv4 Beispiel:};
+\end{tikzpicture}
+
+\begin{multicols*}{2}
+    \begin{tikzpicture}
+        \node [examplebox] (box){
+            \begin{minipage}{0.2125\textwidth}
+
+
+                \unsignedbytecalc{177}
+
+            \end{minipage}
+        };
+        \node[exampletitle, right=8pt] at (box.north west) {Umrechnung Dezimal zu Binär};
+    \end{tikzpicture}
+
+
+    \begin{tikzpicture}
+        \node [examplebox] (box){
+            \begin{minipage}{0.2125\textwidth}
+                \includegraphics[scale=0.4125]{img/binary-subnet.png}
+
+            \end{minipage}
+        };
+        \node[exampletitle, right=8pt] at (box.north west) {Umrechungstabelle};
+    \end{tikzpicture}
+
+\end{multicols*}
+
 
 \begin{tikzpicture}
     \node [examplebox] (box){
         \begin{minipage}{0.475\textwidth}
-
-            177 / 2 \\
-            88 / 2 \\
-            \unsignedbytecalc{177}
-
+            \includegraphics[scale=0.265]{img/subnetzmasken.png}
         \end{minipage}
     };
-    \node[exampletitle, right=8pt] at (box.north west) {Umrechnung Dezimal zu Binär};
+    \node[exampletitle, right=8pt] at (box.north west) {IP Subnetzmasken};
 \end{tikzpicture}
-
+\begin{tikzpicture}
+    \node [examplebox] (box){
+        \begin{minipage}{0.475\textwidth}
+            \includegraphics[scale=0.2125]{img/arp_example.png}
+            \\
+            \includegraphics[scale=0.25]{img/arp_example_sol.png}
+        \end{minipage}
+    };
+    \node[exampletitle, right=8pt] at (box.north west) {ARP Table Beispiel};
+\end{tikzpicture}
 
 
 \begin{tikzpicture}
@@ -101,7 +106,7 @@
 
         \end{minipage}
     };
-    \node[exampletitle, right=8pt] at (box.north west) {Subnetting Beispiel 1};
+    \node[exampletitle, right=8pt] at (box.north west) {Subnet Beispiel 1};
 \end{tikzpicture}
 
 
@@ -119,7 +124,7 @@
                           \item Netzadresse: 192.168.1.0/26
                           \item Netzmaske: 255.255.255.192
                           \item Broadcastadresse: 192.168.1.63/26
-                          \item Default Gateway: 192.168.1.1 
+                          \item Default Gateway: 192.168.1.1
                           \item Anzahl adressierbarer Hosts: 62
                       \end{itemize}
 
@@ -128,7 +133,7 @@
                           \item Netzadresse: 192.168.1.64/26
                           \item Netzmaske: 255.255.255.192
                           \item Broadcastadresse: 192.168.1.127/26
-                          \item Default Gateway: 192.168.1.65 
+                          \item Default Gateway: 192.168.1.65
                           \item Anzahl adressierbarer Hosts: 62
                       \end{itemize}
 
@@ -137,7 +142,7 @@
                           \item Netzadresse: 192.168.1.128/26
                           \item Netzmaske: 255.255.255.192
                           \item Broadcastadresse: 192.168.1.191/26
-                          \item Default Gateway: 192.168.1.129 
+                          \item Default Gateway: 192.168.1.129
                           \item Anzahl adressierbarer Hosts: 62
                       \end{itemize}
 
@@ -146,7 +151,7 @@
                           \item Netzadresse: 192.168.1.192/26
                           \item Netzmaske: 255.255.255.192
                           \item Broadcastadresse: 192.168.1.255/26
-                          \item Default Gateway: 192.168.1.193 
+                          \item Default Gateway: 192.168.1.193
                           \item Anzahl adressierbarer Hosts: 62
                       \end{itemize}
             \end{enumerate}
@@ -154,7 +159,7 @@
 
         \end{minipage}
     };
-    \node[exampletitle, right=8pt] at (box.north west) {Subnetting Beispiel 1};
+    \node[exampletitle, right=8pt] at (box.north west) {Subnet Beispiel 2};
 \end{tikzpicture}
 
 
