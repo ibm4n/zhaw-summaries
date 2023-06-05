@@ -163,4 +163,75 @@
 \end{tikzpicture}
 
 
+\begin{tikzpicture}
+    \node [examplebox] (box){
+        \begin{minipage}{0.475\textwidth}
+            \includegraphics[scale=0.4]{img/wireshark.png}
 
+            \begin{itemize}[noitemsep]
+                \item  Oktett 0-5: Destination MAC-Address
+                \item  Oktett 6-11: Source MAC-Address
+                \item  Oktett 12/13: Length / Type → hier Type = 0x0800
+                \item   Oktett 14-59: Data / padding
+                \item   Oktett 60-63: Frame Check Sequence
+            \end{itemize}
+
+            $$\text{3. Oktett} = 0x2B = 00101011$$
+        \end{minipage}
+    };
+
+    \node[exampletitle, right=8pt] at (box.north west) {
+        Wireshark Hex-Dump};
+\end{tikzpicture}
+
+\begin{tikzpicture}
+    \node [examplebox] (box){
+        \begin{minipage}{0.475\textwidth}
+
+
+            \begin{center}
+                \begin{tabular}{| >{\centering\arraybackslash}m{1in} | >{\centering\arraybackslash}m{1in} | >{\centering\arraybackslash}m{1in} |}
+                    \hline
+                    \textbf{Dezimal} & \textbf{Hexadezimal} & \textbf{Binär} \\
+                    \hline
+                    0                & 0                    & 0000           \\
+                    \hline
+                    1                & 1                    & 0001           \\
+                    \hline
+                    2                & 2                    & 0010           \\
+                    \hline
+                    3                & 3                    & 0011           \\
+                    \hline
+                    4                & 4                    & 0100           \\
+                    \hline
+                    5                & 5                    & 0101           \\
+                    \hline
+                    6                & 6                    & 0110           \\
+                    \hline
+                    7                & 7                    & 0111           \\
+                    \hline
+                    8                & 8                    & 1000           \\
+                    \hline
+                    9                & 9                    & 1001           \\
+                    \hline
+                    10               & A                    & 1010           \\
+                    \hline
+                    11               & B                    & 1011           \\
+                    \hline
+                    12               & C                    & 1100           \\
+                    \hline
+                    13               & D                    & 1101           \\
+                    \hline
+                    14               & E                    & 1110           \\
+                    \hline
+                    15               & F                    & 1111           \\
+                    \hline
+                \end{tabular}
+            \end{center}
+
+
+        \end{minipage}
+    };
+    \node[exampletitle, right=8pt] at (box.north west) {
+        Dezimal, Hexadezimal, Binär};
+\end{tikzpicture}
