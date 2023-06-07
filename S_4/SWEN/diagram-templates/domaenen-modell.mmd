@@ -1,4 +1,7 @@
-classDiagram
+classDiagram 
+ direction RL
+
+%% https://mermaid.js.org/syntax/classDiagram.html
 
 %% define classes
 
@@ -8,8 +11,23 @@ classDiagram
  class Zimmer{
    Nummer
   }
-   
 
+class Mitarbeiter{
+  MitarbeiterNummer
+}
+
+class Person{
+  Name
+  Vorname
+  Alter
+}
+   
+TEST
 %% define relations
-Zimmer "1" -- "1" Hotel
+Zimmer "*" -- "1" Hotel
+Mitarbeiter "1..*" -- "1..*" Hotel 
+Mitarbeiter --|> Person: inheritance
+Hotel "1" -- "1" Zentrale: hat
+
+
    
