@@ -54,6 +54,7 @@
     };
     \node[exampletitle, right=8pt] at (box.north west) {IP Subnetzmasken};
 \end{tikzpicture}
+
 \begin{tikzpicture}
     \node [examplebox] (box){
         \begin{minipage}{0.475\textwidth}
@@ -62,14 +63,30 @@
             \includegraphics[scale=0.25]{img/arp_example_sol.png}
         \end{minipage}
     };
-    \node[exampletitle, right=8pt] at (box.north west) {ARP Table Beispiel};
+    \node[exampletitle, right=8pt] at (box.north west) {ARP Table Beispiel 1};
 \end{tikzpicture}
 
 
 \begin{tikzpicture}
     \node [examplebox] (box){
         \begin{minipage}{0.475\textwidth}
+            \includegraphics[scale=0.2125]{img/arp-2.png}
+            \\
+            \includegraphics[scale=0.25]{img/arp-2-2.png}
+        \end{minipage}
+    };
+    \node[exampletitle, right=8pt] at (box.north west) {ARP Table Beispiel 2};
+\end{tikzpicture}
 
+
+
+
+
+
+\begin{tikzpicture}
+    \node [examplebox] (box){
+        \begin{minipage}{0.475\textwidth}
+        \small
             Gegeben ist das Netz 172.30.10.0/25. Dieses Netz soll in drei Subnetze aufgeteilt werden: ein größeres Subnetz 1 für 50 IP-Hosts und zwei kleinere Subnetze 2 und 3 für je 25 IP-Hosts.
 
             \begin{enumerate}
@@ -113,7 +130,7 @@
 \begin{tikzpicture}
     \node [examplebox] (box){
         \begin{minipage}{0.475\textwidth}
-
+            \small
             Sie bekommen von Ihrem Internet Service Provider (ISP) ein privates Klasse-C Netz zugeteilt. In Ihrem Haus befinden sich 4 Parteien, welche sich den Internet-Anschluss teilen. Sie geben jeder Partei ein gleich grosses Subnetz, indem sie das Klasse-C Netz 192.168.1.0/24 in 4 Subnetze aufteilen.
 
             Wir teilen das gegebene Klasse-C Netz 192.168.1.0/24 in vier gleich große Subnetze auf, indem wir zwei zusätzliche Bits für die Subnetz-ID verwenden. Dies führt zu einer neuen Subnetzmaske von /26 und 62 adressierbaren Hosts pro Subnetz ($2^6 - 2 = 62$).

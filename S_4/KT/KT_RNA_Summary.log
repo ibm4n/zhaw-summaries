@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.6)  12 JUN 2023 13:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.6)  12 JUN 2023 14:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1329,51 +1329,57 @@ Package pdftex.def Info: img/subnetzmasken.png  used on input line 52.
 <img/arp_example.png, id=147, 1561.835pt x 682.55pt>
 File: img/arp_example.png Graphic file (type png)
 <use img/arp_example.png>
-Package pdftex.def Info: img/arp_example.png  used on input line 60.
+Package pdftex.def Info: img/arp_example.png  used on input line 61.
 (pdftex.def)             Requested size: 331.8796pt x 145.03735pt.
 <img/arp_example_sol.png, id=148, 1484.54625pt x 368.37625pt>
 File: img/arp_example_sol.png Graphic file (type png)
 <use img/arp_example_sol.png>
-Package pdftex.def Info: img/arp_example_sol.png  used on input line 62.
+Package pdftex.def Info: img/arp_example_sol.png  used on input line 63.
 (pdftex.def)             Requested size: 371.13565pt x 92.09383pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--67
-[][]
- []
-
-[8 <./img/filteringdb.png> <./img/ipaddressierung.png> <./img/binary-subnet.png> <./img/subnetzmasken.png> <./img/arp_example.png> <./img/arp_example_sol.png>]
-<img/wireshark.png, id=160, 900.36375pt x 160.6pt>
+<img/arp-2.png, id=149, 887.315pt x 544.0325pt>
+File: img/arp-2.png Graphic file (type png)
+<use img/arp-2.png>
+Package pdftex.def Info: img/arp-2.png  used on input line 73.
+(pdftex.def)             Requested size: 188.54855pt x 115.6033pt.
+<img/arp-2-2.png, id=150, 1041.8925pt x 405.515pt>
+File: img/arp-2-2.png Graphic file (type png)
+<use img/arp-2-2.png>
+Package pdftex.def Info: img/arp-2-2.png  used on input line 75.
+(pdftex.def)             Requested size: 260.47249pt x 101.3785pt.
+ [8 <./img/filteringdb.png> <./img/ipaddressierung.png> <./img/binary-subnet.png> <./img/subnetzmasken.png> <./img/arp_example.png> <./img/arp_example_sol.png>]
+<img/wireshark.png, id=162, 900.36375pt x 160.6pt>
 File: img/wireshark.png Graphic file (type png)
 <use img/wireshark.png>
-Package pdftex.def Info: img/wireshark.png  used on input line 169.
+Package pdftex.def Info: img/wireshark.png  used on input line 186.
 (pdftex.def)             Requested size: 360.13911pt x 64.23885pt.
-<img/Group 7_x3.png, id=161, 236.21584pt x 148.555pt>
+ [9 <./img/arp-2.png> <./img/arp-2-2.png>]
+<img/Group 7_x3.png, id=175, 236.21584pt x 148.555pt>
 File: img/Group 7_x3.png Graphic file (type png)
 <use img/Group 7_x3.png>
-Package pdftex.def Info: img/Group 7_x3.png  used on input line 243.
+Package pdftex.def Info: img/Group 7_x3.png  used on input line 260.
 (pdftex.def)             Requested size: 236.21526pt x 148.55463pt.
-<img/Group 6_x3.png, id=162, 344.28625pt x 132.495pt>
+<img/Group 6_x3.png, id=176, 344.28625pt x 132.495pt>
 File: img/Group 6_x3.png Graphic file (type png)
 <use img/Group 6_x3.png>
-Package pdftex.def Info: img/Group 6_x3.png  used on input line 245.
+Package pdftex.def Info: img/Group 6_x3.png  used on input line 262.
 (pdftex.def)             Requested size: 383.01855pt x 147.40071pt.
- [9]) [10 <./img/wireshark.png> <./img/Group 7_x3.png> <./img/Group 6_x3.png>] (./KT_RNA_Summary.aux)
+) [10 <./img/wireshark.png> <./img/Group 7_x3.png> <./img/Group 6_x3.png>] (./KT_RNA_Summary.aux)
 Package rerunfilecheck Info: File `KT_RNA_Summary.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28029 strings out of 480121
- 537316 string characters out of 5892161
+ 28043 strings out of 480121
+ 537566 string characters out of 5892161
  922695 words of memory out of 5000000
- 45369 multiletter control sequences out of 15000+600000
+ 45381 multiletter control sequences out of 15000+600000
  535722 words of font info for 99 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  89i,17n,83p,482b,1222s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss9.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/mathx10.pfb>
-Output written on KT_RNA_Summary.pdf (10 pages, 2309074 bytes).
+Output written on KT_RNA_Summary.pdf (10 pages, 2439691 bytes).
 PDF statistics:
- 284 PDF objects out of 1000 (max. 8388607)
+ 288 PDF objects out of 1000 (max. 8388607)
  124 compressed objects within 2 object streams
  17 named destinations out of 1000 (max. 500000)
- 263 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 273 words of extra memory for PDF output out of 10000 (max. 10000000)
 
