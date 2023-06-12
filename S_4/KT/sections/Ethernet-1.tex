@@ -185,8 +185,20 @@ Adressierung in LANs, bestehen aus 6 Bytes \\
         }
 
 }
-\vfill\null
-\columnbreak
+\subsection{Switch Performance}{
+
+    \includegraphics[scale=.3]{img/sw-perf.png}
+    \\
+    $$ \text{t}_\text{frame} = \frac{\text{Framesize}}{\text{Bitrate}}  $$
+
+    $$ \text{t}_\text{delay} = \frac{\text{Framesize} \cdot 8}{\text{Bitrate}}  $$
+    $$ \text{t}_\text{transfer} = \frac{\text{Leitungslänge}}{\text{Ausb. geschwindigkeit}}  $$
+
+    Falls nur Nutzdaten angegeben:
+    $$ \tiny \text{t}_\text{frame} = \frac{\text{[Data + 8 (Prä/SFD) + 12 (MACs) + 2 (Type) + 4 (FCS)]}\cdot 8}{\text{Bitrate}}  $$
+
+}
+
 \subsection{Ethernet - Frame Format}{
     \includegraphics[scale=.275]{img/E-Frame.png}
 
