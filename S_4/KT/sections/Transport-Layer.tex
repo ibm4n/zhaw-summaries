@@ -10,11 +10,11 @@
         \item  keine Mechanismen zur Fehlererkennung oder Fehlerkorrektur, Zuverlässigkeit und Flusskontrolle
         \item UDP-Pakete $\to$ beliebiger Reihenfolge ankommen oder verloren gehen, ohne  Empfänger benachrichtigt
         \item für Anwendungen:  geringe Latenz $\to$ Echtzeitkommunikation oder Streaming.
-        \item Multicasting und Broadcasting, 
+        \item Multicasting und Broadcasting,
     \end{itemize}
 
 }
- 
+
 \subsection{Transmission Control Protocol (TCP)}
 {
 
@@ -93,6 +93,43 @@
         \node [examplebox] (box){
             \begin{minipage}{0.3\textwidth}
                 \includegraphics[scale=.35]{img/datenaustausch.png}
+
+                \textbf{Fall: Abwechselndes Senden}
+
+                \begin{multicols*}{2}
+                    {
+                        A $\to$ B:
+                        \\
+                        B $\to$ A:
+                    }
+
+                    \columnbreak
+                    {
+                        $ACK$: $\text{Daten}_{i-1}$ $+$ $\text{SEQ}_{i-1}$
+                        $SEQ$: $\text{ACK}_{i-1}$
+                    }
+
+
+                \end{multicols*}
+
+
+                \textbf{Fall: Doppeltes Senden}
+                \begin{multicols*}{2}
+
+                    {
+                        A $\to$ B:
+                        \\
+                        A $\to$ B:
+                    }
+
+                    \columnbreak
+                    {
+                        $ACK$:  $\text{ACK}_{i-1}$
+
+                        $SEQ$:  $\text{Daten}_{i-1}$ $+$ $\text{SEQ}_{i-1}$
+                    }
+                \end{multicols*}
+
             \end{minipage}
         };
         \node[exampletitle, right=8pt] at (box.north west) {Datenaustausch:};
@@ -115,7 +152,8 @@
 
 
 
-
+\vfill\null
+\columnbreak
 \subsection{Überlast des Empfängers: Fluss-Steuerung}
 {TCP verwendet den Sliding-Window Mechanismus. Beide Seiten einen Buffer (Window).}
 \includegraphics[scale=.375]{img/ueberlast.png}

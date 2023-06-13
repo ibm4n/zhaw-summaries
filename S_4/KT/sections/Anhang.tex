@@ -86,7 +86,7 @@
 \begin{tikzpicture}
     \node [examplebox] (box){
         \begin{minipage}{0.475\textwidth}
-        \small
+            \small
             Gegeben ist das Netz 172.30.10.0/25. Dieses Netz soll in drei Subnetze aufgeteilt werden: ein größeres Subnetz 1 für 50 IP-Hosts und zwei kleinere Subnetze 2 und 3 für je 25 IP-Hosts.
 
             \begin{enumerate}
@@ -200,6 +200,20 @@
     \node[exampletitle, right=8pt] at (box.north west) {
         Wireshark Hex-Dump};
 \end{tikzpicture}
+\begin{tikzpicture}
+    \node [examplebox] (box){
+        \begin{minipage}{0.475\textwidth}
+            \includegraphics[scale=0.35]{img/routing-ex.png}
+            \\
+            \includegraphics[scale=0.35]{img/routing-sol.png}
+            \\
+            Reihenfolge: Grösste Netzmaske zuerst $\rightarrow$ top down\\
+            Default Route als letztes
+        \end{minipage}
+    };
+
+    \node[exampletitle, right=8pt] at (box.north west) {Routing Tabellen};
+\end{tikzpicture}
 
 \begin{tikzpicture}
     \node [examplebox] (box){
@@ -211,37 +225,37 @@
                     \hline
                     \textbf{Dezimal} & \textbf{Hexadezimal} & \textbf{Binär} \\
                     \hline
-                    0                & 0                    & 0000           \\
+                    0                & 0 / 0x00             & 0000           \\
                     \hline
-                    1                & 1                    & 0001           \\
+                    1                & 1 / 0x01             & 0001           \\
                     \hline
-                    2                & 2                    & 0010           \\
+                    2                & 2  / 0x02            & 0010           \\
                     \hline
-                    3                & 3                    & 0011           \\
+                    3                & 3   / 0x03                 & 0011           \\
                     \hline
-                    4                & 4                    & 0100           \\
+                    4                & 4 / 0x04                    & 0100           \\
                     \hline
-                    5                & 5                    & 0101           \\
+                    5                & 5 / 0x05                    & 0101           \\
                     \hline
-                    6                & 6                    & 0110           \\
+                    6                & 6 / 0x06                    & 0110           \\
                     \hline
-                    7                & 7                    & 0111           \\
+                    7                & 7 / 0x07                    & 0111           \\
                     \hline
-                    8                & 8                    & 1000           \\
+                    8                & 8 / 0x08                    & 1000           \\
                     \hline
-                    9                & 9                    & 1001           \\
+                    9                & 9 / 0x09                    & 1001           \\
                     \hline
-                    10               & A                    & 1010           \\
+                    10               & A / 0x0A               & 1010           \\
                     \hline
-                    11               & B                    & 1011           \\
+                    11               & B / 0x0B                & 1011           \\
                     \hline
-                    12               & C                    & 1100           \\
+                    12               & C / 0x0C               & 1100           \\
                     \hline
-                    13               & D                    & 1101           \\
+                    13               & D / 0x0D               & 1101           \\
                     \hline
-                    14               & E                    & 1110           \\
+                    14               & E / 0x0E                & 1110           \\
                     \hline
-                    15               & F                    & 1111           \\
+                    15               & F / 0x0F             & 1111           \\
                     \hline
                 \end{tabular}
             \end{center}
@@ -257,9 +271,9 @@
 \begin{tikzpicture}
     \node [examplebox] (box){
         \begin{minipage}{0.475\textwidth}
-            \includegraphics[scale=1]{img/Group 7_x3.png}
+            \includegraphics[scale=.9]{img/Group 7_x3.png}
             \\
-            \includegraphics[scale=1.1125]{img/Group 6_x3.png}
+            \includegraphics[scale=.9]{img/Group 6_x3.png}
 
 
         \end{minipage}

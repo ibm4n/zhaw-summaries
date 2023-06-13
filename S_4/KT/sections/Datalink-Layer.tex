@@ -2,6 +2,22 @@
 \newpage
 \section{Data Link Layer (Sicherungsschicht)}
 
+\subsection{Layer 2 Aufgaben:}{
+    \begin{itemize}[noitemsep]
+        \item  Frame Delineation → Präambel und SFD
+        \item Fehlererkennung → CRC
+        \item  Fehlerkorrektur → bei Ethernet keine auf dem MAC Layer
+        \item  Adressierung → global gültige MAC-Adressen
+        \item  Media Access Control → CSMA/CD
+        \item Master/Slave: Master fragt Slaves ab (Master ist Single Point of Failure)
+        \item  Token Passing: Berechtigung wird weitergereicht (Token Management ist aufwendig)
+        \item  Zeitgesteuerte Zuteilung des Mediums (aufwendige Planung nötig)
+    \end{itemize}
+}
+
+
+
+
 \subsection{Framing (Asynchron)}{
 \begin{itemize}[noitemsep]
     \item Keine Daten → Nichts wird gesendet
@@ -16,8 +32,8 @@
     \begin{itemize}[noitemsep]
         \item Frames werden ohne Unterbruch gesendet
         \item Stehen keine Daten an, werden Flags gesendet
-        \item Frames werden durch ein Start- und ein End-Flag begrenzt 
-        {\includegraphics[scale=.275]{img/framing_sync.png}}
+        \item Frames werden durch ein Start- und ein End-Flag begrenzt
+                  {\includegraphics[scale=.275]{img/framing_sync.png}}
     \end{itemize}
 }
 
@@ -53,5 +69,7 @@
 
     $$ F_R = \frac{B}{8 \cdot (F_L + IFG)} $$
     $$ N = F_R \cdot P \cdot 8 $$
+   
 }
+
 

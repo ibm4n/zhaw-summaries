@@ -1,0 +1,23 @@
+sequenceDiagram
+%% https://mermaid.js.org/syntax/sequenceDiagram.html#sequence-diagrams
+    participant User
+    participant Webapp
+    participant Controller
+    participant Service
+    participant Repository
+
+    User->>+Webapp: Open Washly web application
+    User->>+Webapp: Enter email address and password
+    Webapp->>Controller: 
+    Controller->>Controller: 
+    Repository->>+Repository: Check database for user credentials
+    Repository->>+Repository: Validate email address and password
+    
+    %% %% https://mermaid.js.org/syntax/sequenceDiagram.html#sequence-diagrams
+    alt Credentials are valid
+        Repository->>+User: Grant access to Washly system
+    else Credentials are invalid
+        Repository->>+User: Display error message
+    end
+    User->>+Webapp: Click on Logout button
+    Webapp->>+User: Log out and show login page
