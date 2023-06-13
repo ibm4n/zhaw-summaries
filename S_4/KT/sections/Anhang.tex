@@ -2,13 +2,39 @@
 \begin{tikzpicture}
     \node [examplebox] (box){
         \begin{minipage}{0.475\textwidth}
-            { Aging-Time: $50$ Sekunden}
+            \includegraphics[scale=.8]{img/Group 7_x3.png}
             \\
-            \includegraphics[scale=0.55]{img/filteringdb.png}
+            \includegraphics[scale=.8]{img/Group 6_x3.png}
+
+
         \end{minipage}
     };
-    \node[exampletitle, right=8pt] at (box.north west) {Filtering-Database};
+    \node[exampletitle, right=8pt] at (box.north west) {
+        Fragmentierung 1};
+
 \end{tikzpicture}
+\begin{tikzpicture}
+    \node [examplebox] (box){
+        \begin{minipage}{0.475\textwidth}
+            {Knoten A sendet ein 1500 Byte langes IP-Paket an Knoten C (bestehend aus 20 Byte
+                Header und 1'480 Bytes Nutzdaten).
+            }
+            \\
+            \includegraphics[scale=.2]{img/frag2.png}
+
+            $1.$ $580 = 20H + 560 \text{ Daten} \to \text{FO} = \frac{560}{8}$
+            \\
+            $2.$ $580 = 20H + 560 \text{ Daten} \to \text{FO} = \frac{2 \cdot 560}{8}$
+            \\
+            $2.$ $1480-560-560 = 360 + 20H  = 380 \to \text{FO} = \frac{360 + 2 \cdot 560}{8}$
+        \end{minipage}
+    };
+    \node[exampletitle, right=8pt] at (box.north west) {
+        Fragmentierung 2};
+
+\end{tikzpicture}
+
+
 
 \begin{tikzpicture}
     \node [examplebox] (box){
@@ -45,15 +71,27 @@
 
 \end{multicols*}
 
-
 \begin{tikzpicture}
     \node [examplebox] (box){
         \begin{minipage}{0.475\textwidth}
-            \includegraphics[scale=0.265]{img/subnetzmasken.png}
+            \includegraphics[scale=0.3]{img/wireshark.png}
+
+            \begin{itemize}[noitemsep]
+                \item  Oktett 0-5: Destination MAC-Address
+                \item  Oktett 6-11: Source MAC-Address
+                \item  Oktett 12/13: Length / Type → hier Type = 0x0800
+                \item   Oktett 14-59: Data / padding
+                \item   Oktett 60-63: Frame Check Sequence
+            \end{itemize}
+
+            $$\text{3. Oktett} = 0x2B = 00101011$$
         \end{minipage}
     };
-    \node[exampletitle, right=8pt] at (box.north west) {IP Subnetzmasken};
+
+    \node[exampletitle, right=8pt] at (box.north west) {
+        Wireshark Hex-Dump};
 \end{tikzpicture}
+
 
 \begin{tikzpicture}
     \node [examplebox] (box){
@@ -79,14 +117,27 @@
 \end{tikzpicture}
 
 
+\begin{tikzpicture}
+    \node [examplebox] (box){
+        \begin{minipage}{0.475\textwidth}
+            \includegraphics[scale=0.35]{img/routing-ex.png}
+            \\
+            \includegraphics[scale=0.35]{img/routing-sol.png}
+            \\
+            Reihenfolge: Grösste Netzmaske zuerst $\rightarrow$ top down\\
+            Default Route als letztes
+        \end{minipage}
+    };
 
+    \node[exampletitle, right=8pt] at (box.north west) {Routing Tabellen};
+\end{tikzpicture}
 
 
 
 \begin{tikzpicture}
     \node [examplebox] (box){
         \begin{minipage}{0.475\textwidth}
-            \small
+            \tiny
             Gegeben ist das Netz 172.30.10.0/25. Dieses Netz soll in drei Subnetze aufgeteilt werden: ein größeres Subnetz 1 für 50 IP-Hosts und zwei kleinere Subnetze 2 und 3 für je 25 IP-Hosts.
 
             \begin{enumerate}
@@ -131,10 +182,9 @@
     \node [examplebox] (box){
         \begin{minipage}{0.475\textwidth}
             \small
-            Sie bekommen von Ihrem Internet Service Provider (ISP) ein privates Klasse-C Netz zugeteilt. In Ihrem Haus befinden sich 4 Parteien, welche sich den Internet-Anschluss teilen. Sie geben jeder Partei ein gleich grosses Subnetz, indem sie das Klasse-C Netz 192.168.1.0/24 in 4 Subnetze aufteilen.
+            s gegebene Klasse-C Netz 192.168.1.0/24 in vier gleich große Subnetze auf, indem wir zwei zusätzliche Bits für die Subnetz-ID verwenden. neuen Subnetzmaske von /26 und 62 adressierbaren Hosts pro Subnetz ($2^6 - 2 = 62$).
 
-            Wir teilen das gegebene Klasse-C Netz 192.168.1.0/24 in vier gleich große Subnetze auf, indem wir zwei zusätzliche Bits für die Subnetz-ID verwenden. Dies führt zu einer neuen Subnetzmaske von /26 und 62 adressierbaren Hosts pro Subnetz ($2^6 - 2 = 62$).
-
+            \tiny
             \begin{enumerate}
                 \item \textbf{Subnetz 1:}
                       \begin{itemize}
@@ -180,40 +230,8 @@
 \end{tikzpicture}
 
 
-\begin{tikzpicture}
-    \node [examplebox] (box){
-        \begin{minipage}{0.475\textwidth}
-            \includegraphics[scale=0.4]{img/wireshark.png}
 
-            \begin{itemize}[noitemsep]
-                \item  Oktett 0-5: Destination MAC-Address
-                \item  Oktett 6-11: Source MAC-Address
-                \item  Oktett 12/13: Length / Type → hier Type = 0x0800
-                \item   Oktett 14-59: Data / padding
-                \item   Oktett 60-63: Frame Check Sequence
-            \end{itemize}
 
-            $$\text{3. Oktett} = 0x2B = 00101011$$
-        \end{minipage}
-    };
-
-    \node[exampletitle, right=8pt] at (box.north west) {
-        Wireshark Hex-Dump};
-\end{tikzpicture}
-\begin{tikzpicture}
-    \node [examplebox] (box){
-        \begin{minipage}{0.475\textwidth}
-            \includegraphics[scale=0.35]{img/routing-ex.png}
-            \\
-            \includegraphics[scale=0.35]{img/routing-sol.png}
-            \\
-            Reihenfolge: Grösste Netzmaske zuerst $\rightarrow$ top down\\
-            Default Route als letztes
-        \end{minipage}
-    };
-
-    \node[exampletitle, right=8pt] at (box.north west) {Routing Tabellen};
-\end{tikzpicture}
 
 \begin{tikzpicture}
     \node [examplebox] (box){
@@ -231,29 +249,29 @@
                     \hline
                     2                & 2  / 0x02            & 0010           \\
                     \hline
-                    3                & 3   / 0x03                 & 0011           \\
+                    3                & 3   / 0x03           & 0011           \\
                     \hline
-                    4                & 4 / 0x04                    & 0100           \\
+                    4                & 4 / 0x04             & 0100           \\
                     \hline
-                    5                & 5 / 0x05                    & 0101           \\
+                    5                & 5 / 0x05             & 0101           \\
                     \hline
-                    6                & 6 / 0x06                    & 0110           \\
+                    6                & 6 / 0x06             & 0110           \\
                     \hline
-                    7                & 7 / 0x07                    & 0111           \\
+                    7                & 7 / 0x07             & 0111           \\
                     \hline
-                    8                & 8 / 0x08                    & 1000           \\
+                    8                & 8 / 0x08             & 1000           \\
                     \hline
-                    9                & 9 / 0x09                    & 1001           \\
+                    9                & 9 / 0x09             & 1001           \\
                     \hline
-                    10               & A / 0x0A               & 1010           \\
+                    10               & A / 0x0A             & 1010           \\
                     \hline
-                    11               & B / 0x0B                & 1011           \\
+                    11               & B / 0x0B             & 1011           \\
                     \hline
-                    12               & C / 0x0C               & 1100           \\
+                    12               & C / 0x0C             & 1100           \\
                     \hline
-                    13               & D / 0x0D               & 1101           \\
+                    13               & D / 0x0D             & 1101           \\
                     \hline
-                    14               & E / 0x0E                & 1110           \\
+                    14               & E / 0x0E             & 1110           \\
                     \hline
                     15               & F / 0x0F             & 1111           \\
                     \hline
@@ -268,17 +286,13 @@
 \end{tikzpicture}
 
 
+
+
 \begin{tikzpicture}
     \node [examplebox] (box){
         \begin{minipage}{0.475\textwidth}
-            \includegraphics[scale=.9]{img/Group 7_x3.png}
-            \\
-            \includegraphics[scale=.9]{img/Group 6_x3.png}
-
-
+            \includegraphics[scale=0.265]{img/subnetzmasken.png}
         \end{minipage}
     };
-    \node[exampletitle, right=8pt] at (box.north west) {
-        Fragmentierung};
+    \node[exampletitle, right=8pt] at (box.north west) {IP Subnetzmasken};
 \end{tikzpicture}
-
