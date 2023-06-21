@@ -1,0 +1,22 @@
+@startuml ssd-example
+
+actor "Hans :Cashier" as Cashier
+participant "System :NextGenPOS" as System
+participant ":TaxCalculator" as TC
+participant ":CreditAuthorizationService" as CAS
+participant ":Accounts" as Accs
+
+Cashier -> System : makeNewSale
+loop more items
+    Cashier -> System : enterItem(itemId, quantity)
+    System -->> Cashier : description, total
+end
+Cashier -> System : endSale
+System -> TC : taxLineItems = getTaxes(sale)
+System -->> Cashier : total with taxes
+Cashier -> System : makeCreditPayment(credNum, expiryDate)
+System -> CAS : reply = requestApproval(request)
+System -> Accs : postReceivable(receivable)
+System -> Accs : postSale(sale)
+
+@enduml

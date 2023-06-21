@@ -1,0 +1,65 @@
+@startuml class-diagram-template
+skinparam classAttributeIconSize 0
+
+note "Die roten halboffenen Pfeile stellen offene Pfeile dar!" as N_Info
+
+class ClassName {
+    -privateAttribute: Type
+    +publicAttribute: Type = Default
+    {static} #protectedStaticAttribute: Type
+    ~packageDerivedAttribute: Type
+    -privateOperation(p1: Type, p2: Type): Type
+    {static} +publicStaticOperation(): Type
+    {abstract} #protectedAbstractOperation(): Type
+    ~packageOperation(): Type
+}
+
+abstract class AbstractClass {}
+
+class A {}
+class B {}
+class C {}
+class D {}
+class E {}
+class F {}
+
+A "1" -- "1..*" B : assoziations-name-mit-leserichtung >
+
+C "1" <--> "1..*" D : mit-navigationsrichtung
+
+E "1" x--> "1..*" F : in-eine-richtung-nicht-navigierbar
+
+class Student {
+  Name
+}
+Student "0..*" - "1..*" Course
+(Student, Course) .. Enrollment
+
+class Enrollment {
+  drop()
+  cancel()
+}
+
+interface "Spielbar" {
+    +spielen(): void
+}
+class Impl {
+    +spielen(): void
+}
+Spielbar <|.. Impl
+
+class Abhaengigkeit {}
+class Nutzer {}
+Abhaengigkeit <.. Nutzer
+
+class G {}
+class H {}
+G *-- H
+G o-- H
+G <|-- H
+
+enum Enum {
+    X
+    Y
+}
+@enduml

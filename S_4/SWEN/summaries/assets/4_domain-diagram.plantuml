@@ -1,0 +1,22 @@
+@startuml domain diagram
+
+class Kunde {
+    kundenId
+    name
+    vorname
+}
+
+class Geschäft {
+    name
+}
+
+class Artikel {
+    barcode
+    beschreibung
+}
+
+Kunde "1" -- "*" Artikel : kauft
+Geschäft "*" -- "*" Kunde : < kauft ein in
+Geschäft "1" -- "*" Artikel : verkauft
+
+@enduml

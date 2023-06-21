@@ -1,0 +1,22 @@
+@startuml uc-diagram-example
+left to right direction
+
+actor Cashier as C
+actor "Sys. Admin" as SA
+agent "Payment Auth. System" <<actor>> as PAS
+
+rectangle "NextGen POS" {
+    usecase "Process Sale" as UC1
+    usecase "HandleReturns" as UC2
+    usecase "Cash In" as UC3
+    usecase "Cash Out" as UC4
+    usecase "Manage Users" as UC5
+}
+
+C -- UC1
+C -- UC2
+C -- UC3
+C -- UC4
+SA -- UC5
+UC1 -- PAS
+@enduml

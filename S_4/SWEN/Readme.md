@@ -1,4 +1,5 @@
 # SWEN1
+
 contains mermaid diagram templates for SWEN1
 
 ## Installation in VS Code

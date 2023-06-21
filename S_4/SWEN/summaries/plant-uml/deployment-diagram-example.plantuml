@@ -1,0 +1,34 @@
+@startuml deployment-diagram-example
+/'
+Unvollständig!
+PlantUML scheint nicht allzu gut für Verteilungsdiagramm
+zu sein. 
+'/
+
+node "__restaurantServer:Server__" {
+    node "<<execution environment>>\nTomcat" {
+        rectangle web_xml [
+            <<deployment spec>>
+            web.xml
+            ----
+            servletName : "Restaurantsystem"
+        ]
+        artifact servlet [
+            <<artifact>>
+            restaurantsystem.jar
+        ]
+        web_xml .> servlet
+    }
+}
+
+artifact pdf_erzeuger [
+    <<artifact>>
+    PdfErzeuger.jar
+]
+web_xml <.. pdf_erzeuger : <<deploy>>
+
+node node [
+    <<device>>
+    "__:Datenbankserver__"
+]
+@enduml

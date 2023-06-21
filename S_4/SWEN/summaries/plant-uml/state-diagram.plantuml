@@ -1,0 +1,61 @@
+@startuml cheatsheet
+
+
+state Z : entry / activity1
+state Z : do / activity2
+state Z : exit / activity3
+state Z : trigger [condition] / activity4
+
+state X {
+    U -RIGHT-> V : trigger
+}
+
+Q -RIGHT-> W : trigger [condition] / activitiy
+
+
+[*] --> [*] : Start to Finish
+
+
+S --> State[H*]
+S --> State[H]
+
+
+state c <<choice>>
+A --> c : trigger
+c --> E : [Id <= 10]
+c --> F : [Id > 10]
+
+
+
+
+state fork_state <<fork>>
+L --> fork_state
+fork_state --> M
+fork_state --> N
+state join <<join>>
+M --> join
+N --> join
+join --> O
+
+
+@enduml
+
+@startuml orthogonal-state
+
+State Z {
+    [*] -RIGHT-> U 
+    U -RIGHT-> V : t
+    V -RIGHT-> [*]
+}
+
+@enduml
+
+@startuml
+[*] --> State1
+State1 --> [*]
+State1 : this is a string
+State1 : this is another string
+
+State1 -> State2
+State2 --> [*]
+@enduml

@@ -1,0 +1,154 @@
+@startuml domain-model-example
+rectangle Ledger [
+Ledger
+----
+]
+rectangle ProductCatalog [
+ProductCatalog
+----
+]
+rectangle ProductDescription [
+ProductDescription
+----
+itemId
+description
+price
+]
+note left: Beschreibungsklasse
+rectangle SalesLineItem [
+SalesLineItem
+----
+quantity
+]
+rectangle Store [
+Store
+----
+name
+address
+]
+rectangle Item[
+Item
+----
+serialNumber
+]
+rectangle Sale [
+Sale
+----
+dateTime
+total
+]
+rectangle Register [
+Register
+----
+id
+]
+rectangle Payment [
+//Payment//
+----
+amount: Money
+]
+note right: Generalisierung und...
+rectangle CashPayment [
+CashPayment
+----
+]
+note right: ...Spezialisierung
+rectangle CreditPayment [
+CreditPayment
+----
+]
+rectangle CreditCard [
+CreditCard
+----
+]
+rectangle CheckPayment [
+CheckPayment
+----
+]
+rectangle Check [
+Check
+----
+]
+rectangle PaymentState [
+//PaymentState//
+----
+]
+rectangle UnauthorizedState [
+UnauthorizedState
+----
+]
+rectangle AuthorizedState [
+AuthorizedState
+----
+]
+rectangle Customer [
+Customer
+----
+]
+rectangle Cashier [
+Cashier
+----
+id
+]
+rectangle AuthorizationService [
+AuthorizationService
+----
+address
+name
+phoneNumber
+]
+rectangle ServiceContract [
+ServiceContract
+----
+merchantId
+]
+rectangle ProductPrice [
+ProductPrice
+----
+activeInterval: TimeInterval
+price: Money
+]
+rectangle TimeInterval [
+TimeInterval
+----
+start: TimeStamp
+end: TimeStamp
+]
+
+Ledger "1" -- "*" Sale : Logs-completed >
+Ledger "1" -- "1" Store : Records-accounts-for >
+ProductCatalog "1" -- "*" Store : Used-by >
+ProductCatalog "1" *-- "1..*" ProductDescription : Contains >
+ProductDescription -- "*" Item : Describes >
+SalesLineItem "0..1" -- "1..*" Item : Records-sale-of >
+SalesLineItem "1..*" --* "1" Sale : Contained-in >
+Store "1" -- "*" Item : Stocks >
+Store "1" -- "1..*" Register : Houses >
+Store "*" -- "1..*" AuthorizationService : Authorizes-payments-via >
+Store -- "1..*" ServiceContract : Purchases >
+ServiceContract "*" -- AuthorizationService : < Sells
+Sale "0..1" -- "1" Register : Captured-on >
+Sale "1" -- "1" Payment : Paid-by >
+Payment <|-- CashPayment
+Payment <|-- CreditPayment
+Payment <|-- CheckPayment
+Payment "*" -- "1" PaymentState : Is-in >
+CreditPayment "*" -- "1" CreditCard : Identifies-credit-with >
+CheckPayment -- "1" Check : Paid-with >
+PaymentState <|-- UnauthorizedState
+PaymentState <|-- AuthorizedState
+Sale "1" -- "1" Customer : Is-for >
+Register "1" -- "1" Cashier : < Works-on
+ProductDescription "*" -- "1..*" ProductPrice : Priced-by
+
+note "Komposition" as N_Kompo
+SalesLineItem .. N_Kompo
+N_Kompo .. Sale
+note "Zustände" as N_Zust
+PaymentState .. N_Zust
+AuthorizedState .. N_Zust
+UnauthorizedState .. N_Zust
+note right of TimeInterval: Zeitintervall
+note bottom of ProductPrice: Money ist die Masseinheit.\nMan könnte diese auch als eigene "Klasse" modellieren.
+note "Es fehlen konkrete Beispiele für Rollen und Assoziationsklassen" as N_Allgemein
+@enduml

@@ -1,0 +1,23 @@
+@startuml package diagram
+
+package UI {
+    package Web
+    package Android
+}
+
+package Domain {
+    package POS
+    package Inventory
+    package Tax
+}
+
+package Services {
+    package Persistance
+    package Security
+    package Logging
+}
+
+UI --> Domain
+Domain --> Services
+
+@enduml

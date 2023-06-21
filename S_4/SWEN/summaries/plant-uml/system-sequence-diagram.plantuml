@@ -1,0 +1,41 @@
+@startuml SystemSequenceDiagram
+
+actor Host
+participant Application as App
+actor Participants
+
+skinparam SequenceMessageAlignment center
+
+Host -> App : startNewSession
+App --> Host : sessionId, connection information
+loop more games
+    loop more participants
+        Host -> App : inviteParticipant
+        Participants -> App : joinSession
+    end
+    Host -> App : selectLevel
+    Host -> App : selectTimeLimit
+    Host -> App : setName
+    Host -> App : setColor
+    Participants -> App : setName
+    Participants -> App : setColor
+    Host -> App : startNewGame
+    App --> Host : board
+    App --> Participants : board
+    loop more moves
+        Host -> App : performMove
+        App --> Host : board
+        App --> Participants : board
+        Participants -> App : performMove
+        App --> Participants : board
+        App --> Host : board
+    end
+    App -> Host : endGame
+    App -> Participants : endGame
+    App -> App : storeStatistics
+    App -> Host : redirectToWaitingRoom
+    App -> Participants : redirectToWaitingRoom
+end
+Host -> App : endSession
+
+@enduml

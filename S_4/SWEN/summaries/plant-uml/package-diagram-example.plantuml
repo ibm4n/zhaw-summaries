@@ -1,0 +1,28 @@
+@startuml package-diagram-example
+/'
+Leider ist die Pfeilart .>> als Beziehung zwischen 
+Paketen nicht erlaubt.
+'/
+
+package UI {
+    package AppFrame {}
+    package Web {}
+}
+
+package Domains {
+    package POS {}
+    package Inventory {}
+    package Tax {}
+}
+
+package "Technical Services" as TS {
+    package Persistence {}
+    package Security {}
+    package Logging {}
+}
+
+UI ..> Domains
+Domains ..> TS
+
+note "Anmerkung: Diese Pfeile stellen offene Pfeile dar!" as N
+@enduml

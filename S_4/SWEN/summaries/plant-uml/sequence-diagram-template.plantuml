@@ -1,0 +1,41 @@
+@startuml sequence-diagram-template
+actor Alice
+participant ":SystemType" as Type
+
+Alice -> Type: synchron(x, y)
+Type --> Alice: rückgabewert
+
+Alice ->> Type: asynchron(x, y)
+
+[o-> Type : gefundeneNachricht(x)
+
+Type ->o] : verloreneNachricht(y)
+
+loop cond
+
+end
+
+
+alt successful case
+
+    
+
+else some kind of failure
+
+    
+
+else Another type of failure
+
+   
+
+end
+
+
+opt strength <= 0
+
+end
+
+create ":NewSystemType" as NST
+Alice --> NST: new
+
+@enduml

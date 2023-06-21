@@ -1,0 +1,18 @@
+@startuml ssd
+
+
+actor Cashier as cs
+
+participant System as s
+
+loop more items
+    cs -> s: enterItem(itemID, quantity)
+    s -->> cs: description, total
+end
+
+cs -> s: endSale
+s -->> cs: totalWithTaxes
+
+cs -> s: makePayment(amount)
+s -->> cs: changeDue, receipt
+@enduml

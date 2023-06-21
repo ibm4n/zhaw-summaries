@@ -1,0 +1,8 @@
+@startuml aggregation
+
+object OnlineShop
+object Customer
+
+OnlineShop "1" o-RIGHT- "*" Customer
+
+@enduml

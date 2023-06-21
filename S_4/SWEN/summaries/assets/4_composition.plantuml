@@ -1,0 +1,8 @@
+@startuml composition
+
+object Sale
+object SalesLineItem
+
+Sale "1" *-RIGHT- "*" SalesLineItem
+
+@enduml
