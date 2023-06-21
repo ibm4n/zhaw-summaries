@@ -1,0 +1,17 @@
+
+stateDiagram-v2
+%% https://mermaid.js.org/syntax/stateDiagram.html#state-diagrams
+   
+    [*] --> CheckingSystem
+    CheckingSystem --> NormalOperation : [system OK]
+    NormalOperation --> [*]
+    NormalOperation --> CheckingSystem : [reset]
+   
+    state NormalOperation {
+        [*] --> disarmed
+        
+        disarmed -->  armed: successful activation
+        armed --> disarmed : successful deactivation
+    }
+
+    note right of NormalOperation : This is the note to the right.
