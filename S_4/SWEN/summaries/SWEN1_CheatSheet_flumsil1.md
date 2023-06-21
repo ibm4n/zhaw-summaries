@@ -1,44 +1,4 @@
-<style type="text/css">
 
-body{ /* Normal  */
-      font-size: 12px;
-  }
-h1 { /* Header 1 */
-  font-size: 40px;
-  
-}
-h2 { /* Header 2 */
-    font-size: 32px;
-}
-h3 { /* Header 3 */
-  font-size: 24px;
-  font-family: "Arial", Times, serif;
-}
-h4 { /* Header 4 */
-  font-size: 18px;
-  font-family: "Arial", Times, serif;
-        text-decoration: underline;
-    text-decoration-thickness: 1px;
-}
-h5 { /* Header 5 */
-    font-size: 14px;
-    font-family: "Arial", Times, serif;
-}
-
-h1 { counter-reset: h2counter; }
-h2 { counter-reset: h3counter; }
-h3 { counter-reset: h4counter; }
-
-h2:before {
-    counter-increment: h2counter;
-    content: counter(h2counter) ".\0000a0\0000a0";
-}
-h3:before {
-    counter-increment: h3counter;
-    content: counter(h2counter) "." counter(h3counter) ".\0000a0\0000a0";
-}
-
-</style>
 
 # Cheat Sheet SWEN1
 
@@ -57,7 +17,7 @@ by flumsil1
     - [Modelle und Modellierung mit UML](#modelle-und-modellierung-mit-uml)
   - [Anforderungsanalyse I](#anforderungsanalyse-i)
     - [User-Centered Design (UCD)](#user-centered-design-ucd)
-      - [User & Domain Research](#user--domain-research)
+      - [User \& Domain Research](#user--domain-research)
       - [Persona](#persona)
       - [Szenarien](#szenarien)
         - [Usage-Szenario](#usage-szenario)
