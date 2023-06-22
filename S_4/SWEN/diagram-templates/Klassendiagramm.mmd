@@ -1,0 +1,58 @@
+---
+title: TITEL
+---
+
+classDiagram 
+ direction RL
+
+%% https://mermaid.js.org/syntax/classDiagram.html
+
+%% define classes
+
+  class Device{
+   Ortbeschreibung: String
+   serialNumber: int
+   label: string
+   isOn: boolean
+   enable(): void
+   disable(): void
+   reset(): void
+  }
+  <<Abstract>> Device
+
+  class Sensor{
+   active: boolean
+  }
+
+  class Alarm{
+  active: boolean
+  }
+
+  class Camera{
+  panArgie: float
+  zoomSetting: float
+  }
+
+  class MonitoringState{
+  arm(atHome boolean)
+  disarm()
+  }
+
+  class SafeHomeSystem{
+  userID: String
+  address: String
+  masterPassword: String
+  }
+
+  note for Device "Polymorphism (GRASP)"
+  note for SafeHomeSystem "Controller (GRASP) Singelton (GoF)"
+  note for MonitoringState "State (GoF)"
+
+
+%% define relations
+
+Device --> SafeHomeSystem
+MonitoringState --> SafeHomeSystem
+Sensor --|>  Device
+Camera --|> Device 
+Alarm --> Device
