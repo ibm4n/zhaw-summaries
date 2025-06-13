@@ -1,0 +1,171 @@
+\section{Mobile Platform Security}
+
+
+
+\subsection{Mobile Device Security Characteristics}
+{
+\begin{itemize}[noitemsep]
+  \item Similar hardware/software to standard computers but used differently
+  \item Frequently lost or stolen, contain personal/sensitive data
+  \item Used across various networks including untrusted Wi-Fi
+  \item Store credentials, easy app installation, low user awareness
+  \item High-value attack targets
+  \item Vendors implement protection beyond standard computers:
+  \begin{itemize}[noitemsep]
+    \item Prevent malicious app installation
+    \item Prevent data access if device is stolen
+    \item Restrict admin rights for users
+  \end{itemize}
+  \end{itemize}
+}
+
+
+\subsection{iOS Security Model}
+{
+\textbf{Principles:}
+\begin{itemize}[noitemsep]
+  \item Secure Boot Process
+  \item File Encryption and Data Protection
+  \item Passcode, Face ID / Touch ID
+  \item Keychain
+  \item Signed Apps only (App Store)
+  \item Sandboxing and Permissions
+\end{itemize}
+
+\textbf{Secure Boot Chain:}
+\begin{itemize}[noitemsep]
+  \item Boot ROM (immutable, contains Apple Root CA key) $\rightarrow$  iBoot $\rightarrow$  Kernel
+  \item Ensures only trusted iOS kernel is executed
+  \item Vulnerabilities in Boot ROM can lead to jailbreaks (e.g., Checkm8)
+\end{itemize}
+
+\textbf{File Encryption:}
+\begin{itemize}[noitemsep]
+  \item AES-256 hardware encryption between memory and flash
+  \item Unique UID (per device) and GID (per processor class)
+  \item Encryption uses per-file keys wrapped with class keys, further encrypted with UID/passcode
+  \item Metadata encrypted with a file system key (stored in effaceable storage)
+  \item Secure Enclave manages sensitive key operations
+\end{itemize}
+
+\textbf{Passcodes and Protection Classes:}
+\begin{itemize}[noitemsep]
+  \item 4/6-digit or alphanumeric codes used as extra key material
+  \item Protection classes: Complete, Until First Unlock, No Protection
+  \item Secure Enclave enforces delays to slow down brute-force attacks
+\end{itemize}
+
+\textbf{Keychain:}
+\begin{itemize}[noitemsep]
+  \item Secure password/credentials storage
+  \item Tied to app ID and protection classes
+  \item Variants: Device-only, Passcode-protected, Encrypted backups
+\end{itemize}
+
+\textbf{App Code Signing and App Store:}
+\begin{itemize}[noitemsep]
+  \item Only Apple-signed or Apple-certified apps run
+  \item App Store reviews apps for private APIs or suspicious behavior
+\end{itemize}
+
+\textbf{Runtime Security:}
+\begin{itemize}[noitemsep]
+  \item Mandatory Access Control (TrustedBSD MAC)
+  \item Sandboxing enforced per-app via kernel policies
+  \item ASLR, NX-bit, WX memory, signed code enforcement
+\end{itemize}
+
+\textbf{Inter-App Communication:}
+\begin{itemize}[noitemsep]
+  \item Limited to URL schemes
+  \item Receiving app must register scheme, can validate sender
+\end{itemize}
+
+\textbf{Jailbreaking:}
+\begin{itemize}[noitemsep]
+  \item Escalate privileges via vulnerabilities (BootROM, iBoot, userland)
+  \item Allows root rights, unsigned code, disables sandboxing
+  \item Tools: Cydia, OpenSSH
+  \item Decreases security; not recommended for production devices
+\end{itemize}
+}
+
+\subsection{Android Security Model}
+{
+\textbf{Principles:}
+\begin{itemize}[noitemsep]
+  \item Runtime security features
+  \item Permissions model
+  \item App code signing
+  \item Limited inter-app communication
+  \item Full Disk and File-Based Encryption
+\end{itemize}
+
+\textbf{Runtime and Sandboxing:}
+\begin{itemize}[noitemsep]
+  \item Based on modified Linux kernel
+  \item Apps run in ART VM, each app has a dedicated Linux user
+  \item Sandboxing enforced via Linux DAC
+  \item Uses APKs/AABs with dedicated data directories
+\end{itemize}
+
+\textbf{Security Features:}
+\begin{itemize}[noitemsep]
+  \item ASLR, NX-bit for native code
+  \item Java code safer, but native C/C++ code still used
+\end{itemize}
+
+\textbf{Permissions:}
+\begin{itemize}[noitemsep]
+  \item Pre-6.0: Accept all at install
+  \item Post-6.0: Runtime permissions; dangerous vs. normal
+  \item Dangerous permissions grouped; one grants all in group
+\end{itemize}
+
+\textbf{Code Signing and Distribution:}
+\begin{itemize}[noitemsep]
+  \item Self-signed certificates (not by Google)
+  \item Signing ensures app updates only by same developer
+  \item Apps can share user IDs if signed with same key
+  \item Apps can be installed from anywhere (Play Store, side-load)
+\end{itemize}
+
+\textbf{App Store Security:}
+\begin{itemize}[noitemsep]
+  \item Play Store reviews apps but not foolproof
+  \item Repackaged APKs, hidden behavior, runtime code loading
+  \item Malware can be injected post-approval
+\end{itemize}
+
+\textbf{Inter-App Communication:}
+\begin{itemize}[noitemsep]
+  \item Uses Intents for messaging
+  \item Implicit (via URL schemes) and explicit (targeting component)
+  \item Allows bidirectional communication
+\end{itemize}
+
+\textbf{File Encryption:}
+\begin{itemize}[noitemsep]
+  \item Android 5–9: Full Disk Encryption (FDE) via dm-crypt
+  \item Android 10+: File-Based Encryption (FBE) using fscrypt
+  \item FDE key stretch via scrypt; stored in TEE if available
+  \item Weak passwords = weak protection
+\end{itemize}
+
+\textbf{Rooting:}
+\begin{itemize}[noitemsep]
+  \item Grants user root access, disables restrictions
+  \item Done via bootloader unlock or privilege escalation
+  \item Often uses \texttt{su} binary + SuperSU manager
+\end{itemize}
+}
+
+\subsection{Summary}
+{
+\begin{itemize}[noitemsep]
+  \item Mobile devices face higher risks than desktops (loss, theft, sensitive data)
+  \item iOS: Strong, restrictive security model
+  \item Android: Flexible, but weaker model due to diversity
+  \item Jailbreaking and rooting remove built-in protections
+\end{itemize}
+}
