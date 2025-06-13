@@ -1,0 +1,82 @@
+\section{Security Controls \& SIEM}
+
+\subsection{Fundamental Control Principles}
+{
+\begin{itemize}[noitemsep]
+  \item \textbf{Least Privilege} – minimum necessary access
+  \item \textbf{Fail-Safe Defaults} – deny by default
+  \item \textbf{Complete Mediation} – every access checked
+  \item \textbf{Separation of Privilege} – multiple conditions for access
+  \item \textbf{Least Common Mechanism} – minimize shared components
+  \item \textbf{Open Design} – transparency over obscurity
+  \item \textbf{Psychological Acceptability} – usability of security
+  \item \textbf{Goal:} reduce attack surface, enforce secure defaults
+\end{itemize}
+}
+
+\subsection{SIEM Overview}
+{
+\textbf{Definition:} \textbf{SIEM} = Security Information \& Event Management
+
+\begin{itemize}[noitemsep]
+  \item Collects, normalizes, stores, correlates, and analyzes security data
+  \item Central component of SOC (Security Operations Center)
+  \item Supports detection, alerting, forensic analysis
+  \item Dashboards, queries, incident timelines
+\end{itemize}
+}
+
+\subsection{SIEM Components}
+{
+\begin{itemize}[noitemsep]
+  \item \textbf{Sensors:} Sources that generate security-relevant data for the SIEM
+    \begin{itemize}[noitemsep]
+      \item \textbf{NIDS (Network Intrusion Detection System):} Monitors network traffic for anomalies (e.g., Snort, Suricata)
+      \item \textbf{HIDS (Host Intrusion Detection System):} Monitors system-level activity like file access, login attempts (e.g., OSSEC)
+    \end{itemize}
+
+  \item \textbf{Log Collection \& Normalization:}
+    \begin{itemize}[noitemsep]
+      \item Collect logs from various sources (firewalls, servers, applications)
+      \item Normalize into a common structured format (fields: timestamp, source IP, event type, etc.)
+      \item Enables correlation and efficient querying
+    \end{itemize}
+
+  \item \textbf{Asset Inventory:}
+    \begin{itemize}[noitemsep]
+      \item List of known systems, owners, IPs, roles, and criticality
+      \item Provides essential context for alerts and triage
+      \item Supports prioritization of incidents and reduces false positives
+    \end{itemize}
+
+  \item \textbf{Vulnerability Scanner:}
+    \begin{itemize}[noitemsep]
+      \item Scans systems for known weaknesses (CVEs – Common Vulnerabilities and Exposures)
+      \item Tools: Nessus, OpenVAS
+      \item Results feed into SIEM to help prioritize alerts
+    \end{itemize}
+
+  \item \textbf{Correlation Engine:}
+    \begin{itemize}[noitemsep]
+      \item Central logic unit that links related events to detect complex attacks
+      \item \textit{Simple rule:} 5 failed logins $\rightarrow$ brute force detection
+      \item \textit{Complex rule:} new login location + privilege change + file access = suspicious behavior
+      \item Enables detection of attacker TTPs (Tactics, Techniques, Procedures)
+    \end{itemize}
+\end{itemize}
+}
+
+
+\subsection{Pyramid of Pain}
+{
+\begin{itemize}[noitemsep]
+  \item Defense model: higher levels = harder for attacker to adapt
+  \item Indicators (low to high): Hashes, IPs, Domains, TTPs
+  \item Goal: detect \& disrupt attacker TTPs, not just IOCs
+\end{itemize}
+}
+
+\subsection{SIEM Lab Summary}
+{
+\textbf{Will not be tested in the exam.}
+}
