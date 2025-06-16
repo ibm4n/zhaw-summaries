@@ -1,0 +1,107 @@
+\section{Mobile Apps Security}
+
+\subsection{Overview}
+{
+\begin{itemize}[noitemsep]
+  \item Covers 6 key categories of mobile app security.
+  \item Derived from OWASP Mobile Top 10, but reorganized and adapted.
+  \item Categories: Data Storage and Leakage, Secure Communication, Authentication and Authorization, Inter-App Communication, Client-Side Injection, Reverse Engineering.
+\end{itemize}
+}
+\subsection{Data Storage and Data Leakage}
+{
+\begin{itemize}[noitemsep]
+  \item Sensitive data can be exposed via file system, backups, copy/paste buffer, logs, screenshots.
+  \item \textbf{Insecure storage:}
+    \begin{itemize}[noitemsep]
+      \item \texttt{shared\_prefs} (Android), \texttt{Documents} (iOS) – accessible via root/malware, included in backups.
+      \item Shared storage (e.g., \texttt{/sdcard}) is insecure.
+    \end{itemize}
+  \item \textbf{Preferred:}
+    \begin{itemize}[noitemsep]
+      \item Use Android Keystore or iOS Keychain/SecureEnclave.
+      \item Encrypt with user-provided secrets for extra protection.
+    \end{itemize}
+  \item \textbf{Best Practices:}
+    \begin{itemize}[noitemsep]
+      \item Store credentials only when justified.
+      \item Avoid logs/screenshots/copy-paste with sensitive data.
+      \item Use platform APIs to disable screenshots and copy/paste.
+    \end{itemize}
+\end{itemize}
+}
+\subsection{Secure Communication}
+{
+\begin{itemize}[noitemsep]
+  \item Use TLS (HTTPS) for all network communication.
+  \item Enforce HTTPS on Android 9+ and via Info.plist on iOS.
+  \item \textbf{Best Practices:}
+    \begin{itemize}[noitemsep]
+      \item Disable insecure protocols (SSL, TLS 1.0) and weak ciphers.
+      \item Do not bypass certificate validation.
+      \item Use CA-signed certificates.
+    \end{itemize}
+  \item \textbf{Certificate Pinning Options:}
+    \begin{itemize}[noitemsep]
+      \item Pin CA certificate (stable, fewer app updates).
+      \item Pin server certificate (requires updates on renewal).
+      \item Use self-signed cert and custom checks (more control).
+    \end{itemize}
+\end{itemize}
+}
+
+\subsection{Authentication and Authorization}
+{
+\begin{itemize}[noitemsep]
+  \item Use strong authentication even on mobile.
+  \item Support 2FA (e.g., mTAN, shared secrets, auth apps).
+  \item Avoid offline authentication: app logic and secrets can be reverse-engineered.
+  \item \textbf{Best Practices:}
+    \begin{itemize}[noitemsep]
+      \item Use access tokens for API calls (e.g., OAuth-style).
+      \item Avoid storing critical credentials locally.
+      \item Prefer server-side access control.
+    \end{itemize}
+\end{itemize}}
+
+\subsection{Inter-App Communication}{
+\begin{itemize}[noitemsep]
+  \item Android: communication via Intents and exported components.
+  \item iOS: communication via URL schemes.
+  \item \textbf{Risks:}
+    \begin{itemize}[noitemsep]
+      \item Unintended exposure of Activities/Services.
+      \item Malicious apps hijacking communication or injecting data.
+    \end{itemize}
+  \item \textbf{Best Practices:}
+    \begin{itemize}[noitemsep]
+      \item Set \texttt{android:exported="false"} unless needed.
+      \item Validate all incoming data.
+      \item Authenticate the calling app if needed.
+    \end{itemize}
+\end{itemize}}
+
+\subsection{Client-Side Injection}{
+\begin{itemize}[noitemsep]
+  \item Client-side version of injection attacks (SQLi, LFI, etc.).
+  \item Risks include bypassing local auth, accessing local files, or abusing IPC.
+  \item \textbf{Best Practices:}
+    \begin{itemize}[noitemsep]
+      \item Use prepared statements.
+      \item Whitelist input values (e.g., filenames, usernames).
+      \item Validate URL schemes for file access.
+    \end{itemize}
+\end{itemize}
+}
+\subsection{Reverse Engineering}{
+\begin{itemize}[noitemsep]
+  \item Attackers analyze apps to extract secrets, patch logic, or clone functionality.
+  \item Tools: \texttt{strings}, disassemblers (e.g., IDA, Hopper), debuggers (\texttt{gdb}, \texttt{Frida}).
+  \item \textbf{Best Practices:}
+    \begin{itemize}[noitemsep]
+      \item Obfuscate code (e.g., ProGuard, DexGuard).
+      \item Use anti-debugging checks.
+      \item Detect rooted/jailbroken devices; limit functionality.
+      \item Never rely solely on local checks or hardcoded secrets.
+    \end{itemize}
+\end{itemize}}
